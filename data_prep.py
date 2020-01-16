@@ -45,3 +45,31 @@ def county_info():
                    "Households!!Estimate!!Mean income (dollars)": "Households Mean income"})
     
     return df
+
+
+
+def results_info():
+    """This function prepares the 2016 election results for analysis"""
+    df_results = pd.read_csv('data/countypres_2000-2016.csv')
+    
+    # delete duplicates
+    del_index = [49178, 49179, 49180, 49205, 49206, 49207, 49211, 49212, 49213, 49265, 49266, 49267, 49268, 49269, 49270]
+    df_results = df_results.drop(del_index)
+    
+    df_results['County'] = df_results['county'] + ' County, ' + df_results['state']   
+    df_2016 = df_results[df_results.year == 2016]
+    df_2016 = df_2016.drop(columns=['year', 'county', 'state', 'state_po', 'FIPS', 'office', 'totalvotes', 'version', 'party'])
+    df_2016 = df_2016.pivot(index='County', columns='candidate', values='candidatevotes').reset_index()
+    
+    result1 = pd.DataFrame(df_2016['County'])
+    result2 = pd.DataFrame(df_2016['Donald Trump'])
+    result3 = pd.DataFrame(df_2016['Hillary Clinton'])
+    result4 = pd.DataFrame(df_2016['Other'])
+    
+    result1 = pd.merge(result1, result2, left_index=True, right_index=True)
+    result1 = pd.merge(result1, result3, left_index=True, right_index=True)
+    result1 = pd.merge(result1, result4, left_index=True, right_index=True)
+    
+    return result1
+
+# MIT Election Data and Science Lab, 2018, "County Presidential Election Returns 2000-2016", https://doi.org/10.7910/DVN/VOQCHQ, Harvard Dataverse, V6, UNF:6:ZZe1xuZ5H2l4NUiSRcRf8Q== [fileUNF]
