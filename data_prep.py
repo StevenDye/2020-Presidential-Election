@@ -58,18 +58,14 @@ def results_info():
     
     df_results['County'] = df_results['county'] + ' County, ' + df_results['state']   
     df_2016 = df_results[df_results.year == 2016]
-    df_2016 = df_2016.drop(columns=['year', 'county', 'state', 'state_po', 'FIPS', 'office', 'totalvotes', 'version', 'party'])
-    df_2016 = df_2016.pivot(index='County', columns='candidate', values='candidatevotes').reset_index()
-    
-    result1 = pd.DataFrame(df_2016['County'])
-    result2 = pd.DataFrame(df_2016['Donald Trump'])
-    result3 = pd.DataFrame(df_2016['Hillary Clinton'])
-    result4 = pd.DataFrame(df_2016['Other'])
-    
-    result1 = pd.merge(result1, result2, left_index=True, right_index=True)
-    result1 = pd.merge(result1, result3, left_index=True, right_index=True)
-    result1 = pd.merge(result1, result4, left_index=True, right_index=True)
-    
-    return result1
+    df_2016 = df_2016.pivot(index='County', columns='candidate', values=['state', 'candidatevotes']).reset_index()
+
+    result = pd.merge(df_2016['County'], pd.DataFrame(df_2016['state']['Donald Trump']), left_index=True, right_index=True)
+    result = pd.merge(result, pd.DataFrame(df_2016['candidatevotes']['Donald Trump']), left_index=True, right_index=True)
+    result = pd.merge(result, pd.DataFrame(df_2016['candidatevotes']['Hillary Clinton']), left_index=True, right_index=True)
+    result = pd.merge(result, pd.DataFrame(df_2016['candidatevotes']['Other']), left_index=True, right_index=True)
+    result = result.rename(columns={'Donald Trump_x': 'State', 'Donald Trump_y': 'Donald Trump'})
+
+    return result
 
 # MIT Election Data and Science Lab, 2018, "County Presidential Election Returns 2000-2016", https://doi.org/10.7910/DVN/VOQCHQ, Harvard Dataverse, V6, UNF:6:ZZe1xuZ5H2l4NUiSRcRf8Q== [fileUNF]
