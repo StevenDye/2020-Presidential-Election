@@ -1,22 +1,26 @@
 """This module prepares the data for analysis"""
 import pandas as pd
-from data_dicts import education_columns, age_sex_columns, race_columns, income_columns
+from data_dicts import (education_columns_2016, education_columns_2018,
+                        age_sex_columns_2016, age_sex_columns_2018,
+                        race_columns_2016, race_columns_2018,
+                        income_columns_2016, income_columns_2018)
 
-def county_info():
+
+def county_info_2016():
     """This function reads in the county csv data files and prepares them for analysis"""
     
     # read in csvs
     df_edu = pd.read_csv('data/2016/ACSST5Y2016-Edu/ACSST5Y2016.S1501_data_with_overlays_2020-01-15T123834.csv', header=1, low_memory=False)
     df_age_sex = pd.read_csv('data/2016/ACSST5Y2016-Sex/ACSST5Y2016.S0101_data_with_overlays_2020-01-15T131242.csv', header=1, low_memory=False)
     df_race = pd.read_csv('data/2016/ACSDP5Y2016-Race/ACSDP5Y2016.DP05_data_with_overlays_2020-01-15T133652.csv', header=1, low_memory=False)
-    df_income = pd.read_csv('data/2016/ACSST5Y2016-Income/ACSST5Y2016.S1901_data_with_overlays_2020-01-15T140106.csv', header=1, low_memory=False)
+    df_income = pd.read_csv('data/2016/2016-Income/ACSST5Y2016.S1901_data_with_overlays_2020-01-16T145642.csv', header=1, low_memory=False)
     
     # select specific columns
     county = df_edu['Geographic Area Name']
-    edu = df_edu[education_columns]
-    age_sex = df_age_sex[age_sex_columns]
-    race = df_race[race_columns]
-    income = df_income[income_columns]
+    edu = df_edu[education_columns_2016]
+    age_sex = df_age_sex[age_sex_columns_2016]
+    race = df_race[race_columns_2016]
+    income = df_income[income_columns_2016]
     
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
@@ -26,23 +30,74 @@ def county_info():
     
     # rename features
     df = df.rename(columns={"Geographic Area Name": "County",
-                   "Percent!!Estimate!!Percent high school graduate or higher": "Percent high school graduate or higher",
-                   "Percent!!Estimate!!Percent bachelor's degree or higher": "Percent bachelor's degree or higher",
-                   "Percent Males!!Estimate!!Percent high school graduate or higher": "Males Percent high school graduate or higher",
-                   "Percent Males!!Estimate!!Percent bachelor's degree or higher": "Males Percent bachelor's degree or higher",
-                   "Percent Females!!Estimate!!Percent high school graduate or higher": "Females Percent high school graduate or higher",
-                   "Percent Females!!Estimate!!Percent bachelor's degree or higher": "Females Percent bachelor's degree or higher",
+                   "Percent!!Estimate!!Population 25 years and over!!Less than 9th grade": "Percent Less than 9th grade" ,
+                   "Percent!!Estimate!!Population 25 years and over!!9th to 12th grade, no diploma": "Percent 9th to 12th grade, no diploma",
+                   "Percent!!Estimate!!Population 25 years and over!!High school graduate (includes equivalency)": "Percent High school graduate",
+                   "Percent!!Estimate!!Population 25 years and over!!Some college, no degree": "Percent Some college, no degree",
+                   "Percent!!Estimate!!Population 25 years and over!!Associate's degree": "Percent Associate's degree",
+                   "Percent!!Estimate!!Population 25 years and over!!Bachelor's degree": "Percent Bachelor's degree",
+                   "Percent!!Estimate!!Population 25 years and over!!Graduate or professional degree": "Percent Graduate or professional degree",   
+                   "Total!!Estimate!!Total population": "Total population",
                    "Total!!Estimate!!SUMMARY INDICATORS!!Median age (years)": "Median age",
                    "Total!!Estimate!!SUMMARY INDICATORS!!Sex ratio (males per 100 females)": "Sex ratio (males per 100 females)",
                    "Male!!Estimate!!SUMMARY INDICATORS!!Median age (years)": "Male Median age",
-                   "Female!!Estimate!!SUMMARY INDICATORS!!Median age (years)": "Female Median age",
+                   "Female!!Estimate!!SUMMARY INDICATORS!!Median age (years)": "Female Median age",       
                    "Percent!!RACE!!One race!!White": "Percent White",
                    "Percent!!RACE!!One race!!Black or African American": "Percent Black or African American",
                    "Percent!!RACE!!One race!!American Indian and Alaska Native": "Percent American Indian and Alaska Native",
                    "Percent!!RACE!!One race!!Asian": "Percent Asian",
                    "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)": "Percent Hispanic or Latino",
-                   "Households!!Estimate!!Median income (dollars)": "Households Median income",
-                   "Households!!Estimate!!Mean income (dollars)": "Households Mean income"})
+                   "Households!!Estimate!!Mean income (dollars)": "Households Mean income",
+                   "Households!!Estimate!!Median income (dollars)": "Households Median income"})
+    
+    return df
+
+
+
+def county_info_2018():
+    """This function reads in the county csv data files for 2018 and prepares them for analysis"""
+    
+    # read in csvs
+    df_edu = pd.read_csv('data/2018/ACSST5Y2018-Edu/ACSST5Y2018.S1501_data_with_overlays_2020-01-16T122405.csv', header=1, low_memory=False)
+    df_age_sex = pd.read_csv('data/2018/ACSST5Y2018-Sex/ACSST5Y2018.S0101_data_with_overlays_2020-01-16T114607.csv', header=1, low_memory=False)
+    df_race = pd.read_csv('data/2018/ACSDP5Y2018-Race/ACSDP5Y2018.DP05_data_with_overlays_2020-01-16T115900.csv', header=1, low_memory=False)
+    df_income = pd.read_csv('data/2018/2018-Income/ACSST5Y2018.S1901_data_with_overlays_2020-01-16T145642.csv', header=1, low_memory=False)
+    
+    # select specific columns
+    county = df_edu['Geographic Area Name']
+    edu = df_edu[education_columns_2018]
+    age_sex = df_age_sex[age_sex_columns_2018]
+    race = df_race[race_columns_2018]
+    income = df_income[income_columns_2018]
+    
+    # merge dataframes
+    df = pd.merge(county, edu, left_index=True, right_index=True)
+    df = pd.merge(df, age_sex, left_index=True, right_index=True)
+    df = pd.merge(df, race, left_index=True, right_index=True)
+    df = pd.merge(df, income, left_index=True, right_index=True)
+    
+    # rename features
+    df = df.rename(columns={"Geographic Area Name": "County",
+                 "Estimate!!Percent!!Population 25 years and over!!Less than 9th grade": "Percent Less than 9th grade",
+                 "Estimate!!Percent!!Population 25 years and over!!9th to 12th grade, no diploma": "Percent 9th to 12th grade, no diploma",
+                 "Estimate!!Percent!!Population 25 years and over!!High school graduate (includes equivalency)": "Percent High school graduate",
+                 "Estimate!!Percent!!Population 25 years and over!!Some college, no degree": "Percent Some college, no degree",
+                 "Estimate!!Percent!!Population 25 years and over!!Associate's degree": "Percent Associate's degree",
+                 "Estimate!!Percent!!Population 25 years and over!!Bachelor's degree": "Percent Bachelor's degree",
+                 "Estimate!!Percent!!Population 25 years and over!!Graduate or professional degree": "Percent Graduate or professional degree",
+                 "Estimate!!Total!!Total population": "Total population",          
+                 "Estimate!!Total!!Total population!!SUMMARY INDICATORS!!Median age (years)": "Median age",          
+                 "Estimate!!Total!!Total population!!SUMMARY INDICATORS!!Sex ratio (males per 100 females)": "Sex ratio (males per 100 females)",
+                            
+                 "Estimate!!Male!!Total population!!SUMMARY INDICATORS!!Median age (years)": "Male Median age",
+                 "Estimate!!Female!!Total population!!SUMMARY INDICATORS!!Median age (years)": "Female Median age",  
+                 "Percent Estimate!!RACE!!Total population!!One race!!White": "Percent White",
+                 "Percent Estimate!!RACE!!Total population!!One race!!Black or African American": "Percent Black or African American",
+                 "Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native": "Percent American Indian and Alaska Native",
+                 "Percent Estimate!!RACE!!Total population!!One race!!Asian": "Percent Asian",
+                 "Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)": "Percent Hispanic or Latino",
+                 "Estimate!!Households!!Mean income (dollars)": "Households Mean income",
+                 "Estimate!!Households!!Median income (dollars)": "Households Median income"})
     
     return df
 
