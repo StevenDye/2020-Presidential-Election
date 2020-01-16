@@ -17,16 +17,19 @@ def county_info_2016():
 
     # select specific columns
     county = df_edu['Geographic Area Name']
-    edu = df_edu[education_columns_2016]
-    age_sex = df_age_sex[age_sex_columns_2016]
-    race = df_race[race_columns_2016]
-    income = df_income[income_columns_2016]
+    edu = df_edu[edu_cols_2016]
+    age_sex = df_age_sex[age_sex_cols_2016]
+    race = df_race[race_cols_2016]
+    income = df_income[income_cols_2016]
 
+    df_edu['Geographic Area Name'] = df_edu['Geographic Area Name'].apply(lambda row: row + ', 2016')
+    
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
     df = pd.merge(df, age_sex, left_index=True, right_index=True)
     df = pd.merge(df, race, left_index=True, right_index=True)
     df = pd.merge(df, income, left_index=True, right_index=True)
+    
 
     # rename features
     df = df.rename(columns={"Geographic Area Name": "County",
@@ -83,10 +86,10 @@ def county_info_2018():
 
     # select specific columns
     county = df_edu['Geographic Area Name']
-    edu = df_edu[education_columns_2018]
-    age_sex = df_age_sex[age_sex_columns_2018]
-    race = df_race[race_columns_2018]
-    income = df_income[income_columns_2018]
+    edu = df_edu[edu_cols_2018]
+    age_sex = df_age_sex[age_sex_cols_2018]
+    race = df_race[race_cols_2018]
+    income = df_income[income_cols_2018]
 
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
@@ -135,7 +138,7 @@ def county_info_2018():
     return df
 
 
-def results_info():
+def results_info(year):
     """This function prepares the 2016 election results for analysis"""
     df_results = pd.read_csv('data/countypres_2000-2016.csv')
 
@@ -144,18 +147,18 @@ def results_info():
                  49213, 49265, 49266, 49267, 49268, 49269, 49270]
     df_results = df_results.drop(del_index)
 
-    df_results['County'] = df_results['county'] + ' County, ' + df_results['state']
-    df_2016 = df_results[df_results.year == 2016]
-    df_2016 = df_2016.pivot(index='County', columns='candidate',
+    df_results['County'] = df_results['county'] + ' County, ' + df_results['state'] + ', ' + str(year)
+    df = df_results[df_results.year == year]
+    df = df.pivot(index='County', columns='candidate',
                             values=['state', 'candidatevotes']).reset_index()
 
-    result = pd.merge(df_2016['County'], pd.DataFrame(df_2016['state']['Donald Trump']),
+    result = pd.merge(df['County'], pd.DataFrame(df['state']['Donald Trump']),
                       left_index=True, right_index=True)
-    result = pd.merge(result, pd.DataFrame(df_2016['candidatevotes']['Donald Trump']),
+    result = pd.merge(result, pd.DataFrame(df['candidatevotes']['Donald Trump']),
                       left_index=True, right_index=True)
-    result = pd.merge(result, pd.DataFrame(df_2016['candidatevotes']['Hillary Clinton']),
+    result = pd.merge(result, pd.DataFrame(df['candidatevotes']['Hillary Clinton']),
                       left_index=True, right_index=True)
-    result = pd.merge(result, pd.DataFrame(df_2016['candidatevotes']['Other']),
+    result = pd.merge(result, pd.DataFrame(df['candidatevotes']['Other']),
                       left_index=True, right_index=True)
     result = result.rename(columns={'Donald Trump_x': 'State', 'Donald Trump_y': 'Donald Trump'})
 
