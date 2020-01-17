@@ -187,3 +187,12 @@ def results_info(year):
                                   'Barack Obama': 'Democrat'})
 
     return res
+
+
+def create_targets(df):
+    """This function creates the percent targets for our model"""
+    df['Percent Republican'] = df['Republican']/df['Total population']
+    df['Percent Democrat'] = df['Democrat']/df['Total population']
+    df['Percent Other'] = df['Other']/df['Total population']
+    
+    return df
