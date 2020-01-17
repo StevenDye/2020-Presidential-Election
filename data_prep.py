@@ -10,10 +10,14 @@ def county_info_2016():
     """This function reads in the county csv data files and prepares them for analysis"""
 
     # read in csvs
-    df_edu = pd.read_csv('data/2016/ACSST5Y2016-Edu/ACSST5Y2016.S1501_data_with_overlays_2020-01-15T123834.csv', header=1, low_memory=False)
-    df_age_sex = pd.read_csv('data/2016/ACSST5Y2016-Sex/ACSST5Y2016.S0101_data_with_overlays_2020-01-15T131242.csv', header=1, low_memory=False)
-    df_race = pd.read_csv('data/2016/ACSDP5Y2016-Race/ACSDP5Y2016.DP05_data_with_overlays_2020-01-15T133652.csv', header=1, low_memory=False)
-    df_income = pd.read_csv('data/2016/2016-Income/ACSST5Y2016.S1901_data_with_overlays_2020-01-16T145642.csv', header=1, low_memory=False)
+    df_edu = pd.read_csv('data/2016/ACSST5Y2016-Edu/ACSST5Y2016.S1501_data_with_overlays_2020-01-15T123834.csv',
+                         header=1, low_memory=False)
+    df_age_sex = pd.read_csv('data/2016/ACSST5Y2016-Sex/ACSST5Y2016.S0101_data_with_overlays_2020-01-15T131242.csv',
+                             header=1, low_memory=False)
+    df_race = pd.read_csv('data/2016/ACSDP5Y2016-Race/ACSDP5Y2016.DP05_data_with_overlays_2020-01-15T133652.csv',
+                          header=1, low_memory=False)
+    df_income = pd.read_csv('data/2016/2016-Income/ACSST5Y2016.S1901_data_with_overlays_2020-01-16T145642.csv',
+                            header=1, low_memory=False)
 
     # select specific columns
     county = df_edu['Geographic Area Name']
@@ -79,10 +83,14 @@ def county_info_2018():
     """This function reads in the county csv data files for 2018 and prepares them for analysis"""
 
     # read in csvs
-    df_edu = pd.read_csv('data/2018/ACSST5Y2018-Edu/ACSST5Y2018.S1501_data_with_overlays_2020-01-16T122405.csv', header=1, low_memory=False)
-    df_age_sex = pd.read_csv('data/2018/ACSST5Y2018-Sex/ACSST5Y2018.S0101_data_with_overlays_2020-01-16T114607.csv', header=1, low_memory=False)
-    df_race = pd.read_csv('data/2018/ACSDP5Y2018-Race/ACSDP5Y2018.DP05_data_with_overlays_2020-01-16T115900.csv', header=1, low_memory=False)
-    df_income = pd.read_csv('data/2018/2018-Income/ACSST5Y2018.S1901_data_with_overlays_2020-01-16T145642.csv', header=1, low_memory=False)
+    df_edu = pd.read_csv('data/2018/ACSST5Y2018-Edu/ACSST5Y2018.S1501_data_with_overlays_2020-01-16T122405.csv',
+                         header=1, low_memory=False)
+    df_age_sex = pd.read_csv('data/2018/ACSST5Y2018-Sex/ACSST5Y2018.S0101_data_with_overlays_2020-01-16T114607.csv',
+                             header=1, low_memory=False)
+    df_race = pd.read_csv('data/2018/ACSDP5Y2018-Race/ACSDP5Y2018.DP05_data_with_overlays_2020-01-16T115900.csv',
+                          header=1, low_memory=False)
+    df_income = pd.read_csv('data/2018/2018-Income/ACSST5Y2018.S1901_data_with_overlays_2020-01-16T145642.csv',
+                            header=1, low_memory=False)
 
     # select specific columns
     county = df_edu['Geographic Area Name']
@@ -152,14 +160,30 @@ def results_info(year):
     df = df.pivot(index='County', columns='candidate',
                             values=['state', 'candidatevotes']).reset_index()
 
-    result = pd.merge(df['County'], pd.DataFrame(df['state']['Donald Trump']),
-                      left_index=True, right_index=True)
-    result = pd.merge(result, pd.DataFrame(df['candidatevotes']['Donald Trump']),
-                      left_index=True, right_index=True)
-    result = pd.merge(result, pd.DataFrame(df['candidatevotes']['Hillary Clinton']),
-                      left_index=True, right_index=True)
-    result = pd.merge(result, pd.DataFrame(df['candidatevotes']['Other']),
-                      left_index=True, right_index=True)
-    result = result.rename(columns={'Donald Trump_x': 'State', 'Donald Trump_y': 'Donald Trump'})
+    if year == 2016:
+        res = pd.merge(df['County'], pd.DataFrame(df['state']['Donald Trump']),
+                       left_index=True, right_index=True)
+        res = pd.merge(res, pd.DataFrame(df['candidatevotes']['Donald Trump']),
+                       left_index=True, right_index=True)
+        res = pd.merge(res, pd.DataFrame(df['candidatevotes']['Hillary Clinton']),
+                       left_index=True, right_index=True)
+        res = pd.merge(res, pd.DataFrame(df['candidatevotes']['Other']),
+                       left_index=True, right_index=True)
+        res = res.rename(columns={'Donald Trump_x': 'State',
+                                  'Donald Trump_y': 'Republican',
+                                  'Hillary Clinton': 'Democrat'})
+        
+    if year == 2012:
+        res = pd.merge(df['County'], pd.DataFrame(df['state']['Mitt Romney']),
+                       left_index=True, right_index=True)
+        res = pd.merge(res, pd.DataFrame(df['candidatevotes']['Mitt Romney']),
+                       left_index=True, right_index=True)
+        res = pd.merge(res, pd.DataFrame(df['candidatevotes']['Barack Obama']),
+                       left_index=True, right_index=True)
+        res = pd.merge(res, pd.DataFrame(df['candidatevotes']['Other']),
+                       left_index=True, right_index=True)
+        res = res.rename(columns={'Mitt Romney_x': 'State',
+                                  'Mitt Romney_y': 'Republican',
+                                  'Barack Obama': 'Democrat'})
 
-    return result
+    return res
