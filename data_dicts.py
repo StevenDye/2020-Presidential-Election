@@ -9,7 +9,7 @@ edu_cols_2016 = ["Percent!!Estimate!!Population 25 years and over!!Less than 9th
                  "Percent!!Estimate!!Population 25 years and over!!Bachelor's degree",
                  "Percent!!Estimate!!Population 25 years and over!!Graduate or professional degree"]
 
-# Eduction featues for both years
+# Eduction featues for 2018
 edu_cols_2018 = ["Estimate!!Percent!!Population 25 years and over!!Less than 9th grade",
                  "Estimate!!Percent!!Population 25 years and over!!9th to 12th grade, no diploma",
                  "Estimate!!Percent!!Population 25 years and over!!High school graduate (includes equivalency)",
