@@ -12,14 +12,17 @@ def make_predictions(party, model, X, y, df):
     the total number of votes obtained, and the percent off"""
     
     y_hat = model.predict(X)
-    res = pd.DataFrame(df['Total population']).merge(y, left_index=True, right_index=True)
+    res = pd.DataFrame(df['County']).merge(df['Total population'],
+                                           left_index=True,
+                                           right_index=True)
+    res = res.merge(y, left_index=True, right_index=True)
     res = res.merge(df[party], left_index=True, right_index=True)
     res = res.merge(pd.DataFrame(y_hat), left_index=True, right_index=True)
     res = res.rename(columns={0: f'{party} Predictions'})
     
     #res[f'{party} % off'] = ((df[party]-res[f'{party} Predictions']) / df[party])*100
     res[f'{party} % off'] = ((res[f'{party} Predictions'] - y) / y)*100
-    res['Percent off Abs'] = res[f'{party} % off'].abs()
+    res[f'{party} % off Abs'] = res[f'{party} % off'].abs()
     res[f'{party} Votes Prediction'] = (res[f'{party} Predictions']* res['Total population']).round()
     
     return res
