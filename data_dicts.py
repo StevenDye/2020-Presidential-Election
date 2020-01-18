@@ -56,3 +56,8 @@ income_cols_2016 = ['Households!!Estimate!!Median income (dollars)',
 # 2018 Income features
 income_cols_2018 = ['Estimate!!Households!!Median income (dollars)',
                     'Estimate!!Households!!Mean income (dollars)']
+
+
+# Columns dropped from original dataframe
+drop_cols = ['County', 'State', 'Republican', 'Democrat', 'Other', 'Total population',
+             'Percent Republican', 'Percent Democrat', 'Percent Other']

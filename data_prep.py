@@ -191,8 +191,8 @@ def results_info(year):
 
 def create_targets(df):
     """This function creates the percent targets for our model"""
-    df['Percent Republican'] = df['Republican']/df['Total population']
-    df['Percent Democrat'] = df['Democrat']/df['Total population']
-    df['Percent Other'] = df['Other']/df['Total population']
+    df['Percent Republican'] = (df['Republican']/df['Total population']).astype(float)
+    df['Percent Democrat'] = (df['Democrat']/df['Total population']).astype(float)
+    df['Percent Other'] = (df['Other']/df['Total population']).astype(float)
     
     return df
