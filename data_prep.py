@@ -10,14 +10,24 @@ def county_info_2016():
     """This function reads in the county csv data files and prepares them for analysis"""
 
     # read in csvs
-    df_edu = pd.read_csv('data/2016/ACSST5Y2016-Edu/ACSST5Y2016.S1501_data_with_overlays_2020-01-15T123834.csv',
+    df_edu = pd.read_csv('data/2016/2016-Edu/ACSST5Y2016.S1501_data_with_overlays_2020-01-19T112805.csv',
                          header=1, low_memory=False)
-    df_age_sex = pd.read_csv('data/2016/ACSST5Y2016-Sex/ACSST5Y2016.S0101_data_with_overlays_2020-01-15T131242.csv',
+    df_age_sex = pd.read_csv('data/2016/2016-Age/ACSST5Y2016.S0101_data_with_overlays_2020-01-19T114609.csv',
                              header=1, low_memory=False)
-    df_race = pd.read_csv('data/2016/ACSDP5Y2016-Race/ACSDP5Y2016.DP05_data_with_overlays_2020-01-15T133652.csv',
+    df_race = pd.read_csv('data/2016/2016-Race/ACSDP5Y2016.DP05_data_with_overlays_2020-01-19T114033.csv',
                           header=1, low_memory=False)
-    df_income = pd.read_csv('data/2016/2016-Income/ACSST5Y2016.S1901_data_with_overlays_2020-01-16T145642.csv',
+    df_income = pd.read_csv('data/2016/2016-Income-2/ACSST5Y2016.S1901_data_with_overlays_2020-01-19T114923.csv',
                             header=1, low_memory=False)
+    
+    
+    # df_edu = pd.read_csv('data/2016/ACSST5Y2016-Edu/ACSST5Y2016.S1501_data_with_overlays_2020-01-15T123834.csv',
+    #                      header=1, low_memory=False)
+    # df_age_sex = pd.read_csv('data/2016/ACSST5Y2016-Sex/ACSST5Y2016.S0101_data_with_overlays_2020-01-15T131242.csv',
+    #                          header=1, low_memory=False)
+    # df_race = pd.read_csv('data/2016/ACSDP5Y2016-Race/ACSDP5Y2016.DP05_data_with_overlays_2020-01-15T133652.csv',
+    #                       header=1, low_memory=False)
+    # df_income = pd.read_csv('data/2016/2016-Income/ACSST5Y2016.S1901_data_with_overlays_2020-01-16T145642.csv',
+    #                         header=1, low_memory=False)
 
     # select specific columns
     county = df_edu['Geographic Area Name']
@@ -25,6 +35,15 @@ def county_info_2016():
     age_sex = df_age_sex[age_sex_cols_2016]
     race = df_race[race_cols_2016]
     income = df_income[income_cols_2016]
+    
+    _ = county.str.split(',', expand=True)
+    _ = _.rename(columns={1: 'State'})
+    _['State'] = _['State'].apply(lambda x: x.strip())
+    county = pd.merge(county, _['State'], left_index=True, right_index=True)
+    
+    #if county['State'] == 'Louisiana':
+    #county['Geographic Area Name'] = county['Geographic Area Name'].apply(lambda row:row + ', 2016' if )
+    
 
     df_edu['Geographic Area Name'] = df_edu['Geographic Area Name'].apply(lambda row: row + ', 2016')
     
@@ -83,14 +102,23 @@ def county_info_2018():
     """This function reads in the county csv data files for 2018 and prepares them for analysis"""
 
     # read in csvs
-    df_edu = pd.read_csv('data/2018/ACSST5Y2018-Edu/ACSST5Y2018.S1501_data_with_overlays_2020-01-16T122405.csv',
+    df_edu = pd.read_csv('data/2018/2018-Edu/ACSST5Y2018.S1501_data_with_overlays_2020-01-19T112805.csv',
                          header=1, low_memory=False)
-    df_age_sex = pd.read_csv('data/2018/ACSST5Y2018-Sex/ACSST5Y2018.S0101_data_with_overlays_2020-01-16T114607.csv',
+    df_age_sex = pd.read_csv('data/2018/2018-Age/ACSST5Y2018.S0101_data_with_overlays_2020-01-19T114609.csv',
                              header=1, low_memory=False)
-    df_race = pd.read_csv('data/2018/ACSDP5Y2018-Race/ACSDP5Y2018.DP05_data_with_overlays_2020-01-16T115900.csv',
+    df_race = pd.read_csv('data/2018/2018-Race/ACSDP5Y2018.DP05_data_with_overlays_2020-01-19T114033.csv',
                           header=1, low_memory=False)
-    df_income = pd.read_csv('data/2018/2018-Income/ACSST5Y2018.S1901_data_with_overlays_2020-01-16T145642.csv',
+    df_income = pd.read_csv('data/2018/2018-Income-2/ACSST5Y2018.S1901_data_with_overlays_2020-01-19T114923.csv',
                             header=1, low_memory=False)
+    
+    # df_edu = pd.read_csv('data/2018/ACSST5Y2018-Edu/ACSST5Y2018.S1501_data_with_overlays_2020-01-16T122405.csv',
+    #                      header=1, low_memory=False)
+    # df_age_sex = pd.read_csv('data/2018/ACSST5Y2018-Sex/ACSST5Y2018.S0101_data_with_overlays_2020-01-16T114607.csv',
+    #                          header=1, low_memory=False)
+    # df_race = pd.read_csv('data/2018/ACSDP5Y2018-Race/ACSDP5Y2018.DP05_data_with_overlays_2020-01-16T115900.csv',
+    #                       header=1, low_memory=False)
+    # df_income = pd.read_csv('data/2018/2018-Income/ACSST5Y2018.S1901_data_with_overlays_2020-01-16T145642.csv',
+    #                         header=1, low_memory=False)
 
     # select specific columns
     county = df_edu['Geographic Area Name']
@@ -153,6 +181,8 @@ def results_info(year):
     # delete duplicates
     del_index = [49178, 49179, 49180, 49205, 49206, 49207, 49211, 49212,
                  49213, 49265, 49266, 49267, 49268, 49269, 49270]
+    
+    df_results.loc[df_results['county'] == 'District of Columbia', 'county'] = 'Washington city'
     df_results = df_results.drop(del_index)
 
     df_results['County'] = df_results['county'] + ' County, ' + df_results['state'] + ', ' + str(year)
