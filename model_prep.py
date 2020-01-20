@@ -2,9 +2,10 @@
 
 import numpy as np
 import pandas as pd
-from sklearn import metrics
+from sklearn.metrics import mean_squared_error as mse
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
+
 
 
 def make_predictions(party, model, X, y, df):
@@ -32,11 +33,11 @@ def run_model(model, X_train, X_test, y_train, y_test):
     """This function calculates the root mean square of the train and test data for the inserted model"""
     print('Training R^2 :', model.score(X_train, y_train))
     y_pred_train = model.predict(X_train)
-    print('Training Root Mean Square Error', np.sqrt(metrics.mean_squared_error(y_train, y_pred_train)))
+    print('Training Root Mean Square Error', np.sqrt(mse(y_train, y_pred_train)))
     print('----------------')
     print('Testing R^2 :', model.score(X_test, y_test))
     y_pred_test = model.predict(X_test)
-    print('Testing Root Mean Square Error', np.sqrt(metrics.mean_squared_error(y_test, y_pred_test)))
+    print('Testing Root Mean Square Error', np.sqrt(mse(y_test, y_pred_test)))
     
     
 def lin_mod_func(X_train, X_test, y_train, y_test):
@@ -48,3 +49,16 @@ def lin_mod_func(X_train, X_test, y_train, y_test):
     run_model(linreg, X_train, X_test, y_train, y_test)
     
     return linreg.fit(X_train, y_train)
+
+
+def combine_predictions(pred_R, pred_D, pred_O, df):
+    """This function combines the prediction results for each party"""
+    df = pd.merge(df['State'], pred_R, left_index=True, right_index=True)
+    df = df.merge(pred_D, left_index=True, right_index=True)
+    df = df.merge(pred_O, left_index=True, right_index=True)
+    df = df.drop(columns=['Total population', 'Total population_y',
+                                  'County_y', 'County'])
+    df = df.rename(columns={'Total population_x': 'Total population',
+                                    'County_x': 'County'})
+    
+    return df

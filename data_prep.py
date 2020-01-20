@@ -52,8 +52,8 @@ def county_info_2016():
     county['Cnt'][county['State'].str.contains('Louisiana') == True] = county['Cnt'][county['State'].str.contains('Louisiana') == True].apply(lambda x: x + ' County')
     
     county['Cnt'] = county['Cnt'] + ', ' + county['State'] + ', 2016'
-    county = county.drop(columns=['Geographic Area Name', 'State'])
-    
+    county = county.drop(columns=['Geographic Area Name'])
+    # 'State'
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
     df = pd.merge(df, age_sex, left_index=True, right_index=True)
