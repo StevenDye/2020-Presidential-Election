@@ -37,15 +37,22 @@ def county_info_2016():
     income = df_income[income_cols_2016]
     
     _ = county.str.split(',', expand=True)
-    _ = _.rename(columns={1: 'State'})
+    _ = _.rename(columns={0: 'Cnt', 1: 'State'})
+    _['Cnt'] = _['Cnt'].apply(lambda x: x.strip())
     _['State'] = _['State'].apply(lambda x: x.strip())
-    county = pd.merge(county, _['State'], left_index=True, right_index=True)
+    county = pd.merge(county, _, left_index=True, right_index=True)
     
-    #if county['State'] == 'Louisiana':
-    #county['Geographic Area Name'] = county['Geographic Area Name'].apply(lambda row:row + ', 2016' if )
+    # Add the word County to the end of Washington city so we can merge with results
+    county['Cnt'][county['State'].str.contains('District of Columbia') == True] = county['Cnt'][county['State'].str.contains('District of Columbia') == True].apply(lambda x: x + ' County')
     
-
-    df_edu['Geographic Area Name'] = df_edu['Geographic Area Name'].apply(lambda row: row + ', 2016')
+    # Strip the word Parish at the end of Louisiana parishes so we can merge with results
+    county['Cnt'][county['State'].str.contains('Louisiana') == True] = county['Cnt'][county['State'].str.contains('Louisiana') == True].apply(lambda x: x[:-7])
+    
+    # Add the word County to the end of Louisiana parishes so we can merge with results
+    county['Cnt'][county['State'].str.contains('Louisiana') == True] = county['Cnt'][county['State'].str.contains('Louisiana') == True].apply(lambda x: x + ' County')
+    
+    county['Cnt'] = county['Cnt'] + ', ' + county['State'] + ', 2016'
+    county = county.drop(columns=['Geographic Area Name', 'State'])
     
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
@@ -55,7 +62,7 @@ def county_info_2016():
     
 
     # rename features
-    df = df.rename(columns={"Geographic Area Name": "County",
+    df = df.rename(columns={"Cnt": "County",
                             "Percent!!Estimate!!Population 25 years and over!!Less than 9th grade":
                             "Percent Less than 9th grade",
                             "Percent!!Estimate!!Population 25 years and over!!9th to 12th grade, no diploma":
