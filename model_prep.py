@@ -22,9 +22,9 @@ def make_predictions(party, model, X, y, df):
     res = res.rename(columns={0: f'{party} Predictions'})
     
     #res[f'{party} % off'] = ((df[party]-res[f'{party} Predictions']) / df[party])*100
-    res[f'{party} % off'] = ((res[f'{party} Predictions'] - y) / y)*100
-    res[f'{party} % off Abs'] = res[f'{party} % off'].abs()
-    res[f'{party} Votes Prediction'] = (res[f'{party} Predictions']* res['Total population']).round()
+    #res[f'{party} % off'] = ((res[f'{party} Predictions'] - y) / y)*100
+    #res[f'{party} % off Abs'] = res[f'{party} % off'].abs()
+    #res[f'{party} Votes Prediction'] = (res[f'{party} Predictions']* res['Total population']).round()
     
     return res
 
