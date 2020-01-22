@@ -164,6 +164,8 @@ def county_info_2016():
                             "Households Median income"})
 
     df = df.drop(columns=race_cols_2016)
+    # Drop incorrect DC value
+    df = df.drop([381])
 
     return df
 
@@ -194,11 +196,11 @@ def county_info_2018():
     df = pd.merge(df, race, left_index=True, right_index=True)
     df = pd.merge(df, income, left_index=True, right_index=True)
 
-    df['Total White'] = df['Percent Estimate!!RACE!!Total population!!One race!!White']*df["Estimate!!Total!!Total population"]
-    df['Total Black or African American'] = (df['Percent Estimate!!RACE!!Total population!!One race!!Black or African American'] * df["Estimate!!Total!!Total population"])
-    df['Total American Indian and Alaska Native'] = (df['Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native'] * df["Estimate!!Total!!Total population"])
-    df['Total Asian'] = df['Percent Estimate!!RACE!!Total population!!One race!!Asian']*df["Estimate!!Total!!Total population"]
-    df['Total Hispanic or Latino'] = (df['Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)'] * df["Estimate!!Total!!Total population"])
+    df['Total White'] = (df['Percent Estimate!!RACE!!Total population!!One race!!White'] * df["Estimate!!Total!!Total population"] / 100)
+    df['Total Black or African American'] = (df['Percent Estimate!!RACE!!Total population!!One race!!Black or African American'] * df["Estimate!!Total!!Total population"] / 100)
+    df['Total American Indian and Alaska Native'] = (df['Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native'] * df["Estimate!!Total!!Total population"] / 100)
+    df['Total Asian'] = (df['Percent Estimate!!RACE!!Total population!!One race!!Asian'] * df["Estimate!!Total!!Total population"] / 100)
+    df['Total Hispanic or Latino'] = (df['Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)'] * df["Estimate!!Total!!Total population"] / 100)
 
     # rename features
     df = df.rename(columns={"Geographic Area Name": "County",
@@ -240,6 +242,9 @@ def county_info_2018():
                             "Households Mean income",
                             "Estimate!!Households!!Median income (dollars)":
                             "Households Median income"})
+    
+    df = df.drop(columns=race_cols_2018)
+    
     return df
 
 
