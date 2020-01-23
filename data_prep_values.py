@@ -82,6 +82,8 @@ def county_info_2012():
                             "Households Median income"})
 
     df = df.drop(columns=edu_cols_2012)
+    # Drop incorrect DC value
+    df = df.drop([156])
 
     return df
 
@@ -244,6 +246,8 @@ def county_info_2018():
                             "Households Median income"})
     
     df = df.drop(columns=race_cols_2018)
+    # Drop incorrect DC value
+    df = df.drop([319])
     
     return df
 
