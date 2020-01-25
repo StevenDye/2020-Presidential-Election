@@ -1,9 +1,9 @@
 """This module prepares the data for analysis"""
 import pandas as pd
-from data_dicts_values import (edu_cols_2012, edu_cols_2016, edu_cols_2018,
-                               age_sex_cols_2012, age_sex_cols_2016, age_sex_cols_2018,
-                               race_cols_2012, race_cols_2016, race_cols_2018,
-                               income_cols_2012, income_cols_2016, income_cols_2018)
+from data_dicts import (edu_2012_count, edu_2016_count, edu_2018_count,
+                        age_sex_2012, age_sex_2016, age_sex_2018,
+                        race_2012_count, race_2016_per, race_2018_per,
+                        income_2012, income_2016, income_2018)
 
 
 def county_info_2012():
@@ -21,10 +21,10 @@ def county_info_2012():
 
     # select specific columns
     county = df_edu['Geographic Area Name']
-    edu = df_edu[edu_cols_2012]
-    age_sex = df_age_sex[age_sex_cols_2012]
-    race = df_race[race_cols_2012]
-    income = df_income[income_cols_2012]
+    edu = df_edu[edu_2012_count]
+    age_sex = df_age_sex[age_sex_2012]
+    race = df_race[race_2012_count]
+    income = df_income[income_2012]
 
     county = county_split(county)
 
@@ -81,7 +81,7 @@ def county_info_2012():
                             "Households!!Estimate!!Median income (dollars)":
                             "Households Median income"})
 
-    df = df.drop(columns=edu_cols_2012)
+    df = df.drop(columns=edu_2012_count)
     # Drop incorrect DC value
     df = df.drop([156])
 
@@ -103,10 +103,10 @@ def county_info_2016():
 
     # select specific columns
     county = df_edu['Geographic Area Name']
-    edu = df_edu[edu_cols_2016]
-    age_sex = df_age_sex[age_sex_cols_2016]
-    race = df_race[race_cols_2016]
-    income = df_income[income_cols_2016]
+    edu = df_edu[edu_2016_count]
+    age_sex = df_age_sex[age_sex_2016]
+    race = df_race[race_2016_per]
+    income = df_income[income_2016]
 
     county = county_split(county)
 
@@ -165,7 +165,7 @@ def county_info_2016():
                             "Households!!Estimate!!Median income (dollars)":
                             "Households Median income"})
 
-    df = df.drop(columns=race_cols_2016)
+    df = df.drop(columns=race_2016_per)
     # Drop incorrect DC value
     df = df.drop([381])
 
@@ -187,10 +187,10 @@ def county_info_2018():
 
     # select specific columns
     county = df_edu['Geographic Area Name']
-    edu = df_edu[edu_cols_2018]
-    age_sex = df_age_sex[age_sex_cols_2018]
-    race = df_race[race_cols_2018]
-    income = df_income[income_cols_2018]
+    edu = df_edu[edu_2018_count]
+    age_sex = df_age_sex[age_sex_2018]
+    race = df_race[race_2018_per]
+    income = df_income[income_2018]
 
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
@@ -245,7 +245,7 @@ def county_info_2018():
                             "Estimate!!Households!!Median income (dollars)":
                             "Households Median income"})
     
-    df = df.drop(columns=race_cols_2018)
+    df = df.drop(columns=race_2018_per)
     # Drop incorrect DC value
     df = df.drop([319])
     
