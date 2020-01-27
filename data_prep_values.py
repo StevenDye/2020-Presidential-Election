@@ -10,6 +10,7 @@ def county_info_2012():
     """This function reads in the county csv data files and prepares them for analysis"""
 
     # read in csvs
+    state_area = pd.read_csv('data/state_area.csv')
     df_edu = pd.read_csv('data/2012/2012-Edu/ACSST5Y2012.S1501_data_with_overlays_2020-01-21T124942.csv',
                          header=1, low_memory=False)
     df_age_sex = pd.read_csv('data/2012/2012-Age/ACSST5Y2012.S0101_data_with_overlays_2020-01-21T124608.csv',
@@ -37,8 +38,10 @@ def county_info_2012():
     # Add the word County to the end of Louisiana parishes so we can merge with results
     county['Cnt'][county['State'].str.contains('Louisiana') == True] = county['Cnt'][county['State'].str.contains('Louisiana') == True].apply(lambda x: x + ' County')
 
-    county['Cnt'] = county['Cnt'] + ', ' + county['State'] + ', 2012'
-    county = county.drop(columns=['Geographic Area Name'])
+    county['Cnt'] = county['Cnt'] + ', ' + county['State']
+    county = county.merge(state_area, left_on='Cnt', right_on='County')
+    county = county.drop(columns=['Geographic Area Name', 'Cnt'])
+    county['County'] = county['County'] + ', 2012'
 
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
@@ -46,17 +49,8 @@ def county_info_2012():
     df = pd.merge(df, race, left_index=True, right_index=True)
     df = pd.merge(df, income, left_index=True, right_index=True)
 
-    df['Total Less than 9th grade'] = df["Total!!Estimate!!Less than 9th grade"] * df["Total!!Estimate!!Total population"] / 100
-    df['Total 9th to 12th grade, no diploma'] = df["Total!!Estimate!!9th to 12th grade, no diploma"] * df["Total!!Estimate!!Total population"] / 100
-    df['Total High school graduate'] = df["Total!!Estimate!!High school graduate (includes equivalency)"] * df["Total!!Estimate!!Total population"] / 100
-    df['Total Some college, no degree'] = df["Total!!Estimate!!Some college, no degree"] * df["Total!!Estimate!!Total population"] / 100
-    df["Total Associate's degree"] = (df["Total!!Estimate!!Associate's degree"] * df["Total!!Estimate!!Total population"] / 100)
-    df["Total Bachelor's degree"] = (df["Total!!Estimate!!Bachelor's degree"] * df["Total!!Estimate!!Total population"] / 100)
-    df["Total Graduate or professional degree"] = (df["Total!!Estimate!!Graduate or professional degree"] * df["Total!!Estimate!!Total population"] / 100)
-
     # rename features
-    df = df.rename(columns={"Cnt": "County",
-                            "Total!!Estimate!!Total population":
+    df = df.rename(columns={"Total!!Estimate!!Total population":
                             "Total population",
                             "Total!!Estimate!!SUMMARY INDICATORS!!Median age (years)":
                             "Median age",
@@ -79,9 +73,31 @@ def county_info_2012():
                             "Households!!Estimate!!Mean income (dollars)":
                             "Households Mean income",
                             "Households!!Estimate!!Median income (dollars)":
-                            "Households Median income"})
+                            "Households Median income",
+                            "Total!!Estimate!!Less than 9th grade":
+                            "Percent Less than 9th grade",
+                            "Total!!Estimate!!9th to 12th grade, no diploma":
+                            "Percent 9th to 12th grade, no diploma",
+                            "Total!!Estimate!!High school graduate (includes equivalency)":
+                            "Percent High school graduate",
+                            "Total!!Estimate!!Some college, no degree":
+                            "Percent Some college, no degree",
+                            "Total!!Estimate!!Associate's degree":
+                            "Percent Associate's degree",
+                            "Total!!Estimate!!Bachelor's degree":
+                            "Percent Bachelor's degree",
+                            "Total!!Estimate!!Graduate or professional degree":
+                            "Percent Graduate or professional degree"})
+    
+    df['Total Less than 9th grade'] = df["Percent Less than 9th grade"] * df["Total population"] / 100
+    df['Total 9th to 12th grade, no diploma'] = df["Percent 9th to 12th grade, no diploma"] * df["Total population"] / 100
+    df['Total High school graduate'] = df["Percent High school graduate"] * df["Total population"] / 100
+    df['Total Some college, no degree'] = df["Percent Some college, no degree"] * df["Total population"] / 100
+    df["Total Associate's degree"] = (df["Percent Associate's degree"] * df["Total population"] / 100)
+    df["Total Bachelor's degree"] = (df["Percent Bachelor's degree"] * df["Total population"] / 100)
+    df["Total Graduate or professional degree"] = (df["Percent Graduate or professional degree"] * df["Total population"] / 100)
+    df["Population Density"] = (df["Total population"] / df['Size'])
 
-    df = df.drop(columns=edu_2012_count)
     # Drop incorrect DC value
     df = df.drop([156])
 
