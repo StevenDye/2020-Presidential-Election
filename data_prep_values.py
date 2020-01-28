@@ -27,12 +27,15 @@ def county_info_2012():
     race = df_race[race_2012_count]
     income = df_income[income_2012]
 
-    county = county_split(county)
-    county = clean_states(county)
-    county['Cnt'] = county['Cnt'] + ', ' + county['State']
-    county = county.merge(state_area, left_on='Cnt', right_on='County')
-    county = county.drop(columns=['Geographic Area Name', 'Cnt'])
-    county['County'] = county['County'] + ', 2012'
+    county = county_prep(county, state_area, '2012')
+    
+    
+    #county = county_split(county)
+    #county = clean_states(county)
+    #county['Cnt'] = county['Cnt'] + ', ' + county['State']
+    #county = county.merge(state_area, left_on='Cnt', right_on='County')
+    #county = county.drop(columns=['Geographic Area Name', 'Cnt'])
+    #county['County'] = county['County'] + ', 2012'
 
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
@@ -116,12 +119,14 @@ def county_info_2016():
     race = df_race[race_2016_per]
     income = df_income[income_2016]
 
-    county = county_split(county)
-    county = clean_states(county)
-    county['Cnt'] = county['Cnt'] + ', ' + county['State']
-    county = county.merge(state_area, left_on='Cnt', right_on='County')
-    county = county.drop(columns=['Geographic Area Name', 'Cnt'])
-    county['County'] = county['County'] + ', 2016'
+    county = county_prep(county, state_area, '2016')
+    
+    #county = county_split(county)
+    #county = clean_states(county)
+    #county['Cnt'] = county['Cnt'] + ', ' + county['State']
+    #county = county.merge(state_area, left_on='Cnt', right_on='County')
+    #county = county.drop(columns=['Geographic Area Name', 'Cnt'])
+    #county['County'] = county['County'] + ', 2016'
 
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
@@ -174,6 +179,7 @@ def county_info_2016():
     df['Total American Indian and Alaska Native'] = (df["Percent American Indian and Alaska Native"] * df["Total population"] / 100)
     df['Total Asian'] = df["Percent Asian"] * df["Total population"] / 100
     df['Total Hispanic or Latino'] = (df["Percent Hispanic or Latino"] * df["Total population"] / 100)
+    df["Population Density"] = (df["Total population"] / df['Size'])
 
     # Drop incorrect DC value
     df = df.drop([381])
@@ -185,6 +191,7 @@ def county_info_2018():
     """This function reads in the county csv data files for 2018 and prepares them for analysis"""
 
     # read in csvs
+    state_area = pd.read_csv('data/state_area.csv')
     df_edu = pd.read_csv('data/2018/2018-Edu/ACSST5Y2018.S1501_data_with_overlays_2020-01-19T112805.csv',
                          header=1, low_memory=False)
     df_age_sex = pd.read_csv('data/2018/2018-Age/ACSST5Y2018.S0101_data_with_overlays_2020-01-19T114609.csv',
@@ -212,6 +219,7 @@ def county_info_2018():
     df['Total American Indian and Alaska Native'] = (df['Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native'] * df["Estimate!!Total!!Total population"] / 100)
     df['Total Asian'] = (df['Percent Estimate!!RACE!!Total population!!One race!!Asian'] * df["Estimate!!Total!!Total population"] / 100)
     df['Total Hispanic or Latino'] = (df['Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)'] * df["Estimate!!Total!!Total population"] / 100)
+    df["Population Density"] = (df["Estimate!!Total!!Total population"] / df['Size'])
 
     # rename features
     df = df.rename(columns={"Geographic Area Name": "County",
@@ -328,10 +336,15 @@ def create_targets(df):
 
     return df
 
-
-def clean_states(df):
-    """This function cleans the county information so that it can be merged with election
-    results"""
+    
+def county_prep(df, states_info, year):
+    """This function splits the county column into county and state, and then recombines them to county"""
+    _ = df.str.split(',', expand=True)
+    _ = _.rename(columns={0: 'Cnt', 1: 'State'})
+    _['Cnt'] = _['Cnt'].apply(lambda x: x.strip())
+    _['State'] = _['State'].apply(lambda x: x.strip())
+    df = pd.merge(df, _, left_index=True, right_index=True)
+    
     # Add the word County to the end of Washington city so we can merge with results
     df['Cnt'][df['State'].str.contains('District of Columbia') == True] = df['Cnt'][df['State'].str.contains('District of Columbia') == True].apply(lambda x: x + ' County')
 
@@ -341,4 +354,10 @@ def clean_states(df):
     # Add the word County to the end of Louisiana so we can merge with results
     df['Cnt'][df['State'].str.contains('Louisiana') == True] = df['Cnt'][df['State'].str.contains('Louisiana') == True].apply(lambda x: x + ' County')
     
+    df['Cnt'] = df['Cnt'] + ', ' + df['State']
+    df = df.merge(states_info, left_on='Cnt', right_on='County')
+    df = df.drop(columns=['Geographic Area Name', 'Cnt'])
+    df['County'] = df['County'] + ', ' + year
+    
     return df
+    
