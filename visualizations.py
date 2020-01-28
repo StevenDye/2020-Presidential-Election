@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-
+# This function is currently not in use
 def display_results(actual, prediction, counties):
     """This function returns the number of votes each county received and the
     number of votes they were projected to get"""

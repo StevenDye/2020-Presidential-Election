@@ -50,6 +50,8 @@ edu_2018_per = ["Estimate!!Percent!!Population 25 years and over!!Less than 9th 
                 "Estimate!!Percent!!Population 25 years and over!!Bachelor's degree",
                 "Estimate!!Percent!!Population 25 years and over!!Graduate or professional degree"]
 
+edu_2018 = edu_2018_count + edu_2018_per
+
 
 
 """Age and Sex"""
@@ -96,10 +98,10 @@ race_2016_per = ['Percent!!RACE!!One race!!White',
 
 # 2018 Race features
 race_2018_per = ['Percent Estimate!!RACE!!Total population!!One race!!White',
-                   'Percent Estimate!!RACE!!Total population!!One race!!Black or African American',
-                   'Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native',
-                   'Percent Estimate!!RACE!!Total population!!One race!!Asian',
-                   'Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)']
+                 'Percent Estimate!!RACE!!Total population!!One race!!Black or African American',
+                 'Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native',
+                 'Percent Estimate!!RACE!!Total population!!One race!!Asian',
+                 'Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)']
 
 
 

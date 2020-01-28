@@ -1,6 +1,6 @@
 """This module prepares the data for analysis"""
 import pandas as pd
-from data_dicts import (edu_2012_count, edu_2016_count, edu_2018_count,
+from data_dicts import (edu_2012_count, edu_2016_count, edu_2018_count, edu_2018,
                         age_sex_2012, age_sex_2016, age_sex_2018,
                         race_2012_count, race_2016_per, race_2018_per,
                         income_2012, income_2016, income_2018)
@@ -28,14 +28,6 @@ def county_info_2012():
     income = df_income[income_2012]
 
     county = county_prep(county, state_area, '2012')
-    
-    
-    #county = county_split(county)
-    #county = clean_states(county)
-    #county['Cnt'] = county['Cnt'] + ', ' + county['State']
-    #county = county.merge(state_area, left_on='Cnt', right_on='County')
-    #county = county.drop(columns=['Geographic Area Name', 'Cnt'])
-    #county['County'] = county['County'] + ', 2012'
 
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
@@ -92,6 +84,12 @@ def county_info_2012():
     df["Total Graduate or professional degree"] = (df["Percent Graduate or professional degree"] * df["Total population"] / 100)
     df["Population Density"] = (df["Total population"] / df['Size'])
 
+    
+    df = df.drop(columns=["Percent Less than 9th grade", "Percent 9th to 12th grade, no diploma",
+                          "Percent High school graduate", "Percent Some college, no degree",
+                          "Percent Associate's degree", "Percent Bachelor's degree",
+                          "Percent Graduate or professional degree"])
+    
     # Drop incorrect DC value
     df = df.drop([156])
 
@@ -121,13 +119,6 @@ def county_info_2016():
 
     county = county_prep(county, state_area, '2016')
     
-    #county = county_split(county)
-    #county = clean_states(county)
-    #county['Cnt'] = county['Cnt'] + ', ' + county['State']
-    #county = county.merge(state_area, left_on='Cnt', right_on='County')
-    #county = county.drop(columns=['Geographic Area Name', 'Cnt'])
-    #county['County'] = county['County'] + ', 2016'
-
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
     df = pd.merge(df, age_sex, left_index=True, right_index=True)
@@ -172,7 +163,7 @@ def county_info_2016():
                             "Percent!!RACE!!One race!!Asian":
                             "Percent Asian",
                             "Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)":
-                           "Percent Hispanic or Latino"})
+                            "Percent Hispanic or Latino"})
     
     df['Total White'] = df["Percent White"] * df["Total population"] / 100
     df['Total Black or African American'] = (df["Percent Black or African American"] * df["Total population"] / 100)
@@ -181,6 +172,11 @@ def county_info_2016():
     df['Total Hispanic or Latino'] = (df["Percent Hispanic or Latino"] * df["Total population"] / 100)
     df["Population Density"] = (df["Total population"] / df['Size'])
 
+    
+    df = df.drop(columns=['Percent White', 'Percent Black or African American',
+                          'Percent American Indian and Alaska Native', 'Percent Asian',
+                          'Percent Hispanic or Latino'])
+    
     # Drop incorrect DC value
     df = df.drop([381])
 
@@ -207,6 +203,8 @@ def county_info_2018():
     age_sex = df_age_sex[age_sex_2018]
     race = df_race[race_2018_per]
     income = df_income[income_2018]
+    
+    county = county_prep(county, state_area, '2018')
 
     # merge dataframes
     df = pd.merge(county, edu, left_index=True, right_index=True)
@@ -214,19 +212,19 @@ def county_info_2018():
     df = pd.merge(df, race, left_index=True, right_index=True)
     df = pd.merge(df, income, left_index=True, right_index=True)
 
-    df['Total White'] = (df['Percent Estimate!!RACE!!Total population!!One race!!White'] * df["Estimate!!Total!!Total population"] / 100)
-    df['Total Black or African American'] = (df['Percent Estimate!!RACE!!Total population!!One race!!Black or African American'] * df["Estimate!!Total!!Total population"] / 100)
-    df['Total American Indian and Alaska Native'] = (df['Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native'] * df["Estimate!!Total!!Total population"] / 100)
-    df['Total Asian'] = (df['Percent Estimate!!RACE!!Total population!!One race!!Asian'] * df["Estimate!!Total!!Total population"] / 100)
-    df['Total Hispanic or Latino'] = (df['Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)'] * df["Estimate!!Total!!Total population"] / 100)
-    df["Population Density"] = (df["Estimate!!Total!!Total population"] / df['Size'])
+#    df['Total White'] = (df['Percent Estimate!!RACE!!Total population!!One race!!White'] * df["Estimate!!Total!!Total population"] / 100)
+#    df['Total Black or African American'] = (df['Percent Estimate!!RACE!!Total population!!One race!!Black or African American'] * df["Estimate!!Total!!Total population"] / 100)
+#    df['Total American Indian and Alaska Native'] = (df['Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native'] * df["Estimate!!Total!!Total population"] / 100)
+#    df['Total Asian'] = (df['Percent Estimate!!RACE!!Total population!!One race!!Asian'] * df["Estimate!!Total!!Total population"] / 100)
+#    df['Total Hispanic or Latino'] = (df['Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)'] * df["Estimate!!Total!!Total population"] / 100)
+#    df["Population Density"] = (df["Estimate!!Total!!Total population"] / df['Size'])
 
     # rename features
     df = df.rename(columns={"Geographic Area Name": "County",
                             "Estimate!!Total!!Population 25 years and over!!Less than 9th grade":
-                            "Percent Less than 9th grade",
+                            "Total Less than 9th grade",
                             "Estimate!!Total!!Population 25 years and over!!9th to 12th grade, no diploma":
-                            "Percent 9th to 12th grade, no diploma",
+                            "Total 9th to 12th grade, no diploma",
                             "Estimate!!Total!!Population 25 years and over!!High school graduate (includes equivalency)":
                             "Total High school graduate",
                             "Estimate!!Total!!Population 25 years and over!!Some college, no degree":
@@ -247,22 +245,30 @@ def county_info_2018():
                             "Male Median age",
                             "Estimate!!Female!!Total population!!SUMMARY INDICATORS!!Median age (years)":
                             "Female Median age",
-                            "Total Estimate!!RACE!!Total population!!One race!!White":
-                            "Total White",
-                            "Total Estimate!!RACE!!Total population!!One race!!Black or African American":
-                            "Total Black or African American",
-                            "Total Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native":
-                            "Total American Indian and Alaska Native",
-                            "Total Estimate!!RACE!!Total population!!One race!!Asian":
-                            "Total Asian",
-                            "Total Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)":
-                            "Total Hispanic or Latino",
+                            "Percent Estimate!!RACE!!Total population!!One race!!White":
+                            "Percent White",
+                            "Percent Estimate!!RACE!!Total population!!One race!!Black or African American":
+                            "Percent Black or African American",
+                            "Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native":
+                            "Percent American Indian and Alaska Native",
+                            "Percent Estimate!!RACE!!Total population!!One race!!Asian":
+                            "Percent Asian",
+                            "Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)":
+                            "Percent Hispanic or Latino",
                             "Estimate!!Households!!Mean income (dollars)":
                             "Households Mean income",
                             "Estimate!!Households!!Median income (dollars)":
-                            "Households Median income"})
+                            "Households Median income",})
     
-    df = df.drop(columns=race_2018_per)
+    df["Total White"] = (df["Percent White"] * df["Total population"] / 100)
+    df['Total Black or African American'] = (df["Percent Black or African American"] * df["Total population"] / 100)
+    df['Total American Indian and Alaska Native'] = (df["Percent American Indian and Alaska Native"] * df["Total population"] / 100)
+    df['Total Asian'] = (df["Percent Asian"] * df["Total population"] / 100)
+    df['Total Hispanic or Latino'] = (df["Percent Hispanic or Latino"] * df["Total population"] / 100)
+    df["Population Density"] = (df["Total population"] / df['Size'])
+    
+    df = df.drop(columns=["Percent White", "Percent Black or African American", "Percent American Indian and Alaska Native", 
+                          "Percent Asian", "Percent Hispanic or Latino"])
     # Drop incorrect DC value
     df = df.drop([319])
     
