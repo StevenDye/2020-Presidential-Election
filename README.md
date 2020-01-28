@@ -6,8 +6,6 @@ Date: January 2020
 Collaborators: Steven Dye
 
 Summary of files:
-
-Summary of files:
  - The_Notebook.ipynb: Jupyter Notebook documenting the code and the analysis for the project. Written for a technical audience
  - 2020-Presidential-Election.pdf: PDF of final presentation
  - data file
