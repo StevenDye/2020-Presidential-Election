@@ -3,14 +3,15 @@
 
 """Education"""
 
-# Education count for 2012
-edu_2012_count = ["Total!!Estimate!!Less than 9th grade",
-                  "Total!!Estimate!!9th to 12th grade, no diploma",
-                  "Total!!Estimate!!High school graduate (includes equivalency)",
-                  "Total!!Estimate!!Some college, no degree",
-                  "Total!!Estimate!!Associate's degree",
-                  "Total!!Estimate!!Bachelor's degree",
-                  "Total!!Estimate!!Graduate or professional degree"]
+# Education count for 2012.
+# These are actually percentages, there are no actual counts in 2012
+edu_2012 = ["Total!!Estimate!!Less than 9th grade",
+            "Total!!Estimate!!9th to 12th grade, no diploma",
+            "Total!!Estimate!!High school graduate (includes equivalency)",
+            "Total!!Estimate!!Some college, no degree",
+            "Total!!Estimate!!Associate's degree",
+            "Total!!Estimate!!Bachelor's degree",
+            "Total!!Estimate!!Graduate or professional degree"]
 
 
 # Education count for 2016
