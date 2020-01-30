@@ -1,9 +1,9 @@
 """This module prepares the data for analysis"""
 import pandas as pd
-from data_dicts import (edu_2012, edu_2016, edu_2018,
-                        age_sex_2012, age_sex_2016, age_sex_2018,
-                        race_2012, race_2016, race_2018,
-                        income_2012, income_2016, income_2018)
+from data_dicts import (EDU_2012, EDU_2016, EDU_2018,
+                        AGE_SEX_2012, AGE_SEX_2016, AGE_SEX_2018,
+                        RACE_2012, RACE_2016, RACE_2018,
+                        INCOME_2012, INCOME_2016, INCOME_2018) 
 
 
 def county_info_2012():
@@ -22,10 +22,10 @@ def county_info_2012():
 
     # select specific columns
     county = df_edu['Geographic Area Name']
-    edu = df_edu[edu_2012]
-    age_sex = df_age_sex[age_sex_2012]
-    race = df_race[race_2012]
-    income = df_income[income_2012]
+    edu = df_edu[EDU_2012]
+    age_sex = df_age_sex[AGE_SEX_2012]
+    race = df_race[RACE_2012]
+    income = df_income[INCOME_2012]
 
     county = county_prep(county, state_area, '2012')
 
@@ -119,10 +119,10 @@ def county_info_2016():
 
     # select specific columns
     county = df_edu['Geographic Area Name']
-    edu = df_edu[edu_2016]
-    age_sex = df_age_sex[age_sex_2016]
-    race = df_race[race_2016]
-    income = df_income[income_2016]
+    edu = df_edu[EDU_2016]
+    age_sex = df_age_sex[AGE_SEX_2016]
+    race = df_race[RACE_2016]
+    income = df_income[INCOME_2016]
 
     county = county_prep(county, state_area, '2016')
 
@@ -221,10 +221,10 @@ def county_info_2018():
 
     # select specific columns
     county = df_edu['Geographic Area Name']
-    edu = df_edu[edu_2018]
-    age_sex = df_age_sex[age_sex_2018]
-    race = df_race[race_2018]
-    income = df_income[income_2018]
+    edu = df_edu[EDU_2018]
+    age_sex = df_age_sex[AGE_SEX_2018]
+    race = df_race[RACE_2018]
+    income = df_income[INCOME_2018]
 
     county = county_prep(county, state_area, '2018')
 
@@ -323,7 +323,8 @@ def results_info(year):
                        left_index=True, right_index=True)
         res = res.rename(columns={'Donald Trump_x': 'State',
                                   'Donald Trump_y': 'Republican',
-                                  'Hillary Clinton': 'Democrat'})
+                                  'Hillary Clinton': 'Democrat',
+                                  'Other': 'Third'})
 
     if year == 2012:
         res = pd.merge(df['County'], pd.DataFrame(df['state']['Mitt Romney']),
@@ -336,8 +337,9 @@ def results_info(year):
                        left_index=True, right_index=True)
         res = res.rename(columns={'Mitt Romney_x': 'State',
                                   'Mitt Romney_y': 'Republican',
-                                  'Barack Obama': 'Democrat'})
-
+                                  'Barack Obama': 'Democrat',
+                                  'Other': 'Third'})
+        
     return res
 
 
@@ -355,9 +357,9 @@ def county_split(column):
 
 def create_targets(df):
     """This function creates the percent targets for our model"""
-    df['Percent Republican'] = (df['Republican']/df['Total population']).astype(float)
-    df['Percent Democrat'] = (df['Democrat']/df['Total population']).astype(float)
-    df['Percent Other'] = (df['Other']/df['Total population']).astype(float)
+    df['Percent Republican'] = (df['Republican'] / df['Total population']).astype(float)
+    df['Percent Democrat'] = (df['Democrat'] / df['Total population']).astype(float)
+    df['Percent Third'] = (df['Third'] / df['Total population']).astype(float)
 
     return df
 

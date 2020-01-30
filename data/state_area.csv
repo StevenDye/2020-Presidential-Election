@@ -1,6 +1,6 @@
 County,Size
 "Autauga County, Alabama",594.44
-"Baldwin County, Alabama","1,589.78"
+"Baldwin County, Alabama",1589.78
 "Barbour County, Alabama",884.88
 "Bibb County, Alabama",622.58
 "Blount County, Alabama",644.78
@@ -8,21 +8,21 @@ County,Size
 "Butler County, Alabama",776.83
 "Calhoun County, Alabama",605.87
 "Chambers County, Alabama",596.53
-"Cherokee County, Alabama",553.70
+"Cherokee County, Alabama",553.7
 "Chilton County, Alabama",692.85
-"Choctaw County, Alabama",913.50
-"Clarke County, Alabama","1,238.47"
+"Choctaw County, Alabama",913.5
+"Clarke County, Alabama",1238.47
 "Clay County, Alabama",603.96
-"Cleburne County, Alabama",560.10
+"Cleburne County, Alabama",560.1
 "Coffee County, Alabama",678.97
 "Colbert County, Alabama",592.62
 "Conecuh County, Alabama",850.16
 "Coosa County, Alabama",650.93
-"Covington County, Alabama","1,030.46"
+"Covington County, Alabama",1030.46
 "Crenshaw County, Alabama",608.84
 "Cullman County, Alabama",734.84
 "Dale County, Alabama",561.15
-"Dallas County, Alabama",978.70
+"Dallas County, Alabama",978.7
 "DeKalb County, Alabama",777.09
 "Elmore County, Alabama",618.49
 "Escambia County, Alabama",945.08
@@ -34,10 +34,10 @@ County,Size
 "Hale County, Alabama",643.94
 "Henry County, Alabama",561.75
 "Houston County, Alabama",579.82
-"Jackson County, Alabama","1,077.87"
-"Jefferson County, Alabama","1,111.28"
+"Jackson County, Alabama",1077.87
+"Jefferson County, Alabama",1111.28
 "Lamar County, Alabama",604.85
-"Lauderdale County, Alabama",667.70
+"Lauderdale County, Alabama",667.7
 "Lawrence County, Alabama",690.68
 "Lee County, Alabama",607.54
 "Limestone County, Alabama",559.94
@@ -47,8 +47,8 @@ County,Size
 "Marengo County, Alabama",976.88
 "Marion County, Alabama",742.29
 "Marshall County, Alabama",565.84
-"Mobile County, Alabama","1,229.44"
-"Monroe County, Alabama","1,025.68"
+"Mobile County, Alabama",1229.44
+"Monroe County, Alabama",1025.68
 "Montgomery County, Alabama",784.25
 "Morgan County, Alabama",579.34
 "Perry County, Alabama",719.66
@@ -57,59 +57,59 @@ County,Size
 "Randolph County, Alabama",580.55
 "Russell County, Alabama",641.14
 "Shelby County, Alabama",784.93
-"St. Clair County, Alabama",631.90
+"St. Clair County, Alabama",631.9
 "Sumter County, Alabama",903.89
 "Talladega County, Alabama",736.78
 "Tallapoosa County, Alabama",716.52
-"Tuscaloosa County, Alabama","1,321.76"
+"Tuscaloosa County, Alabama",1321.76
 "Walker County, Alabama",791.19
-"Washington County, Alabama","1,080.21"
-"Wilcox County, Alabama",888.50
+"Washington County, Alabama",1080.21
+"Wilcox County, Alabama",888.5
 "Winston County, Alabama",612.98
-"Aleutians East Borough County, Alaska","6,981.94"
-"Aleutians West Census Area County, Alaska","4,390.28"
-"Anchorage Municipality County, Alaska","1,704.68"
-"Bethel Census Area County, Alaska","40,570.00"
+"Aleutians East Borough County, Alaska",6981.94
+"Aleutians West Census Area County, Alaska",4390.28
+"Anchorage Municipality County, Alaska",1704.68
+"Bethel Census Area County, Alaska",40570.0
 "Bristol Bay Borough County, Alaska",503.84
-"Denali Borough County, Alaska","12,751.41"
-"Dillingham Census Area County, Alaska","18,568.78"
-"Fairbanks North Star Borough County, Alaska","7,338.21"
-"Haines Borough County, Alaska","2,318.60"
-"Hoonah-Angoon Census Area County, Alaska","7,524.92"
-"Juneau City and Borough County, Alaska","2,701.93"
-"Kenai Peninsula Borough County, Alaska","16,075.33"
-"Ketchikan Gateway Borough County, Alaska","4,858.41"
-"Kodiak Island Borough County, Alaska","6,549.58"
-"Lake and Peninsula Borough County, Alaska","23,652.01"
-"Matanuska-Susitna Borough County, Alaska","24,607.90"
-"Nome Census Area County, Alaska","22,961.76"
-"North Slope Borough County, Alaska","88,695.41"
-"Northwest Arctic Borough County, Alaska","35,572.58"
-"Petersburg Census Area County, Alaska","3,281.98"
-"Prince of Wales-Hyder Census Area County, Alaska","3,922.87"
-"Sitka City and Borough County, Alaska","2,870.34"
+"Denali Borough County, Alaska",12751.41
+"Dillingham Census Area County, Alaska",18568.78
+"Fairbanks North Star Borough County, Alaska",7338.21
+"Haines Borough County, Alaska",2318.6
+"Hoonah-Angoon Census Area County, Alaska",7524.92
+"Juneau City and Borough County, Alaska",2701.93
+"Kenai Peninsula Borough County, Alaska",16075.33
+"Ketchikan Gateway Borough County, Alaska",4858.41
+"Kodiak Island Borough County, Alaska",6549.58
+"Lake and Peninsula Borough County, Alaska",23652.01
+"Matanuska-Susitna Borough County, Alaska",24607.9
+"Nome Census Area County, Alaska",22961.76
+"North Slope Borough County, Alaska",88695.41
+"Northwest Arctic Borough County, Alaska",35572.58
+"Petersburg Census Area County, Alaska",3281.98
+"Prince of Wales-Hyder Census Area County, Alaska",3922.87
+"Sitka City and Borough County, Alaska",2870.34
 "Skagway Municipality County, Alaska",452.33
-"Southeast Fairbanks Census Area County, Alaska","24,768.81"
-"Valdez-Cordova Census Area County, Alaska","34,239.88"
-"Wade Hampton Census Area County, Alaska","17,081.43"
-"Wrangell City and Borough County, Alaska","2,541.48"
-"Yakutat City and Borough County, Alaska","7,649.46"
-"Yukon-Koyukuk Census Area County, Alaska","145,504.79"
-"Apache County, Arizona","11,197.52"
-"Cochise County, Arizona","6,165.69"
-"Coconino County, Arizona","18,618.89"
-"Gila County, Arizona","4,757.93"
-"Graham County, Arizona","4,622.60"
-"Greenlee County, Arizona","1,843.13"
-"La Paz County, Arizona","4,499.63"
-"Maricopa County, Arizona","9,200.14"
-"Mohave County, Arizona","13,311.08"
-"Navajo County, Arizona","9,950.42"
-"Pima County, Arizona","9,187.04"
-"Pinal County, Arizona","5,365.61"
-"Santa Cruz County, Arizona","1,236.92"
-"Yavapai County, Arizona","8,123.50"
-"Yuma County, Arizona","5,513.99"
+"Southeast Fairbanks Census Area County, Alaska",24768.81
+"Valdez-Cordova Census Area County, Alaska",34239.88
+"Wade Hampton Census Area County, Alaska",17081.43
+"Wrangell City and Borough County, Alaska",2541.48
+"Yakutat City and Borough County, Alaska",7649.46
+"Yukon-Koyukuk Census Area County, Alaska",145504.79
+"Apache County, Arizona",11197.52
+"Cochise County, Arizona",6165.69
+"Coconino County, Arizona",18618.89
+"Gila County, Arizona",4757.93
+"Graham County, Arizona",4622.6
+"Greenlee County, Arizona",1843.13
+"La Paz County, Arizona",4499.63
+"Maricopa County, Arizona",9200.14
+"Mohave County, Arizona",13311.08
+"Navajo County, Arizona",9950.42
+"Pima County, Arizona",9187.04
+"Pinal County, Arizona",5365.61
+"Santa Cruz County, Arizona",1236.92
+"Yavapai County, Arizona",8123.5
+"Yuma County, Arizona",5513.99
 "Arkansas County, Arkansas",988.77
 "Ashley County, Arkansas",925.35
 "Baxter County, Arkansas",554.28
@@ -118,7 +118,7 @@ County,Size
 "Bradley County, Arkansas",649.23
 "Calhoun County, Arkansas",628.58
 "Carroll County, Arkansas",630.09
-"Chicot County, Arkansas",644.30
+"Chicot County, Arkansas",644.3
 "Clark County, Arkansas",866.07
 "Clay County, Arkansas",639.47
 "Cleburne County, Arkansas",553.69
@@ -137,15 +137,15 @@ County,Size
 "Fulton County, Arkansas",618.19
 "Garland County, Arkansas",677.78
 "Grant County, Arkansas",631.81
-"Greene County, Arkansas",577.70
+"Greene County, Arkansas",577.7
 "Hempstead County, Arkansas",727.52
-"Hot Spring County, Arkansas",615.20
+"Hot Spring County, Arkansas",615.2
 "Howard County, Arkansas",588.55
 "Independence County, Arkansas",763.95
 "Izard County, Arkansas",580.58
 "Jackson County, Arkansas",633.94
 "Jefferson County, Arkansas",870.75
-"Johnson County, Arkansas",659.80
+"Johnson County, Arkansas",659.8
 "Lafayette County, Arkansas",528.27
 "Lawrence County, Arkansas",587.61
 "Lee County, Arkansas",602.62
@@ -160,9 +160,9 @@ County,Size
 "Monroe County, Arkansas",607.12
 "Montgomery County, Arkansas",779.88
 "Nevada County, Arkansas",617.84
-"Newton County, Arkansas",820.90
+"Newton County, Arkansas",820.9
 "Ouachita County, Arkansas",732.78
-"Perry County, Arkansas",551.40
+"Perry County, Arkansas",551.4
 "Phillips County, Arkansas",695.66
 "Pike County, Arkansas",600.62
 "Poinsett County, Arkansas",758.39
@@ -171,142 +171,142 @@ County,Size
 "Prairie County, Arkansas",647.96
 "Pulaski County, Arkansas",759.76
 "Randolph County, Arkansas",652.19
-"Saline County, Arkansas",723.60
+"Saline County, Arkansas",723.6
 "Scott County, Arkansas",892.32
-"Searcy County, Arkansas",666.10
+"Searcy County, Arkansas",666.1
 "Sebastian County, Arkansas",531.91
 "Sevier County, Arkansas",565.13
 "Sharp County, Arkansas",604.44
 "St. Francis County, Arkansas",634.77
 "Stone County, Arkansas",606.41
-"Union County, Arkansas","1,039.21"
+"Union County, Arkansas",1039.21
 "Van Buren County, Arkansas",708.14
 "Washington County, Arkansas",941.97
-"White County, Arkansas","1,035.08"
+"White County, Arkansas",1035.08
 "Woodruff County, Arkansas",586.79
 "Yell County, Arkansas",929.98
 "Alameda County, California",739.02
 "Alpine County, California",738.33
 "Amador County, California",594.58
-"Butte County, California","1,636.46"
-"Calaveras County, California","1,020.01"
-"Colusa County, California","1,150.73"
+"Butte County, California",1636.46
+"Calaveras County, California",1020.01
+"Colusa County, California",1150.73
 "Contra Costa County, California",715.94
-"Del Norte County, California","1,006.37"
-"El Dorado County, California","1,707.88"
-"Fresno County, California","5,957.99"
-"Glenn County, California","1,313.95"
-"Humboldt County, California","3,567.99"
-"Imperial County, California","4,176.60"
-"Inyo County, California","10,180.88"
-"Kern County, California","8,131.92"
-"Kings County, California","1,389.42"
-"Lake County, California","1,256.46"
-"Lassen County, California","4,541.18"
-"Los Angeles County, California","4,057.88"
-"Madera County, California","2,137.07"
+"Del Norte County, California",1006.37
+"El Dorado County, California",1707.88
+"Fresno County, California",5957.99
+"Glenn County, California",1313.95
+"Humboldt County, California",3567.99
+"Imperial County, California",4176.6
+"Inyo County, California",10180.88
+"Kern County, California",8131.92
+"Kings County, California",1389.42
+"Lake County, California",1256.46
+"Lassen County, California",4541.18
+"Los Angeles County, California",4057.88
+"Madera County, California",2137.07
 "Marin County, California",520.31
-"Mariposa County, California","1,448.82"
-"Mendocino County, California","3,506.34"
-"Merced County, California","1,934.97"
-"Modoc County, California","3,917.77"
-"Mono County, California","3,048.98"
-"Monterey County, California","3,280.60"
+"Mariposa County, California",1448.82
+"Mendocino County, California",3506.34
+"Merced County, California",1934.97
+"Modoc County, California",3917.77
+"Mono County, California",3048.98
+"Monterey County, California",3280.6
 "Napa County, California",748.36
 "Nevada County, California",957.77
 "Orange County, California",790.57
-"Placer County, California","1,407.01"
-"Plumas County, California","2,553.04"
-"Riverside County, California","7,206.48"
+"Placer County, California",1407.01
+"Plumas County, California",2553.04
+"Riverside County, California",7206.48
 "Sacramento County, California",964.64
-"San Benito County, California","1,388.71"
-"San Bernardino County, California","20,056.94"
-"San Diego County, California","4,206.63"
+"San Benito County, California",1388.71
+"San Bernardino County, California",20056.94
+"San Diego County, California",4206.63
 "San Francisco County, California",46.87
-"San Joaquin County, California","1,391.32"
-"San Luis Obispo County, California","3,298.57"
+"San Joaquin County, California",1391.32
+"San Luis Obispo County, California",3298.57
 "San Mateo County, California",448.41
-"Santa Barbara County, California","2,735.09"
-"Santa Clara County, California","1,290.10"
+"Santa Barbara County, California",2735.09
+"Santa Clara County, California",1290.1
 "Santa Cruz County, California",445.17
-"Shasta County, California","3,775.40"
+"Shasta County, California",3775.4
 "Sierra County, California",953.21
-"Siskiyou County, California","6,277.89"
+"Siskiyou County, California",6277.89
 "Solano County, California",821.77
-"Sonoma County, California","1,575.85"
-"Stanislaus County, California","1,494.83"
+"Sonoma County, California",1575.85
+"Stanislaus County, California",1494.83
 "Sutter County, California",602.41
-"Tehama County, California","2,949.71"
-"Trinity County, California","3,179.25"
-"Tulare County, California","4,824.22"
-"Tuolumne County, California","2,220.88"
-"Ventura County, California","1,843.13"
-"Yolo County, California","1,014.69"
+"Tehama County, California",2949.71
+"Trinity County, California",3179.25
+"Tulare County, California",4824.22
+"Tuolumne County, California",2220.88
+"Ventura County, California",1843.13
+"Yolo County, California",1014.69
 "Yuba County, California",631.84
-"Adams County, Colorado","1,167.65"
+"Adams County, Colorado",1167.65
 "Alamosa County, Colorado",722.64
-"Arapahoe County, Colorado",798.10
-"Archuleta County, Colorado","1,350.18"
-"Baca County, Colorado","2,554.97"
-"Bent County, Colorado","1,512.86"
+"Arapahoe County, Colorado",798.1
+"Archuleta County, Colorado",1350.18
+"Baca County, Colorado",2554.97
+"Bent County, Colorado",1512.86
 "Boulder County, Colorado",726.29
 "Broomfield County, Colorado",33.03
-"Chaffee County, Colorado","1,013.40"
-"Cheyenne County, Colorado","1,778.28"
+"Chaffee County, Colorado",1013.4
+"Cheyenne County, Colorado",1778.28
 "Clear Creek County, Colorado",395.23
-"Conejos County, Colorado","1,287.39"
-"Costilla County, Colorado","1,226.95"
+"Conejos County, Colorado",1287.39
+"Costilla County, Colorado",1226.95
 "Crowley County, Colorado",787.42
 "Custer County, Colorado",738.63
-"Delta County, Colorado","1,142.05"
-"Denver County, Colorado",153.00
-"Dolores County, Colorado","1,067.05"
+"Delta County, Colorado",1142.05
+"Denver County, Colorado",153.0
+"Dolores County, Colorado",1067.05
 "Douglas County, Colorado",840.25
-"Eagle County, Colorado","1,684.53"
-"El Paso County, Colorado","2,126.80"
-"Elbert County, Colorado","1,850.85"
-"Fremont County, Colorado","1,533.07"
-"Garfield County, Colorado","2,947.56"
-"Gilpin County, Colorado",149.90
-"Grand County, Colorado","1,846.33"
-"Gunnison County, Colorado","3,239.10"
-"Hinsdale County, Colorado","1,117.25"
-"Huerfano County, Colorado","1,591.00"
-"Jackson County, Colorado","1,613.72"
+"Eagle County, Colorado",1684.53
+"El Paso County, Colorado",2126.8
+"Elbert County, Colorado",1850.85
+"Fremont County, Colorado",1533.07
+"Garfield County, Colorado",2947.56
+"Gilpin County, Colorado",149.9
+"Grand County, Colorado",1846.33
+"Gunnison County, Colorado",3239.1
+"Hinsdale County, Colorado",1117.25
+"Huerfano County, Colorado",1591.0
+"Jackson County, Colorado",1613.72
 "Jefferson County, Colorado",764.21
-"Kiowa County, Colorado","1,767.77"
-"Kit Carson County, Colorado","2,160.82"
-"La Plata County, Colorado","1,692.08"
+"Kiowa County, Colorado",1767.77
+"Kit Carson County, Colorado",2160.82
+"La Plata County, Colorado",1692.08
 "Lake County, Colorado",376.91
-"Larimer County, Colorado","2,596.00"
-"Las Animas County, Colorado","4,772.67"
-"Lincoln County, Colorado","2,577.63"
-"Logan County, Colorado","1,838.55"
-"Mesa County, Colorado","3,328.97"
+"Larimer County, Colorado",2596.0
+"Las Animas County, Colorado",4772.67
+"Lincoln County, Colorado",2577.63
+"Logan County, Colorado",1838.55
+"Mesa County, Colorado",3328.97
 "Mineral County, Colorado",875.67
-"Moffat County, Colorado","4,743.29"
-"Montezuma County, Colorado","2,029.53"
-"Montrose County, Colorado","2,240.70"
-"Morgan County, Colorado","1,280.43"
-"Otero County, Colorado","1,261.96"
+"Moffat County, Colorado",4743.29
+"Montezuma County, Colorado",2029.53
+"Montrose County, Colorado",2240.7
+"Morgan County, Colorado",1280.43
+"Otero County, Colorado",1261.96
 "Ouray County, Colorado",541.59
-"Park County, Colorado","2,193.85"
+"Park County, Colorado",2193.85
 "Phillips County, Colorado",687.93
-"Pitkin County, Colorado",970.70
-"Prowers County, Colorado","1,638.40"
-"Pueblo County, Colorado","2,386.10"
-"Rio Blanco County, Colorado","3,220.93"
+"Pitkin County, Colorado",970.7
+"Prowers County, Colorado",1638.4
+"Pueblo County, Colorado",2386.1
+"Rio Blanco County, Colorado",3220.93
 "Rio Grande County, Colorado",911.96
-"Routt County, Colorado","2,362.03"
-"Saguache County, Colorado","3,168.53"
+"Routt County, Colorado",2362.03
+"Saguache County, Colorado",3168.53
 "San Juan County, Colorado",387.49
-"San Miguel County, Colorado","1,286.61"
+"San Miguel County, Colorado",1286.61
 "Sedgwick County, Colorado",548.04
 "Summit County, Colorado",608.36
 "Teller County, Colorado",557.06
-"Washington County, Colorado","2,518.03"
-"Weld County, Colorado","3,987.24"
-"Yuma County, Colorado","2,364.41"
+"Washington County, Colorado",2518.03
+"Weld County, Colorado",3987.24
+"Yuma County, Colorado",2364.41
 "Fairfield County, Connecticut",624.89
 "Hartford County, Connecticut",735.1
 "Litchfield County, Connecticut",920.56
@@ -323,13 +323,13 @@ County,Size
 "Baker County, Florida",585.23
 "Bay County, Florida",758.46
 "Bradford County, Florida",293.96
-"Brevard County, Florida","1,015.66"
-"Broward County, Florida","1,209.79"
+"Brevard County, Florida",1015.66
+"Broward County, Florida",1209.79
 "Calhoun County, Florida",567.33
 "Charlotte County, Florida",680.28
-"Citrus County, Florida",581.70
+"Citrus County, Florida",581.7
 "Clay County, Florida",604.36
-"Collier County, Florida","1,998.32"
+"Collier County, Florida",1998.32
 "Columbia County, Florida",797.57
 "DeSoto County, Florida",637.06
 "Dixie County, Florida",705.05
@@ -343,49 +343,49 @@ County,Size
 "Gulf County, Florida",564.01
 "Hamilton County, Florida",513.79
 "Hardee County, Florida",637.78
-"Hendry County, Florida","1,152.75"
+"Hendry County, Florida",1152.75
 "Hernando County, Florida",472.54
-"Highlands County, Florida","1,016.62"
-"Hillsborough County, Florida","1,020.21"
+"Highlands County, Florida",1016.62
+"Hillsborough County, Florida",1020.21
 "Holmes County, Florida",478.78
 "Indian River County, Florida",502.87
 "Jackson County, Florida",917.76
-"Jefferson County, Florida",598.10
+"Jefferson County, Florida",598.1
 "Lafayette County, Florida",543.41
 "Lake County, Florida",938.38
 "Lee County, Florida",784.51
 "Leon County, Florida",666.85
-"Levy County, Florida","1,118.21"
+"Levy County, Florida",1118.21
 "Liberty County, Florida",835.56
 "Madison County, Florida",695.95
 "Manatee County, Florida",742.93
-"Marion County, Florida","1,584.55"
+"Marion County, Florida",1584.55
 "Martin County, Florida",543.46
-"Miami-Dade County, Florida","1,897.72"
+"Miami-Dade County, Florida",1897.72
 "Monroe County, Florida",983.28
 "Nassau County, Florida",648.64
 "Okaloosa County, Florida",930.25
 "Okeechobee County, Florida",768.91
 "Orange County, Florida",903.43
-"Osceola County, Florida","1,327.45"
-"Palm Beach County, Florida","1,969.76"
+"Osceola County, Florida",1327.45
+"Palm Beach County, Florida",1969.76
 "Pasco County, Florida",746.89
-"Pinellas County, Florida",273.80
-"Polk County, Florida","1,797.84"
+"Pinellas County, Florida",273.8
+"Polk County, Florida",1797.84
 "Putnam County, Florida",727.62
-"Santa Rosa County, Florida","1,011.61"
+"Santa Rosa County, Florida",1011.61
 "Sarasota County, Florida",555.87
 "Seminole County, Florida",309.22
 "St. Johns County, Florida",600.66
 "St. Lucie County, Florida",571.93
 "Sumter County, Florida",546.93
 "Suwannee County, Florida",688.55
-"Taylor County, Florida","1,043.31"
+"Taylor County, Florida",1043.31
 "Union County, Florida",243.56
-"Volusia County, Florida","1,101.03"
+"Volusia County, Florida",1101.03
 "Wakulla County, Florida",606.42
-"Walton County, Florida","1,037.63"
-"Washington County, Florida",582.80
+"Walton County, Florida",1037.63
+"Washington County, Florida",582.8
 "Appling County, Georgia",507.08
 "Atkinson County, Georgia",339.38
 "Bacon County, Georgia",258.58
@@ -545,56 +545,56 @@ County,Size
 "Wilkes County, Georgia",469.49
 "Wilkinson County, Georgia",447.31
 "Worth County, Georgia",570.7
-"Hawaii County, Hawaii","4,028.42"
+"Hawaii County, Hawaii",4028.42
 "Honolulu County, Hawaii",600.74
 "Kalawao County, Hawaii",11.99
 "Kauai County, Hawaii",619.96
-"Maui County, Hawaii","1,161.52"
-"Ada County, Idaho","1,052.58"
-"Adams County, Idaho","1,363.06"
-"Bannock County, Idaho","1,111.99"
+"Maui County, Hawaii",1161.52
+"Ada County, Idaho",1052.58
+"Adams County, Idaho",1363.06
+"Bannock County, Idaho",1111.99
 "Bear Lake County, Idaho",974.79
 "Benewah County, Idaho",776.62
-"Bingham County, Idaho","2,093.98"
-"Blaine County, Idaho","2,643.59"
-"Boise County, Idaho","1,899.24"
-"Bonner County, Idaho","1,734.57"
-"Bonneville County, Idaho","1,866.08"
-"Boundary County, Idaho","1,268.56"
-"Butte County, Idaho","2,231.67"
-"Camas County, Idaho","1,074.49"
+"Bingham County, Idaho",2093.98
+"Blaine County, Idaho",2643.59
+"Boise County, Idaho",1899.24
+"Bonner County, Idaho",1734.57
+"Bonneville County, Idaho",1866.08
+"Boundary County, Idaho",1268.56
+"Butte County, Idaho",2231.67
+"Camas County, Idaho",1074.49
 "Canyon County, Idaho",587.37
-"Caribou County, Idaho","1,764.15"
-"Cassia County, Idaho","2,565.08"
-"Clark County, Idaho","1,764.19"
-"Clearwater County, Idaho","2,457.27"
-"Custer County, Idaho","4,920.94"
-"Elmore County, Idaho","3,074.74"
+"Caribou County, Idaho",1764.15
+"Cassia County, Idaho",2565.08
+"Clark County, Idaho",1764.19
+"Clearwater County, Idaho",2457.27
+"Custer County, Idaho",4920.94
+"Elmore County, Idaho",3074.74
 "Franklin County, Idaho",663.65
-"Fremont County, Idaho","1,863.53"
-"Gem County, Idaho",560.90
+"Fremont County, Idaho",1863.53
+"Gem County, Idaho",560.9
 "Gooding County, Idaho",728.97
-"Idaho County, Idaho","8,477.35"
-"Jefferson County, Idaho","1,093.50"
+"Idaho County, Idaho",8477.35
+"Jefferson County, Idaho",1093.5
 "Jerome County, Idaho",597.19
-"Kootenai County, Idaho","1,244.13"
-"Latah County, Idaho","1,076.00"
-"Lemhi County, Idaho","4,563.39"
-"Lewis County, Idaho",478.80
-"Lincoln County, Idaho","1,201.41"
+"Kootenai County, Idaho",1244.13
+"Latah County, Idaho",1076.0
+"Lemhi County, Idaho",4563.39
+"Lewis County, Idaho",478.8
+"Lincoln County, Idaho",1201.41
 "Madison County, Idaho",469.21
 "Minidoka County, Idaho",757.59
 "Nez Perce County, Idaho",848.09
-"Oneida County, Idaho","1,200.06"
-"Owyhee County, Idaho","7,665.51"
+"Oneida County, Idaho",1200.06
+"Owyhee County, Idaho",7665.51
 "Payette County, Idaho",406.87
-"Power County, Idaho","1,404.24"
-"Shoshone County, Idaho","2,629.67"
+"Power County, Idaho",1404.24
+"Shoshone County, Idaho",2629.67
 "Teton County, Idaho",449.46
-"Twin Falls County, Idaho","1,921.21"
-"Valley County, Idaho","3,664.52"
-"Washington County, Idaho","1,452.98"
-"Adams County, Illinois",855.20
+"Twin Falls County, Idaho",1921.21
+"Valley County, Idaho",3664.52
+"Washington County, Idaho",1452.98
+"Adams County, Illinois",855.2
 "Alexander County, Illinois",235.51
 "Bond County, Illinois",380.28
 "Boone County, Illinois",280.72
@@ -615,14 +615,14 @@ County,Size
 "De Witt County, Illinois",397.51
 "DeKalb County, Illinois",631.31
 "Douglas County, Illinois",416.67
-"DuPage County, Illinois",327.50
+"DuPage County, Illinois",327.5
 "Edgar County, Illinois",623.37
 "Edwards County, Illinois",222.42
 "Effingham County, Illinois",478.78
 "Fayette County, Illinois",716.48
 "Ford County, Illinois",485.62
 "Franklin County, Illinois",408.89
-"Fulton County, Illinois",865.60
+"Fulton County, Illinois",865.6
 "Gallatin County, Illinois",323.07
 "Greene County, Illinois",543.02
 "Grundy County, Illinois",418.04
@@ -631,7 +631,7 @@ County,Size
 "Hardin County, Illinois",177.53
 "Henderson County, Illinois",378.87
 "Henry County, Illinois",822.99
-"Iroquois County, Illinois","1,117.32"
+"Iroquois County, Illinois",1117.32
 "Jackson County, Illinois",584.08
 "Jasper County, Illinois",494.51
 "Jefferson County, Illinois",571.17
@@ -641,12 +641,12 @@ County,Size
 "Kane County, Illinois",520.06
 "Kankakee County, Illinois",676.56
 "Kendall County, Illinois",320.34
-"Knox County, Illinois",716.40
+"Knox County, Illinois",716.4
 "Lake County, Illinois",443.67
-"LaSalle County, Illinois","1,135.12"
+"LaSalle County, Illinois",1135.12
 "Lawrence County, Illinois",372.18
-"Lee County, Illinois",724.90
-"Livingston County, Illinois","1,044.29"
+"Lee County, Illinois",724.9
+"Livingston County, Illinois",1044.29
 "Logan County, Illinois",618.06
 "Macon County, Illinois",580.69
 "Macoupin County, Illinois",862.91
@@ -657,9 +657,9 @@ County,Size
 "Massac County, Illinois",237.22
 "McDonough County, Illinois",589.41
 "McHenry County, Illinois",603.17
-"McLean County, Illinois","1,183.38"
+"McLean County, Illinois",1183.38
 "Menard County, Illinois",314.44
-"Mercer County, Illinois",561.20
+"Mercer County, Illinois",561.2
 "Monroe County, Illinois",385.01
 "Montgomery County, Illinois",703.69
 "Morgan County, Illinois",568.79
@@ -667,16 +667,16 @@ County,Size
 "Ogle County, Illinois",758.57
 "Peoria County, Illinois",619.21
 "Perry County, Illinois",441.76
-"Piatt County, Illinois",439.20
+"Piatt County, Illinois",439.2
 "Pike County, Illinois",831.38
 "Pope County, Illinois",368.77
 "Pulaski County, Illinois",199.19
 "Putnam County, Illinois",160.16
-"Randolph County, Illinois",575.50
+"Randolph County, Illinois",575.5
 "Richland County, Illinois",359.99
 "Rock Island County, Illinois",427.64
 "Saline County, Illinois",379.82
-"Sangamon County, Illinois",868.30
+"Sangamon County, Illinois",868.3
 "Schuyler County, Illinois",437.27
 "Scott County, Illinois",250.91
 "Shelby County, Illinois",758.52
@@ -695,7 +695,7 @@ County,Size
 "Will County, Illinois",836.91
 "Williamson County, Illinois",420.15
 "Winnebago County, Illinois",513.36
-"Woodford County, Illinois",527.80
+"Woodford County, Illinois",527.8
 "Adams County, Indiana",339.03
 "Allen County, Indiana",657.31
 "Bartholomew County, Indiana",406.91
@@ -887,24 +887,24 @@ County,Size
 "Woodbury County, Iowa",872.83
 "Worth County, Iowa",400.12
 "Wright County, Iowa",580.42
-"Allen County, Kansas",500.30
+"Allen County, Kansas",500.3
 "Anderson County, Kansas",579.65
 "Atchison County, Kansas",431.17
-"Barber County, Kansas","1,134.07"
-"Barton County, Kansas",895.40
+"Barber County, Kansas",1134.07
+"Barton County, Kansas",895.4
 "Bourbon County, Kansas",635.47
 "Brown County, Kansas",570.87
-"Butler County, Kansas","1,429.86"
+"Butler County, Kansas",1429.86
 "Chase County, Kansas",773.06
 "Chautauqua County, Kansas",638.88
 "Cherokee County, Kansas",587.57
-"Cheyenne County, Kansas","1,019.89"
+"Cheyenne County, Kansas",1019.89
 "Clark County, Kansas",974.63
-"Clay County, Kansas",645.30
+"Clay County, Kansas",645.3
 "Cloud County, Kansas",715.34
 "Coffey County, Kansas",626.95
-"Comanche County, Kansas",788.30
-"Cowley County, Kansas","1,125.75"
+"Comanche County, Kansas",788.3
+"Cowley County, Kansas",1125.75
 "Crawford County, Kansas",589.76
 "Decatur County, Kansas",893.52
 "Dickinson County, Kansas",847.07
@@ -914,16 +914,16 @@ County,Size
 "Elk County, Kansas",644.27
 "Ellis County, Kansas",899.91
 "Ellsworth County, Kansas",715.85
-"Finney County, Kansas","1,301.97"
-"Ford County, Kansas","1,098.27"
+"Finney County, Kansas",1301.97
+"Ford County, Kansas",1098.27
 "Franklin County, Kansas",571.76
 "Geary County, Kansas",384.62
-"Gove County, Kansas","1,071.67"
+"Gove County, Kansas",1071.67
 "Graham County, Kansas",898.52
-"Grant County, Kansas",574.80
+"Grant County, Kansas",574.8
 "Gray County, Kansas",868.87
 "Greeley County, Kansas",778.45
-"Greenwood County, Kansas","1,143.30"
+"Greenwood County, Kansas",1143.3
 "Hamilton County, Kansas",996.51
 "Harper County, Kansas",801.27
 "Harvey County, Kansas",539.75
@@ -936,12 +936,12 @@ County,Size
 "Kearny County, Kansas",870.54
 "Kingman County, Kansas",863.36
 "Kiowa County, Kansas",722.64
-"Labette County, Kansas",645.30
+"Labette County, Kansas",645.3
 "Lane County, Kansas",717.46
 "Leavenworth County, Kansas",462.83
-"Lincoln County, Kansas",719.40
+"Lincoln County, Kansas",719.4
 "Linn County, Kansas",594.06
-"Logan County, Kansas","1,072.99"
+"Logan County, Kansas",1072.99
 "Lyon County, Kansas",847.47
 "Marion County, Kansas",944.29
 "Marshall County, Kansas",900.18
@@ -954,17 +954,17 @@ County,Size
 "Morton County, Kansas",729.73
 "Nemaha County, Kansas",717.43
 "Neosho County, Kansas",571.47
-"Ness County, Kansas","1,074.75"
+"Ness County, Kansas",1074.75
 "Norton County, Kansas",878.13
 "Osage County, Kansas",705.52
-"Osborne County, Kansas",892.50
+"Osborne County, Kansas",892.5
 "Ottawa County, Kansas",720.73
 "Pawnee County, Kansas",754.26
 "Phillips County, Kansas",885.88
 "Pottawatomie County, Kansas",841.02
 "Pratt County, Kansas",735.05
-"Rawlins County, Kansas","1,069.42"
-"Reno County, Kansas","1,255.35"
+"Rawlins County, Kansas",1069.42
+"Reno County, Kansas",1255.35
 "Republic County, Kansas",717.37
 "Rice County, Kansas",726.24
 "Riley County, Kansas",609.77
@@ -974,24 +974,24 @@ County,Size
 "Saline County, Kansas",720.23
 "Scott County, Kansas",717.54
 "Sedgwick County, Kansas",997.51
-"Seward County, Kansas",639.50
+"Seward County, Kansas",639.5
 "Shawnee County, Kansas",544.02
 "Sheridan County, Kansas",895.96
-"Sherman County, Kansas","1,056.07"
+"Sherman County, Kansas",1056.07
 "Smith County, Kansas",895.47
 "Stafford County, Kansas",792.05
 "Stanton County, Kansas",680.35
 "Stevens County, Kansas",727.29
-"Sumner County, Kansas","1,181.94"
-"Thomas County, Kansas","1,074.69"
+"Sumner County, Kansas",1181.94
+"Thomas County, Kansas",1074.69
 "Trego County, Kansas",889.48
-"Wabaunsee County, Kansas",794.30
+"Wabaunsee County, Kansas",794.3
 "Wallace County, Kansas",913.65
 "Washington County, Kansas",894.76
 "Wichita County, Kansas",718.57
 "Wilson County, Kansas",570.42
 "Woodson County, Kansas",497.82
-"Wyandotte County, Kansas",151.60
+"Wyandotte County, Kansas",151.6
 "Adair County, Kentucky",405.28
 "Allen County, Kentucky",344.34
 "Anderson County, Kentucky",201.83
@@ -1117,19 +1117,19 @@ County,Size
 "Ascension County, Louisiana",289.98
 "Assumption County, Louisiana",338.66
 "Avoyelles County, Louisiana",832.43
-"Beauregard County, Louisiana","1,157.34"
+"Beauregard County, Louisiana",1157.34
 "Bienville County, Louisiana",811.27
 "Bossier County, Louisiana",840.06
 "Caddo County, Louisiana",878.54
-"Calcasieu County, Louisiana","1,063.66"
+"Calcasieu County, Louisiana",1063.66
 "Caldwell County, Louisiana",529.43
-"Cameron County, Louisiana","1,284.89"
+"Cameron County, Louisiana",1284.89
 "Catahoula County, Louisiana",708.03
 "Claiborne County, Louisiana",754.88
 "Concordia County, Louisiana",696.92
 "De Soto County, Louisiana",875.58
 "East Baton Rouge County, Louisiana",455.37
-"East Carroll County, Louisiana",420.70
+"East Carroll County, Louisiana",420.7
 "East Feliciana County, Louisiana",453.41
 "Evangeline County, Louisiana",662.38
 "Franklin County, Louisiana",624.59
@@ -1141,23 +1141,23 @@ County,Size
 "Jefferson County, Louisiana",295.63
 "La Salle County, Louisiana",624.68
 "Lafayette County, Louisiana",268.72
-"Lafourche County, Louisiana","1,068.21"
+"Lafourche County, Louisiana",1068.21
 "Lincoln County, Louisiana",471.74
 "Livingston County, Louisiana",648.17
 "Madison County, Louisiana",624.44
 "Morehouse County, Louisiana",794.93
-"Natchitoches County, Louisiana","1,252.25"
+"Natchitoches County, Louisiana",1252.25
 "Orleans County, Louisiana",169.42
 "Ouachita County, Louisiana",610.41
 "Plaquemines County, Louisiana",779.91
 "Pointe Coupee County, Louisiana",557.35
-"Rapides County, Louisiana","1,317.96"
+"Rapides County, Louisiana",1317.96
 "Red River County, Louisiana",389.09
 "Richland County, Louisiana",559.04
 "Sabine County, Louisiana",866.66
 "St. Bernard County, Louisiana",377.52
 "St. Charles County, Louisiana",279.08
-"St. Helena County, Louisiana",408.40
+"St. Helena County, Louisiana",408.4
 "St. James County, Louisiana",241.54
 "St. John the Baptist County, Louisiana",213.07
 "St. Landry County, Louisiana",923.88
@@ -1166,10 +1166,10 @@ County,Size
 "St. Tammany County, Louisiana",845.55
 "Tangipahoa County, Louisiana",791.28
 "Tensas County, Louisiana",602.78
-"Terrebonne County, Louisiana","1,231.82"
+"Terrebonne County, Louisiana",1231.82
 "Union County, Louisiana",876.99
-"Vermilion County, Louisiana","1,173.20"
-"Vernon County, Louisiana","1,327.91"
+"Vermilion County, Louisiana",1173.2
+"Vernon County, Louisiana",1327.91
 "Washington County, Louisiana",669.53
 "Webster County, Louisiana",593.03
 "West Baton Rouge County, Louisiana",192.39
@@ -1177,20 +1177,20 @@ County,Size
 "West Feliciana County, Louisiana",403.21
 "Winn County, Louisiana",950.09
 "Androscoggin County, Maine",467.93
-"Aroostook County, Maine","6,671.33"
+"Aroostook County, Maine",6671.33
 "Cumberland County, Maine",835.24
-"Franklin County, Maine","1,696.61"
-"Hancock County, Maine","1,586.89"
+"Franklin County, Maine",1696.61
+"Hancock County, Maine",1586.89
 "Kennebec County, Maine",867.52
 "Knox County, Maine",365.13
 "Lincoln County, Maine",455.82
-"Oxford County, Maine","2,076.84"
-"Penobscot County, Maine","3,397.36"
-"Piscataquis County, Maine","3,960.86"
-"Sagadahoc County, Maine",253.70
-"Somerset County, Maine","3,924.40"
+"Oxford County, Maine",2076.84
+"Penobscot County, Maine",3397.36
+"Piscataquis County, Maine",3960.86
+"Sagadahoc County, Maine",253.7
+"Somerset County, Maine",3924.4
 "Waldo County, Maine",729.92
-"Washington County, Maine","2,562.66"
+"Washington County, Maine",2562.66
 "York County, Maine",990.71
 "Allegany County, Maryland",424.16
 "Anne Arundel County, Maryland",414.9
@@ -1218,7 +1218,7 @@ County,Size
 "Worcester County, Maryland",468.28
 "Barnstable County, Massachusetts",393.72
 "Berkshire County, Massachusetts",926.83
-"Bristol County, Massachusetts",553.10
+"Bristol County, Massachusetts",553.1
 "Dukes County, Massachusetts",103.25
 "Essex County, Massachusetts",492.56
 "Franklin County, Massachusetts",699.32
@@ -1229,43 +1229,43 @@ County,Size
 "Norfolk County, Massachusetts",396.11
 "Plymouth County, Massachusetts",659.08
 "Suffolk County, Massachusetts",58.15
-"Worcester County, Massachusetts","1,510.77"
+"Worcester County, Massachusetts",1510.77
 "Alcona County, Michigan",674.59
 "Alger County, Michigan",915.07
 "Allegan County, Michigan",825.23
 "Alpena County, Michigan",571.86
-"Antrim County, Michigan",475.70
+"Antrim County, Michigan",475.7
 "Arenac County, Michigan",363.19
 "Baraga County, Michigan",898.26
 "Barry County, Michigan",553.09
-"Bay County, Michigan",442.30
-"Benzie County, Michigan",319.70
+"Bay County, Michigan",442.3
+"Benzie County, Michigan",319.7
 "Berrien County, Michigan",567.75
 "Branch County, Michigan",506.37
 "Calhoun County, Michigan",706.23
 "Cass County, Michigan",490.06
 "Charlevoix County, Michigan",416.34
 "Cheboygan County, Michigan",715.26
-"Chippewa County, Michigan","1,558.42"
+"Chippewa County, Michigan",1558.42
 "Clare County, Michigan",564.32
 "Clinton County, Michigan",566.41
 "Crawford County, Michigan",556.28
-"Delta County, Michigan","1,171.10"
-"Dickinson County, Michigan",761.40
+"Delta County, Michigan",1171.1
+"Dickinson County, Michigan",761.4
 "Eaton County, Michigan",575.18
 "Emmet County, Michigan",467.49
 "Genesee County, Michigan",636.98
 "Gladwin County, Michigan",501.78
-"Gogebic County, Michigan","1,101.85"
+"Gogebic County, Michigan",1101.85
 "Grand Traverse County, Michigan",464.33
 "Gratiot County, Michigan",568.46
 "Hillsdale County, Michigan",598.13
-"Houghton County, Michigan","1,009.10"
+"Houghton County, Michigan",1009.1
 "Huron County, Michigan",835.71
 "Ingham County, Michigan",556.12
-"Ionia County, Michigan",571.30
-"Iosco County, Michigan",549.10
-"Iron County, Michigan","1,166.15"
+"Ionia County, Michigan",571.3
+"Iosco County, Michigan",549.1
+"Iron County, Michigan",1166.15
 "Isabella County, Michigan",572.68
 "Jackson County, Michigan",701.67
 "Kalamazoo County, Michigan",561.66
@@ -1278,24 +1278,24 @@ County,Size
 "Lenawee County, Michigan",749.56
 "Livingston County, Michigan",565.25
 "Luce County, Michigan",899.08
-"Mackinac County, Michigan","1,021.57"
+"Mackinac County, Michigan",1021.57
 "Macomb County, Michigan",479.22
 "Manistee County, Michigan",542.15
-"Marquette County, Michigan","1,808.40"
+"Marquette County, Michigan",1808.4
 "Mason County, Michigan",495.07
 "Mecosta County, Michigan",555.07
-"Menominee County, Michigan","1,044.08"
+"Menominee County, Michigan",1044.08
 "Midland County, Michigan",516.25
 "Missaukee County, Michigan",564.73
 "Monroe County, Michigan",549.39
-"Montcalm County, Michigan",705.40
+"Montcalm County, Michigan",705.4
 "Montmorency County, Michigan",546.66
 "Muskegon County, Michigan",499.25
-"Newaygo County, Michigan",813.20
+"Newaygo County, Michigan",813.2
 "Oakland County, Michigan",867.66
 "Oceana County, Michigan",512.07
 "Ogemaw County, Michigan",563.49
-"Ontonagon County, Michigan","1,311.23"
+"Ontonagon County, Michigan",1311.23
 "Osceola County, Michigan",566.39
 "Oscoda County, Michigan",565.73
 "Otsego County, Michigan",514.97
@@ -1304,7 +1304,7 @@ County,Size
 "Roscommon County, Michigan",519.64
 "Saginaw County, Michigan",800.11
 "Sanilac County, Michigan",962.57
-"Schoolcraft County, Michigan","1,171.36"
+"Schoolcraft County, Michigan",1171.36
 "Shiawassee County, Michigan",530.67
 "St. Clair County, Michigan",721.17
 "St. Joseph County, Michigan",500.59
@@ -1312,30 +1312,30 @@ County,Size
 "Van Buren County, Michigan",607.47
 "Washtenaw County, Michigan",705.97
 "Wayne County, Michigan",612.08
-"Wexford County, Michigan",565.00
-"Aitkin County, Minnesota","1,821.66"
+"Wexford County, Michigan",565.0
+"Aitkin County, Minnesota",1821.66
 "Anoka County, Minnesota",423.01
-"Becker County, Minnesota","1,315.20"
-"Beltrami County, Minnesota","2,504.94"
-"Benton County, Minnesota",408.30
+"Becker County, Minnesota",1315.2
+"Beltrami County, Minnesota",2504.94
+"Benton County, Minnesota",408.3
 "Big Stone County, Minnesota",499.02
 "Blue Earth County, Minnesota",747.84
 "Brown County, Minnesota",611.09
 "Carlton County, Minnesota",861.38
 "Carver County, Minnesota",354.33
-"Cass County, Minnesota","2,021.54"
+"Cass County, Minnesota",2021.54
 "Chippewa County, Minnesota",581.12
 "Chisago County, Minnesota",414.86
-"Clay County, Minnesota","1,045.37"
+"Clay County, Minnesota",1045.37
 "Clearwater County, Minnesota",998.94
-"Cook County, Minnesota","1,452.28"
+"Cook County, Minnesota",1452.28
 "Cottonwood County, Minnesota",638.61
-"Crow Wing County, Minnesota",999.10
+"Crow Wing County, Minnesota",999.1
 "Dakota County, Minnesota",562.17
 "Dodge County, Minnesota",439.28
-"Douglas County, Minnesota",637.30
+"Douglas County, Minnesota",637.3
 "Faribault County, Minnesota",712.48
-"Fillmore County, Minnesota",861.30
+"Fillmore County, Minnesota",861.3
 "Freeborn County, Minnesota",707.09
 "Goodhue County, Minnesota",756.84
 "Grant County, Minnesota",548.16
@@ -1343,36 +1343,36 @@ County,Size
 "Houston County, Minnesota",552.06
 "Hubbard County, Minnesota",925.68
 "Isanti County, Minnesota",435.79
-"Itasca County, Minnesota","2,667.72"
+"Itasca County, Minnesota",2667.72
 "Jackson County, Minnesota",702.98
 "Kanabec County, Minnesota",521.59
 "Kandiyohi County, Minnesota",796.79
-"Kittson County, Minnesota","1,098.80"
-"Koochiching County, Minnesota","3,104.07"
+"Kittson County, Minnesota",1098.8
+"Koochiching County, Minnesota",3104.07
 "Lac qui Parle County, Minnesota",765.02
-"Lake County, Minnesota","2,109.29"
-"Lake of the Woods County, Minnesota","1,297.87"
+"Lake County, Minnesota",2109.29
+"Lake of the Woods County, Minnesota",1297.87
 "Le Sueur County, Minnesota",448.76
 "Lincoln County, Minnesota",536.76
 "Lyon County, Minnesota",714.56
 "Mahnomen County, Minnesota",557.88
-"Marshall County, Minnesota","1,775.07"
+"Marshall County, Minnesota",1775.07
 "Martin County, Minnesota",712.35
 "McLeod County, Minnesota",491.47
 "Meeker County, Minnesota",608.18
 "Mille Lacs County, Minnesota",572.31
-"Morrison County, Minnesota","1,125.06"
+"Morrison County, Minnesota",1125.06
 "Mower County, Minnesota",711.33
-"Murray County, Minnesota",704.70
+"Murray County, Minnesota",704.7
 "Nicollet County, Minnesota",448.49
 "Nobles County, Minnesota",715.11
 "Norman County, Minnesota",872.79
 "Olmsted County, Minnesota",653.35
-"Otter Tail County, Minnesota","1,972.07"
+"Otter Tail County, Minnesota",1972.07
 "Pennington County, Minnesota",616.57
-"Pine County, Minnesota","1,411.29"
+"Pine County, Minnesota",1411.29
 "Pipestone County, Minnesota",465.06
-"Polk County, Minnesota","1,971.13"
+"Polk County, Minnesota",1971.13
 "Pope County, Minnesota",669.71
 "Ramsey County, Minnesota",152.21
 "Red Lake County, Minnesota",432.41
@@ -1380,17 +1380,17 @@ County,Size
 "Renville County, Minnesota",982.91
 "Rice County, Minnesota",495.68
 "Rock County, Minnesota",482.46
-"Roseau County, Minnesota","1,671.60"
+"Roseau County, Minnesota",1671.6
 "Scott County, Minnesota",356.48
 "Sherburne County, Minnesota",432.92
 "Sibley County, Minnesota",588.78
-"St. Louis County, Minnesota","6,247.40"
-"Stearns County, Minnesota","1,343.13"
+"St. Louis County, Minnesota",6247.4
+"Stearns County, Minnesota",1343.13
 "Steele County, Minnesota",429.65
-"Stevens County, Minnesota",563.60
+"Stevens County, Minnesota",563.6
 "Swift County, Minnesota",742.08
 "Todd County, Minnesota",944.98
-"Traverse County, Minnesota",573.90
+"Traverse County, Minnesota",573.9
 "Wabasha County, Minnesota",522.98
 "Wadena County, Minnesota",536.27
 "Waseca County, Minnesota",423.36
@@ -1399,7 +1399,7 @@ County,Size
 "Wilkin County, Minnesota",750.96
 "Winona County, Minnesota",626.21
 "Wright County, Minnesota",661.46
-"Yellow Medicine County, Minnesota",759.10
+"Yellow Medicine County, Minnesota",759.1
 "Adams County, Mississippi",462.41
 "Alcorn County, Mississippi",400.04
 "Amite County, Mississippi",730.1
@@ -1483,8 +1483,8 @@ County,Size
 "Yalobusha County, Mississippi",467.13
 "Yazoo County, Mississippi",922.95
 "Adair County, Missouri",567.32
-"Andrew County, Missouri",432.70
-"Atchison County, Missouri",547.30
+"Andrew County, Missouri",432.7
+"Atchison County, Missouri",547.3
 "Audrain County, Missouri",692.24
 "Barry County, Missouri",778.25
 "Barton County, Missouri",591.92
@@ -1505,7 +1505,7 @@ County,Size
 "Chariton County, Missouri",751.18
 "Christian County, Missouri",562.65
 "Clark County, Missouri",504.69
-"Clay County, Missouri",397.30
+"Clay County, Missouri",397.3
 "Clinton County, Missouri",418.96
 "Cole County, Missouri",393.75
 "Cooper County, Missouri",564.77
@@ -1518,11 +1518,11 @@ County,Size
 "Douglas County, Missouri",813.63
 "Dunklin County, Missouri",541.07
 "Franklin County, Missouri",922.68
-"Gasconade County, Missouri",517.80
+"Gasconade County, Missouri",517.8
 "Gentry County, Missouri",491.42
-"Greene County, Missouri",675.30
+"Greene County, Missouri",675.3
 "Grundy County, Missouri",435.28
-"Harrison County, Missouri",722.50
+"Harrison County, Missouri",722.5
 "Henry County, Missouri",696.95
 "Hickory County, Missouri",399.09
 "Holt County, Missouri",462.69
@@ -1547,7 +1547,7 @@ County,Size
 "Marion County, Missouri",436.92
 "McDonald County, Missouri",539.48
 "Mercer County, Missouri",453.84
-"Miller County, Missouri",592.60
+"Miller County, Missouri",592.6
 "Mississippi County, Missouri",411.58
 "Moniteau County, Missouri",415.03
 "Monroe County, Missouri",647.65
@@ -1556,7 +1556,7 @@ County,Size
 "New Madrid County, Missouri",674.84
 "Newton County, Missouri",624.77
 "Nodaway County, Missouri",876.96
-"Oregon County, Missouri",789.80
+"Oregon County, Missouri",789.8
 "Osage County, Missouri",604.35
 "Ozark County, Missouri",744.97
 "Pemiscot County, Missouri",492.54
@@ -1566,117 +1566,117 @@ County,Size
 "Pike County, Missouri",670.44
 "Platte County, Missouri",420.19
 "Polk County, Missouri",635.52
-"Pulaski County, Missouri",547.10
+"Pulaski County, Missouri",547.1
 "Putnam County, Missouri",517.32
 "Ralls County, Missouri",469.78
 "Randolph County, Missouri",482.68
 "Ray County, Missouri",568.81
 "Reynolds County, Missouri",808.48
 "Ripley County, Missouri",629.54
-"Saline County, Missouri",755.50
-"Schuyler County, Missouri",307.30
+"Saline County, Missouri",755.5
+"Schuyler County, Missouri",307.3
 "Scotland County, Missouri",436.67
 "Scott County, Missouri",419.99
-"Shannon County, Missouri","1,003.82"
+"Shannon County, Missouri",1003.82
 "Shelby County, Missouri",500.86
 "St. Charles County, Missouri",560.44
 "St. Clair County, Missouri",669.98
 "St. Francois County, Missouri",451.89
-"St. Louis County, Missouri",507.80
+"St. Louis County, Missouri",507.8
 "St. Louis city County, Missouri",61.91
 "Ste. Genevieve County, Missouri",499.15
 "Stoddard County, Missouri",823.22
 "Stone County, Missouri",464.03
 "Sullivan County, Missouri",647.98
 "Taney County, Missouri",632.44
-"Texas County, Missouri","1,177.27"
-"Vernon County, Missouri",826.40
-"Warren County, Missouri",428.60
+"Texas County, Missouri",1177.27
+"Vernon County, Missouri",826.4
+"Warren County, Missouri",428.6
 "Washington County, Missouri",759.91
 "Wayne County, Missouri",759.18
 "Webster County, Missouri",592.56
 "Worth County, Missouri",266.61
 "Wright County, Missouri",681.77
-"Beaverhead County, Montana","5,541.62"
-"Big Horn County, Montana","4,995.46"
-"Blaine County, Montana","4,227.55"
-"Broadwater County, Montana","1,192.54"
-"Carbon County, Montana","2,048.79"
-"Carter County, Montana","3,340.75"
-"Cascade County, Montana","2,698.16"
-"Chouteau County, Montana","3,972.49"
-"Custer County, Montana","3,783.36"
-"Daniels County, Montana","1,426.11"
-"Dawson County, Montana","2,371.87"
+"Beaverhead County, Montana",5541.62
+"Big Horn County, Montana",4995.46
+"Blaine County, Montana",4227.55
+"Broadwater County, Montana",1192.54
+"Carbon County, Montana",2048.79
+"Carter County, Montana",3340.75
+"Cascade County, Montana",2698.16
+"Chouteau County, Montana",3972.49
+"Custer County, Montana",3783.36
+"Daniels County, Montana",1426.11
+"Dawson County, Montana",2371.87
 "Deer Lodge County, Montana",736.53
-"Fallon County, Montana","1,620.77"
-"Fergus County, Montana","4,339.80"
-"Flathead County, Montana","5,087.66"
-"Gallatin County, Montana","2,602.69"
-"Garfield County, Montana","4,675.36"
-"Glacier County, Montana","2,995.94"
-"Golden Valley County, Montana","1,175.34"
-"Granite County, Montana","1,727.42"
-"Hill County, Montana","2,898.96"
-"Jefferson County, Montana","1,656.26"
-"Judith Basin County, Montana","1,869.82"
-"Lake County, Montana","1,490.15"
-"Lewis and Clark County, Montana","3,458.83"
-"Liberty County, Montana","1,430.05"
-"Lincoln County, Montana","3,612.92"
-"Madison County, Montana","3,587.48"
-"McCone County, Montana","2,643.17"
-"Meagher County, Montana","2,391.91"
-"Mineral County, Montana","1,219.44"
-"Missoula County, Montana","2,593.42"
-"Musselshell County, Montana","1,868.16"
-"Park County, Montana","2,803.06"
-"Petroleum County, Montana","1,654.87"
-"Phillips County, Montana","5,140.04"
-"Pondera County, Montana","1,622.86"
-"Powder River County, Montana","3,297.30"
-"Powell County, Montana","2,326.39"
-"Prairie County, Montana","1,736.74"
-"Ravalli County, Montana","2,390.82"
-"Richland County, Montana","2,084.14"
-"Roosevelt County, Montana","2,354.79"
-"Rosebud County, Montana","5,010.40"
-"Sanders County, Montana","2,760.52"
-"Sheridan County, Montana","1,677.08"
+"Fallon County, Montana",1620.77
+"Fergus County, Montana",4339.8
+"Flathead County, Montana",5087.66
+"Gallatin County, Montana",2602.69
+"Garfield County, Montana",4675.36
+"Glacier County, Montana",2995.94
+"Golden Valley County, Montana",1175.34
+"Granite County, Montana",1727.42
+"Hill County, Montana",2898.96
+"Jefferson County, Montana",1656.26
+"Judith Basin County, Montana",1869.82
+"Lake County, Montana",1490.15
+"Lewis and Clark County, Montana",3458.83
+"Liberty County, Montana",1430.05
+"Lincoln County, Montana",3612.92
+"Madison County, Montana",3587.48
+"McCone County, Montana",2643.17
+"Meagher County, Montana",2391.91
+"Mineral County, Montana",1219.44
+"Missoula County, Montana",2593.42
+"Musselshell County, Montana",1868.16
+"Park County, Montana",2803.06
+"Petroleum County, Montana",1654.87
+"Phillips County, Montana",5140.04
+"Pondera County, Montana",1622.86
+"Powder River County, Montana",3297.3
+"Powell County, Montana",2326.39
+"Prairie County, Montana",1736.74
+"Ravalli County, Montana",2390.82
+"Richland County, Montana",2084.14
+"Roosevelt County, Montana",2354.79
+"Rosebud County, Montana",5010.4
+"Sanders County, Montana",2760.52
+"Sheridan County, Montana",1677.08
 "Silver Bow County, Montana",718.48
-"Stillwater County, Montana","1,795.35"
-"Sweet Grass County, Montana","1,855.21"
-"Teton County, Montana","2,272.38"
-"Toole County, Montana","1,915.65"
-"Treasure County, Montana",977.40
-"Valley County, Montana","4,925.82"
-"Wheatland County, Montana","1,423.20"
+"Stillwater County, Montana",1795.35
+"Sweet Grass County, Montana",1855.21
+"Teton County, Montana",2272.38
+"Toole County, Montana",1915.65
+"Treasure County, Montana",977.4
+"Valley County, Montana",4925.82
+"Wheatland County, Montana",1423.2
 "Wibaux County, Montana",889.27
-"Yellowstone County, Montana","2,633.29"
+"Yellowstone County, Montana",2633.29
 "Adams County, Nebraska",563.27
 "Antelope County, Nebraska",857.22
 "Arthur County, Nebraska",715.36
 "Banner County, Nebraska",746.11
 "Blaine County, Nebraska",710.87
 "Boone County, Nebraska",686.55
-"Box Butte County, Nebraska","1,075.29"
+"Box Butte County, Nebraska",1075.29
 "Boyd County, Nebraska",539.94
-"Brown County, Nebraska","1,221.33"
+"Brown County, Nebraska",1221.33
 "Buffalo County, Nebraska",968.11
 "Burt County, Nebraska",491.58
 "Butler County, Nebraska",584.91
 "Cass County, Nebraska",557.45
 "Cedar County, Nebraska",740.31
 "Chase County, Nebraska",894.42
-"Cherry County, Nebraska","5,960.42"
-"Cheyenne County, Nebraska","1,196.29"
+"Cherry County, Nebraska",5960.42
+"Cheyenne County, Nebraska",1196.29
 "Clay County, Nebraska",572.29
 "Colfax County, Nebraska",411.66
 "Cuming County, Nebraska",570.62
-"Custer County, Nebraska","2,575.52"
+"Custer County, Nebraska",2575.52
 "Dakota County, Nebraska",264.26
-"Dawes County, Nebraska","1,396.46"
-"Dawson County, Nebraska","1,013.10"
+"Dawes County, Nebraska",1396.46
+"Dawson County, Nebraska",1013.1
 "Deuel County, Nebraska",439.85
 "Dixon County, Nebraska",476.23
 "Dodge County, Nebraska",528.71
@@ -1687,7 +1687,7 @@ County,Size
 "Frontier County, Nebraska",974.59
 "Furnas County, Nebraska",719.13
 "Gage County, Nebraska",851.49
-"Garden County, Nebraska","1,704.28"
+"Garden County, Nebraska",1704.28
 "Garfield County, Nebraska",569.79
 "Gosper County, Nebraska",458.16
 "Grant County, Nebraska",776.22
@@ -1697,24 +1697,24 @@ County,Size
 "Harlan County, Nebraska",553.47
 "Hayes County, Nebraska",713.06
 "Hitchcock County, Nebraska",709.94
-"Holt County, Nebraska","2,412.40"
+"Holt County, Nebraska",2412.4
 "Hooker County, Nebraska",721.12
 "Howard County, Nebraska",569.34
 "Jefferson County, Nebraska",570.19
 "Johnson County, Nebraska",376.05
 "Kearney County, Nebraska",516.24
-"Keith County, Nebraska","1,061.60"
+"Keith County, Nebraska",1061.6
 "Keya Paha County, Nebraska",773.07
 "Kimball County, Nebraska",951.85
-"Knox County, Nebraska","1,108.35"
+"Knox County, Nebraska",1108.35
 "Lancaster County, Nebraska",837.55
-"Lincoln County, Nebraska","2,564.07"
+"Lincoln County, Nebraska",2564.07
 "Logan County, Nebraska",570.66
 "Loup County, Nebraska",568.29
 "Madison County, Nebraska",572.74
 "McPherson County, Nebraska",858.98
 "Merrick County, Nebraska",484.88
-"Morrill County, Nebraska","1,423.84"
+"Morrill County, Nebraska",1423.84
 "Nance County, Nebraska",441.63
 "Nemaha County, Nebraska",407.38
 "Nuckolls County, Nebraska",575.16
@@ -1727,15 +1727,15 @@ County,Size
 "Polk County, Nebraska",438.35
 "Red Willow County, Nebraska",716.99
 "Richardson County, Nebraska",551.84
-"Rock County, Nebraska","1,008.32"
+"Rock County, Nebraska",1008.32
 "Saline County, Nebraska",574.02
 "Sarpy County, Nebraska",238.99
 "Saunders County, Nebraska",750.23
-"Scotts Bluff County, Nebraska",739.40
+"Scotts Bluff County, Nebraska",739.4
 "Seward County, Nebraska",571.43
-"Sheridan County, Nebraska","2,440.86"
+"Sheridan County, Nebraska",2440.86
 "Sherman County, Nebraska",565.83
-"Sioux County, Nebraska","2,066.74"
+"Sioux County, Nebraska",2066.74
 "Stanton County, Nebraska",427.95
 "Thayer County, Nebraska",573.81
 "Thomas County, Nebraska",713.24
@@ -1747,27 +1747,27 @@ County,Size
 "Wheeler County, Nebraska",575.18
 "York County, Nebraska",572.51
 "Carson City County, Nevada",144.66
-"Churchill County, Nevada","4,930.46"
-"Clark County, Nevada","7,891.43"
+"Churchill County, Nevada",4930.46
+"Clark County, Nevada",7891.43
 "Douglas County, Nevada",709.72
-"Elko County, Nevada","17,169.83"
-"Esmeralda County, Nevada","3,581.88"
-"Eureka County, Nevada","4,175.68"
-"Humboldt County, Nevada","9,640.76"
-"Lander County, Nevada","5,490.11"
-"Lincoln County, Nevada","10,633.20"
-"Lyon County, Nevada","2,001.19"
-"Mineral County, Nevada","3,752.84"
-"Nye County, Nevada","18,181.92"
-"Pershing County, Nevada","6,036.56"
+"Elko County, Nevada",17169.83
+"Esmeralda County, Nevada",3581.88
+"Eureka County, Nevada",4175.68
+"Humboldt County, Nevada",9640.76
+"Lander County, Nevada",5490.11
+"Lincoln County, Nevada",10633.2
+"Lyon County, Nevada",2001.19
+"Mineral County, Nevada",3752.84
+"Nye County, Nevada",18181.92
+"Pershing County, Nevada",6036.56
 "Storey County, Nevada",262.92
-"Washoe County, Nevada","6,302.37"
-"White Pine County, Nevada","8,875.65"
+"Washoe County, Nevada",6302.37
+"White Pine County, Nevada",8875.65
 "Belknap County, New Hampshire",400.23
 "Carroll County, New Hampshire",931.06
 "Cheshire County, New Hampshire",706.66
-"Coos County, New Hampshire","1,794.69"
-"Grafton County, New Hampshire","1,708.75"
+"Coos County, New Hampshire",1794.69
+"Grafton County, New Hampshire",1708.75
 "Hillsborough County, New Hampshire",876.14
 "Merrimack County, New Hampshire",934.12
 "Rockingham County, New Hampshire",694.72
@@ -1794,64 +1794,64 @@ County,Size
 "Sussex County, New Jersey",519.01
 "Union County, New Jersey",102.86
 "Warren County, New Jersey",356.92
-"Bernalillo County, New Mexico","1,160.83"
-"Catron County, New Mexico","6,923.69"
-"Chaves County, New Mexico","6,065.28"
-"Cibola County, New Mexico","4,539.48"
-"Colfax County, New Mexico","3,758.06"
-"Curry County, New Mexico","1,404.80"
-"De Baca County, New Mexico","2,322.62"
-"Do±a Ana County, New Mexico","3,807.51"
-"Eddy County, New Mexico","4,175.73"
-"Grant County, New Mexico","3,961.63"
-"Guadalupe County, New Mexico","3,030.48"
-"Harding County, New Mexico","2,125.44"
-"Hidalgo County, New Mexico","3,436.86"
-"Lea County, New Mexico","4,390.93"
-"Lincoln County, New Mexico","4,831.09"
+"Bernalillo County, New Mexico",1160.83
+"Catron County, New Mexico",6923.69
+"Chaves County, New Mexico",6065.28
+"Cibola County, New Mexico",4539.48
+"Colfax County, New Mexico",3758.06
+"Curry County, New Mexico",1404.8
+"De Baca County, New Mexico",2322.62
+"Do±a Ana County, New Mexico",3807.51
+"Eddy County, New Mexico",4175.73
+"Grant County, New Mexico",3961.63
+"Guadalupe County, New Mexico",3030.48
+"Harding County, New Mexico",2125.44
+"Hidalgo County, New Mexico",3436.86
+"Lea County, New Mexico",4390.93
+"Lincoln County, New Mexico",4831.09
 "Los Alamos County, New Mexico",109.17
-"Luna County, New Mexico","2,965.19"
-"McKinley County, New Mexico","5,449.81"
-"Mora County, New Mexico","1,931.27"
-"Otero County, New Mexico","6,613.21"
-"Quay County, New Mexico","2,874.35"
-"Rio Arriba County, New Mexico","5,860.84"
-"Roosevelt County, New Mexico","2,447.43"
-"San Juan County, New Mexico","5,513.07"
-"San Miguel County, New Mexico","4,715.82"
-"Sandoval County, New Mexico","3,710.65"
-"Santa Fe County, New Mexico","1,909.41"
-"Sierra County, New Mexico","4,178.96"
-"Socorro County, New Mexico","6,646.68"
-"Taos County, New Mexico","2,203.11"
-"Torrance County, New Mexico","3,344.85"
-"Union County, New Mexico","3,823.74"
-"Valencia County, New Mexico","1,066.18"
-"Albany County, New York",522.80
-"Allegany County, New York","1,029.31"
-"Bronx County, New York",42.10
+"Luna County, New Mexico",2965.19
+"McKinley County, New Mexico",5449.81
+"Mora County, New Mexico",1931.27
+"Otero County, New Mexico",6613.21
+"Quay County, New Mexico",2874.35
+"Rio Arriba County, New Mexico",5860.84
+"Roosevelt County, New Mexico",2447.43
+"San Juan County, New Mexico",5513.07
+"San Miguel County, New Mexico",4715.82
+"Sandoval County, New Mexico",3710.65
+"Santa Fe County, New Mexico",1909.41
+"Sierra County, New Mexico",4178.96
+"Socorro County, New Mexico",6646.68
+"Taos County, New Mexico",2203.11
+"Torrance County, New Mexico",3344.85
+"Union County, New Mexico",3823.74
+"Valencia County, New Mexico",1066.18
+"Albany County, New York",522.8
+"Allegany County, New York",1029.31
+"Bronx County, New York",42.1
 "Broome County, New York",705.77
-"Cattaraugus County, New York","1,308.35"
+"Cattaraugus County, New York",1308.35
 "Cayuga County, New York",691.58
-"Chautauqua County, New York","1,060.23"
+"Chautauqua County, New York",1060.23
 "Chemung County, New York",407.35
 "Chenango County, New York",893.55
-"Clinton County, New York","1,037.85"
+"Clinton County, New York",1037.85
 "Columbia County, New York",634.71
 "Cortland County, New York",498.76
-"Delaware County, New York","1,442.44"
+"Delaware County, New York",1442.44
 "Dutchess County, New York",795.63
-"Erie County, New York","1,042.69"
-"Essex County, New York","1,794.23"
-"Franklin County, New York","1,629.12"
+"Erie County, New York",1042.69
+"Essex County, New York",1794.23
+"Franklin County, New York",1629.12
 "Fulton County, New York",495.47
 "Genesee County, New York",492.94
 "Greene County, New York",647.16
-"Hamilton County, New York","1,717.37"
-"Herkimer County, New York","1,411.47"
-"Jefferson County, New York","1,268.59"
+"Hamilton County, New York",1717.37
+"Herkimer County, New York",1411.47
+"Jefferson County, New York",1268.59
 "Kings County, New York",70.82
-"Lewis County, New York","1,274.68"
+"Lewis County, New York",1274.68
 "Livingston County, New York",631.76
 "Madison County, New York",654.84
 "Monroe County, New York",657.21
@@ -1859,13 +1859,13 @@ County,Size
 "Nassau County, New York",284.72
 "New York County, New York",22.83
 "Niagara County, New York",522.36
-"Oneida County, New York","1,212.43"
+"Oneida County, New York",1212.43
 "Onondaga County, New York",778.39
 "Ontario County, New York",644.07
 "Orange County, New York",811.69
 "Orleans County, New York",391.26
 "Oswego County, New York",951.65
-"Otsego County, New York","1,001.70"
+"Otsego County, New York",1001.7
 "Putnam County, New York",230.31
 "Queens County, New York",108.53
 "Rensselaer County, New York",652.43
@@ -1876,17 +1876,17 @@ County,Size
 "Schoharie County, New York",621.82
 "Schuyler County, New York",328.33
 "Seneca County, New York",323.71
-"St. Lawrence County, New York","2,680.38"
-"Steuben County, New York","1,390.56"
+"St. Lawrence County, New York",2680.38
+"Steuben County, New York",1390.56
 "Suffolk County, New York",912.05
 "Sullivan County, New York",968.13
-"Tioga County, New York",518.60
+"Tioga County, New York",518.6
 "Tompkins County, New York",474.65
-"Ulster County, New York","1,124.24"
+"Ulster County, New York",1124.24
 "Warren County, New York",866.95
 "Washington County, New York",831.18
 "Wayne County, New York",603.83
-"Westchester County, New York",430.50
+"Westchester County, New York",430.5
 "Wyoming County, New York",592.75
 "Yates County, New York",338.14
 "Alamance County, North Carolina",423.94
@@ -1990,58 +1990,58 @@ County,Size
 "Yadkin County, North Carolina",334.83
 "Yancey County, North Carolina",312.6
 "Adams County, North Dakota",987.62
-"Barnes County, North Dakota","1,491.55"
-"Benson County, North Dakota","1,388.71"
-"Billings County, North Dakota","1,148.85"
-"Bottineau County, North Dakota","1,668.42"
-"Bowman County, North Dakota","1,161.81"
-"Burke County, North Dakota","1,103.57"
-"Burleigh County, North Dakota","1,632.65"
-"Cass County, North Dakota","1,764.94"
-"Cavalier County, North Dakota","1,488.75"
-"Dickey County, North Dakota","1,131.47"
-"Divide County, North Dakota","1,260.79"
-"Dunn County, North Dakota","2,008.46"
+"Barnes County, North Dakota",1491.55
+"Benson County, North Dakota",1388.71
+"Billings County, North Dakota",1148.85
+"Bottineau County, North Dakota",1668.42
+"Bowman County, North Dakota",1161.81
+"Burke County, North Dakota",1103.57
+"Burleigh County, North Dakota",1632.65
+"Cass County, North Dakota",1764.94
+"Cavalier County, North Dakota",1488.75
+"Dickey County, North Dakota",1131.47
+"Divide County, North Dakota",1260.79
+"Dunn County, North Dakota",2008.46
 "Eddy County, North Dakota",630.17
-"Emmons County, North Dakota","1,510.44"
+"Emmons County, North Dakota",1510.44
 "Foster County, North Dakota",635.45
-"Golden Valley County, North Dakota","1,000.79"
-"Grand Forks County, North Dakota","1,436.38"
-"Grant County, North Dakota","1,659.14"
+"Golden Valley County, North Dakota",1000.79
+"Grand Forks County, North Dakota",1436.38
+"Grant County, North Dakota",1659.14
 "Griggs County, North Dakota",708.82
-"Hettinger County, North Dakota","1,132.22"
-"Kidder County, North Dakota","1,351.19"
-"LaMoure County, North Dakota","1,145.94"
+"Hettinger County, North Dakota",1132.22
+"Kidder County, North Dakota",1351.19
+"LaMoure County, North Dakota",1145.94
 "Logan County, North Dakota",992.82
-"McHenry County, North Dakota","1,873.95"
+"McHenry County, North Dakota",1873.95
 "McIntosh County, North Dakota",974.73
-"McKenzie County, North Dakota","2,760.32"
-"McLean County, North Dakota","2,110.88"
-"Mercer County, North Dakota","1,042.96"
-"Morton County, North Dakota","1,926.27"
-"Mountrail County, North Dakota","1,825.30"
+"McKenzie County, North Dakota",2760.32
+"McLean County, North Dakota",2110.88
+"Mercer County, North Dakota",1042.96
+"Morton County, North Dakota",1926.27
+"Mountrail County, North Dakota",1825.3
 "Nelson County, North Dakota",981.78
 "Oliver County, North Dakota",722.51
-"Pembina County, North Dakota","1,118.69"
-"Pierce County, North Dakota","1,018.60"
-"Ramsey County, North Dakota","1,186.85"
+"Pembina County, North Dakota",1118.69
+"Pierce County, North Dakota",1018.6
+"Ramsey County, North Dakota",1186.85
 "Ransom County, North Dakota",862.36
 "Renville County, North Dakota",877.05
-"Richland County, North Dakota","1,435.78"
+"Richland County, North Dakota",1435.78
 "Rolette County, North Dakota",903.08
 "Sargent County, North Dakota",858.51
 "Sheridan County, North Dakota",972.38
-"Sioux County, North Dakota","1,094.09"
-"Slope County, North Dakota","1,214.92"
-"Stark County, North Dakota","1,334.74"
+"Sioux County, North Dakota",1094.09
+"Slope County, North Dakota",1214.92
+"Stark County, North Dakota",1334.74
 "Steele County, North Dakota",712.22
-"Stutsman County, North Dakota","2,221.72"
-"Towner County, North Dakota","1,024.56"
+"Stutsman County, North Dakota",2221.72
+"Towner County, North Dakota",1024.56
 "Traill County, North Dakota",861.95
-"Walsh County, North Dakota","1,281.93"
-"Ward County, North Dakota","2,013.28"
-"Wells County, North Dakota","1,271.05"
-"Williams County, North Dakota","2,077.40"
+"Walsh County, North Dakota",1281.93
+"Ward County, North Dakota",2013.28
+"Wells County, North Dakota",1271.05
+"Williams County, North Dakota",2077.4
 "Adams County, Ohio",583.87
 "Allen County, Ohio",402.5
 "Ashland County, Ohio",422.95
@@ -2133,33 +2133,33 @@ County,Size
 "Adair County, Oklahoma",573.48
 "Alfalfa County, Oklahoma",866.46
 "Atoka County, Oklahoma",975.52
-"Beaver County, Oklahoma","1,814.67"
+"Beaver County, Oklahoma",1814.67
 "Beckham County, Oklahoma",901.81
 "Blaine County, Oklahoma",928.42
 "Bryan County, Oklahoma",904.47
-"Caddo County, Oklahoma","1,278.29"
+"Caddo County, Oklahoma",1278.29
 "Canadian County, Oklahoma",896.63
 "Carter County, Oklahoma",822.18
 "Cherokee County, Oklahoma",749.41
 "Choctaw County, Oklahoma",770.36
-"Cimarron County, Oklahoma","1,834.74"
+"Cimarron County, Oklahoma",1834.74
 "Cleveland County, Oklahoma",538.77
 "Coal County, Oklahoma",516.68
-"Comanche County, Oklahoma","1,069.29"
+"Comanche County, Oklahoma",1069.29
 "Cotton County, Oklahoma",632.65
 "Craig County, Oklahoma",761.35
 "Creek County, Oklahoma",950.14
 "Custer County, Oklahoma",988.82
 "Delaware County, Oklahoma",738.18
 "Dewey County, Oklahoma",999.48
-"Ellis County, Oklahoma","1,231.52"
-"Garfield County, Oklahoma","1,058.47"
+"Ellis County, Oklahoma",1231.52
+"Garfield County, Oklahoma",1058.47
 "Garvin County, Oklahoma",802.12
-"Grady County, Oklahoma","1,100.50"
-"Grant County, Oklahoma","1,000.87"
+"Grady County, Oklahoma",1100.5
+"Grant County, Oklahoma",1000.87
 "Greer County, Oklahoma",639.32
 "Harmon County, Oklahoma",537.19
-"Harper County, Oklahoma","1,039.02"
+"Harper County, Oklahoma",1039.02
 "Haskell County, Oklahoma",576.52
 "Hughes County, Oklahoma",804.65
 "Jackson County, Oklahoma",802.65
@@ -2167,102 +2167,102 @@ County,Size
 "Johnston County, Oklahoma",642.94
 "Kay County, Oklahoma",919.73
 "Kingfisher County, Oklahoma",898.16
-"Kiowa County, Oklahoma","1,015.23"
+"Kiowa County, Oklahoma",1015.23
 "Latimer County, Oklahoma",722.08
-"Le Flore County, Oklahoma","1,589.21"
+"Le Flore County, Oklahoma",1589.21
 "Lincoln County, Oklahoma",952.31
 "Logan County, Oklahoma",743.83
-"Love County, Oklahoma",514.00
+"Love County, Oklahoma",514.0
 "Major County, Oklahoma",954.99
 "Marshall County, Oklahoma",371.08
 "Mayes County, Oklahoma",655.39
-"McClain County, Oklahoma",570.70
-"McCurtain County, Oklahoma","1,850.01"
-"McIntosh County, Oklahoma",618.50
+"McClain County, Oklahoma",570.7
+"McCurtain County, Oklahoma",1850.01
+"McIntosh County, Oklahoma",618.5
 "Murray County, Oklahoma",416.46
 "Muskogee County, Oklahoma",810.45
-"Noble County, Oklahoma",731.90
+"Noble County, Oklahoma",731.9
 "Nowata County, Oklahoma",565.78
 "Okfuskee County, Oklahoma",618.57
 "Oklahoma County, Oklahoma",708.82
 "Okmulgee County, Oklahoma",697.35
-"Osage County, Oklahoma","2,246.36"
+"Osage County, Oklahoma",2246.36
 "Ottawa County, Oklahoma",470.82
 "Pawnee County, Oklahoma",567.96
-"Payne County, Oklahoma",684.70
-"Pittsburg County, Oklahoma","1,305.46"
+"Payne County, Oklahoma",684.7
+"Pittsburg County, Oklahoma",1305.46
 "Pontotoc County, Oklahoma",720.44
 "Pottawatomie County, Oklahoma",787.67
-"Pushmataha County, Oklahoma","1,395.84"
-"Roger Mills County, Oklahoma","1,141.14"
+"Pushmataha County, Oklahoma",1395.84
+"Roger Mills County, Oklahoma",1141.14
 "Rogers County, Oklahoma",675.63
 "Seminole County, Oklahoma",632.84
 "Sequoyah County, Oklahoma",673.27
 "Stephens County, Oklahoma",870.24
-"Texas County, Oklahoma","2,041.26"
+"Texas County, Oklahoma",2041.26
 "Tillman County, Oklahoma",871.13
 "Tulsa County, Oklahoma",570.25
 "Wagoner County, Oklahoma",561.56
 "Washington County, Oklahoma",415.45
-"Washita County, Oklahoma","1,003.17"
-"Woods County, Oklahoma","1,286.45"
-"Woodward County, Oklahoma","1,242.40"
-"Baker County, Oregon","3,068.36"
+"Washita County, Oklahoma",1003.17
+"Woods County, Oklahoma",1286.45
+"Woodward County, Oklahoma",1242.4
+"Baker County, Oregon",3068.36
 "Benton County, Oregon",675.94
-"Clackamas County, Oregon","1,870.32"
+"Clackamas County, Oregon",1870.32
 "Clatsop County, Oregon",829.05
 "Columbia County, Oregon",657.36
-"Coos County, Oregon","1,596.17"
-"Crook County, Oregon","2,979.09"
-"Curry County, Oregon","1,627.46"
-"Deschutes County, Oregon","3,018.19"
-"Douglas County, Oregon","5,036.08"
-"Gilliam County, Oregon","1,204.81"
-"Grant County, Oregon","4,528.54"
-"Harney County, Oregon","10,133.17"
+"Coos County, Oregon",1596.17
+"Crook County, Oregon",2979.09
+"Curry County, Oregon",1627.46
+"Deschutes County, Oregon",3018.19
+"Douglas County, Oregon",5036.08
+"Gilliam County, Oregon",1204.81
+"Grant County, Oregon",4528.54
+"Harney County, Oregon",10133.17
 "Hood River County, Oregon",521.95
-"Jackson County, Oregon","2,783.55"
-"Jefferson County, Oregon","1,780.79"
-"Josephine County, Oregon","1,639.67"
-"Klamath County, Oregon","5,941.05"
-"Lake County, Oregon","8,138.98"
-"Lane County, Oregon","4,553.12"
+"Jackson County, Oregon",2783.55
+"Jefferson County, Oregon",1780.79
+"Josephine County, Oregon",1639.67
+"Klamath County, Oregon",5941.05
+"Lake County, Oregon",8138.98
+"Lane County, Oregon",4553.12
 "Lincoln County, Oregon",979.77
-"Linn County, Oregon","2,290.13"
-"Malheur County, Oregon","9,887.53"
-"Marion County, Oregon","1,182.33"
-"Morrow County, Oregon","2,031.61"
-"Multnomah County, Oregon",431.30
+"Linn County, Oregon",2290.13
+"Malheur County, Oregon",9887.53
+"Marion County, Oregon",1182.33
+"Morrow County, Oregon",2031.61
+"Multnomah County, Oregon",431.3
 "Polk County, Oregon",740.79
 "Sherman County, Oregon",823.69
-"Tillamook County, Oregon","1,102.58"
-"Umatilla County, Oregon","3,215.51"
-"Union County, Oregon","2,036.61"
-"Wallowa County, Oregon","3,146.19"
-"Wasco County, Oregon","2,381.52"
+"Tillamook County, Oregon",1102.58
+"Umatilla County, Oregon",3215.51
+"Union County, Oregon",2036.61
+"Wallowa County, Oregon",3146.19
+"Wasco County, Oregon",2381.52
 "Washington County, Oregon",724.23
-"Wheeler County, Oregon","1,714.75"
+"Wheeler County, Oregon",1714.75
 "Yamhill County, Oregon",715.86
 "Adams County, Pennsylvania",518.67
 "Allegheny County, Pennsylvania",730.08
-"Armstrong County, Pennsylvania",653.20
+"Armstrong County, Pennsylvania",653.2
 "Beaver County, Pennsylvania",434.71
-"Bedford County, Pennsylvania","1,012.30"
+"Bedford County, Pennsylvania",1012.3
 "Berks County, Pennsylvania",856.51
-"Blair County, Pennsylvania",525.80
-"Bradford County, Pennsylvania","1,147.40"
+"Blair County, Pennsylvania",525.8
+"Bradford County, Pennsylvania",1147.4
 "Bucks County, Pennsylvania",604.31
-"Butler County, Pennsylvania",788.60
+"Butler County, Pennsylvania",788.6
 "Cambria County, Pennsylvania",688.35
 "Cameron County, Pennsylvania",396.23
 "Carbon County, Pennsylvania",381.46
-"Centre County, Pennsylvania","1,109.92"
+"Centre County, Pennsylvania",1109.92
 "Chester County, Pennsylvania",750.51
 "Clarion County, Pennsylvania",600.83
-"Clearfield County, Pennsylvania","1,144.72"
+"Clearfield County, Pennsylvania",1144.72
 "Clinton County, Pennsylvania",887.98
 "Columbia County, Pennsylvania",483.11
-"Crawford County, Pennsylvania","1,012.30"
+"Crawford County, Pennsylvania",1012.3
 "Cumberland County, Pennsylvania",545.46
 "Dauphin County, Pennsylvania",525.05
 "Delaware County, Pennsylvania",183.84
@@ -2283,8 +2283,8 @@ County,Size
 "Lebanon County, Pennsylvania",361.83
 "Lehigh County, Pennsylvania",345.17
 "Luzerne County, Pennsylvania",890.33
-"Lycoming County, Pennsylvania","1,228.59"
-"McKean County, Pennsylvania",979.20
+"Lycoming County, Pennsylvania",1228.59
+"McKean County, Pennsylvania",979.2
 "Mercer County, Pennsylvania",672.58
 "Mifflin County, Pennsylvania",411.03
 "Monroe County, Pennsylvania",608.29
@@ -2293,21 +2293,21 @@ County,Size
 "Northampton County, Pennsylvania",369.67
 "Northumberland County, Pennsylvania",458.37
 "Perry County, Pennsylvania",551.45
-"Philadelphia County, Pennsylvania",134.10
+"Philadelphia County, Pennsylvania",134.1
 "Pike County, Pennsylvania",544.96
-"Potter County, Pennsylvania","1,081.32"
+"Potter County, Pennsylvania",1081.32
 "Schuylkill County, Pennsylvania",778.63
 "Snyder County, Pennsylvania",328.71
-"Somerset County, Pennsylvania","1,074.37"
+"Somerset County, Pennsylvania",1074.37
 "Sullivan County, Pennsylvania",449.94
 "Susquehanna County, Pennsylvania",823.44
-"Tioga County, Pennsylvania","1,133.79"
+"Tioga County, Pennsylvania",1133.79
 "Union County, Pennsylvania",315.98
 "Venango County, Pennsylvania",674.28
 "Warren County, Pennsylvania",884.14
 "Washington County, Pennsylvania",856.99
-"Wayne County, Pennsylvania",725.60
-"Westmoreland County, Pennsylvania","1,027.55"
+"Wayne County, Pennsylvania",725.6
+"Westmoreland County, Pennsylvania",1027.55
 "Wyoming County, Pennsylvania",397.32
 "York County, Pennsylvania",904.18
 "Bristol County, Rhode Island",24.16
@@ -2316,20 +2316,20 @@ County,Size
 "Providence County, Rhode Island",409.5
 "Washington County, Rhode Island",329.24
 "Abbeville County, South Carolina",490.48
-"Aiken County, South Carolina","1,071.03"
+"Aiken County, South Carolina",1071.03
 "Allendale County, South Carolina",408.09
 "Anderson County, South Carolina",715.43
 "Bamberg County, South Carolina",393.37
 "Barnwell County, South Carolina",548.39
 "Beaufort County, South Carolina",576.28
-"Berkeley County, South Carolina","1,098.86"
+"Berkeley County, South Carolina",1098.86
 "Calhoun County, South Carolina",381.15
 "Charleston County, South Carolina",916.09
 "Cherokee County, South Carolina",392.66
 "Chester County, South Carolina",580.66
 "Chesterfield County, South Carolina",799.08
 "Clarendon County, South Carolina",606.94
-"Colleton County, South Carolina","1,056.49"
+"Colleton County, South Carolina",1056.49
 "Darlington County, South Carolina",561.15
 "Dillon County, South Carolina",404.87
 "Dorchester County, South Carolina",573.23
@@ -2339,12 +2339,12 @@ County,Size
 "Georgetown County, South Carolina",813.55
 "Greenville County, South Carolina",785.12
 "Greenwood County, South Carolina",454.73
-"Hampton County, South Carolina",559.90
-"Horry County, South Carolina","1,133.90"
+"Hampton County, South Carolina",559.9
+"Horry County, South Carolina",1133.9
 "Jasper County, South Carolina",655.32
 "Kershaw County, South Carolina",726.56
 "Lancaster County, South Carolina",549.16
-"Laurens County, South Carolina",713.80
+"Laurens County, South Carolina",713.8
 "Lee County, South Carolina",410.18
 "Lexington County, South Carolina",698.91
 "Marion County, South Carolina",489.23
@@ -2352,7 +2352,7 @@ County,Size
 "McCormick County, South Carolina",359.13
 "Newberry County, South Carolina",630.04
 "Oconee County, South Carolina",626.33
-"Orangeburg County, South Carolina","1,106.10"
+"Orangeburg County, South Carolina",1106.1
 "Pickens County, South Carolina",496.41
 "Richland County, South Carolina",757.07
 "Saluda County, South Carolina",452.78
@@ -2360,73 +2360,73 @@ County,Size
 "Sumter County, South Carolina",665.07
 "Union County, South Carolina",514.17
 "Williamsburg County, South Carolina",934.16
-"York County, South Carolina",680.60
+"York County, South Carolina",680.6
 "Aurora County, South Dakota",708.43
-"Beadle County, South Dakota","1,258.71"
-"Bennett County, South Dakota","1,184.71"
-"Bon Homme County, South Dakota",563.70
+"Beadle County, South Dakota",1258.71
+"Bennett County, South Dakota",1184.71
+"Bon Homme County, South Dakota",563.7
 "Brookings County, South Dakota",792.21
-"Brown County, South Dakota","1,712.98"
+"Brown County, South Dakota",1712.98
 "Brule County, South Dakota",817.24
 "Buffalo County, South Dakota",471.38
-"Butte County, South Dakota","2,249.90"
+"Butte County, South Dakota",2249.9
 "Campbell County, South Dakota",733.68
-"Charles Mix County, South Dakota","1,097.49"
-"Clark County, South Dakota",957.60
+"Charles Mix County, South Dakota",1097.49
+"Clark County, South Dakota",957.6
 "Clay County, South Dakota",412.19
-"Codington County, South Dakota",688.50
-"Corson County, South Dakota","2,469.69"
-"Custer County, South Dakota","1,557.00"
+"Codington County, South Dakota",688.5
+"Corson County, South Dakota",2469.69
+"Custer County, South Dakota",1557.0
 "Davison County, South Dakota",435.56
-"Day County, South Dakota","1,027.87"
+"Day County, South Dakota",1027.87
 "Deuel County, South Dakota",622.69
-"Dewey County, South Dakota","2,302.49"
-"Douglas County, South Dakota",431.80
-"Edmunds County, South Dakota","1,125.96"
-"Fall River County, South Dakota","1,739.92"
+"Dewey County, South Dakota",2302.49
+"Douglas County, South Dakota",431.8
+"Edmunds County, South Dakota",1125.96
+"Fall River County, South Dakota",1739.92
 "Faulk County, South Dakota",981.75
 "Grant County, South Dakota",681.46
-"Gregory County, South Dakota","1,014.96"
-"Haakon County, South Dakota","1,810.53"
+"Gregory County, South Dakota",1014.96
+"Haakon County, South Dakota",1810.53
 "Hamlin County, South Dakota",507.23
-"Hand County, South Dakota","1,436.61"
+"Hand County, South Dakota",1436.61
 "Hanson County, South Dakota",434.51
-"Harding County, South Dakota","2,671.38"
+"Harding County, South Dakota",2671.38
 "Hughes County, South Dakota",741.56
-"Hutchinson County, South Dakota",812.90
+"Hutchinson County, South Dakota",812.9
 "Hyde County, South Dakota",860.52
-"Jackson County, South Dakota","1,863.91"
+"Jackson County, South Dakota",1863.91
 "Jerauld County, South Dakota",526.23
 "Jones County, South Dakota",969.68
 "Kingsbury County, South Dakota",832.24
 "Lake County, South Dakota",563.28
 "Lawrence County, South Dakota",800.04
 "Lincoln County, South Dakota",577.28
-"Lyman County, South Dakota","1,641.94"
+"Lyman County, South Dakota",1641.94
 "Marshall County, South Dakota",838.07
-"McCook County, South Dakota",574.20
-"McPherson County, South Dakota","1,136.64"
-"Meade County, South Dakota","3,470.98"
-"Mellette County, South Dakota","1,307.31"
+"McCook County, South Dakota",574.2
+"McPherson County, South Dakota",1136.64
+"Meade County, South Dakota",3470.98
+"Mellette County, South Dakota",1307.31
 "Miner County, South Dakota",570.31
 "Minnehaha County, South Dakota",807.15
 "Moody County, South Dakota",519.39
-"Pennington County, South Dakota","2,776.55"
-"Perkins County, South Dakota","2,870.48"
+"Pennington County, South Dakota",2776.55
+"Perkins County, South Dakota",2870.48
 "Potter County, South Dakota",861.14
-"Roberts County, South Dakota","1,101.04"
+"Roberts County, South Dakota",1101.04
 "Sanborn County, South Dakota",569.32
-"Shannon County, South Dakota","2,093.90"
-"Spink County, South Dakota","1,503.93"
-"Stanley County, South Dakota","1,444.43"
-"Sully County, South Dakota","1,006.82"
-"Todd County, South Dakota","1,388.56"
-"Tripp County, South Dakota","1,612.45"
+"Shannon County, South Dakota",2093.9
+"Spink County, South Dakota",1503.93
+"Stanley County, South Dakota",1444.43
+"Sully County, South Dakota",1006.82
+"Todd County, South Dakota",1388.56
+"Tripp County, South Dakota",1612.45
 "Turner County, South Dakota",617.06
 "Union County, South Dakota",460.54
 "Walworth County, South Dakota",708.63
 "Yankton County, South Dakota",521.16
-"Ziebach County, South Dakota","1,961.27"
+"Ziebach County, South Dakota",1961.27
 "Anderson County, Tennessee",337.16
 "Bedford County, Tennessee",473.64
 "Benton County, Tennessee",394.14
@@ -2522,29 +2522,29 @@ County,Size
 "White County, Tennessee",376.67
 "Williamson County, Tennessee",582.6
 "Wilson County, Tennessee",570.83
-"Anderson County, Texas","1,062.60"
-"Andrews County, Texas","1,500.71"
+"Anderson County, Texas",1062.6
+"Andrews County, Texas",1500.71
 "Angelina County, Texas",797.78
 "Aransas County, Texas",252.07
 "Archer County, Texas",903.11
 "Armstrong County, Texas",909.11
-"Atascosa County, Texas","1,219.54"
+"Atascosa County, Texas",1219.54
 "Austin County, Texas",646.51
-"Bailey County, Texas",826.80
+"Bailey County, Texas",826.8
 "Bandera County, Texas",790.96
 "Bastrop County, Texas",888.15
 "Baylor County, Texas",867.48
 "Bee County, Texas",880.24
-"Bell County, Texas","1,051.02"
-"Bexar County, Texas","1,239.82"
+"Bell County, Texas",1051.02
+"Bexar County, Texas",1239.82
 "Blanco County, Texas",709.25
 "Borden County, Texas",897.44
 "Bosque County, Texas",982.98
 "Bowie County, Texas",885.01
-"Brazoria County, Texas","1,357.70"
+"Brazoria County, Texas",1357.7
 "Brazos County, Texas",585.45
-"Brewster County, Texas","6,183.73"
-"Briscoe County, Texas",900.00
+"Brewster County, Texas",6183.73
+"Briscoe County, Texas",900.0
 "Brooks County, Texas",943.36
 "Brown County, Texas",944.43
 "Burleson County, Texas",659.03
@@ -2558,216 +2558,216 @@ County,Size
 "Cass County, Texas",936.96
 "Castro County, Texas",894.43
 "Chambers County, Texas",597.14
-"Cherokee County, Texas","1,052.91"
+"Cherokee County, Texas",1052.91
 "Childress County, Texas",696.41
-"Clay County, Texas","1,088.72"
+"Clay County, Texas",1088.72
 "Cochran County, Texas",775.15
 "Coke County, Texas",911.47
-"Coleman County, Texas","1,261.95"
+"Coleman County, Texas",1261.95
 "Collin County, Texas",841.23
 "Collingsworth County, Texas",918.44
 "Colorado County, Texas",960.27
 "Comal County, Texas",559.48
 "Comanche County, Texas",937.75
-"Concho County, Texas",983.80
+"Concho County, Texas",983.8
 "Cooke County, Texas",874.76
-"Coryell County, Texas","1,052.07"
+"Coryell County, Texas",1052.07
 "Cottle County, Texas",900.56
 "Crane County, Texas",785.07
-"Crockett County, Texas","2,807.33"
-"Crosby County, Texas",900.20
-"Culberson County, Texas","3,812.80"
-"Dallam County, Texas","1,503.26"
+"Crockett County, Texas",2807.33
+"Crosby County, Texas",900.2
+"Culberson County, Texas",3812.8
+"Dallam County, Texas",1503.26
 "Dallas County, Texas",871.28
 "Dawson County, Texas",900.31
-"Deaf Smith County, Texas","1,496.87"
+"Deaf Smith County, Texas",1496.87
 "Delta County, Texas",256.83
 "Denton County, Texas",878.43
 "DeWitt County, Texas",908.98
 "Dickens County, Texas",901.72
-"Dimmit County, Texas","1,328.88"
+"Dimmit County, Texas",1328.88
 "Donley County, Texas",926.89
-"Duval County, Texas","1,793.48"
+"Duval County, Texas",1793.48
 "Eastland County, Texas",926.49
 "Ector County, Texas",897.69
-"Edwards County, Texas","2,117.86"
-"El Paso County, Texas","1,012.69"
+"Edwards County, Texas",2117.86
+"El Paso County, Texas",1012.69
 "Ellis County, Texas",935.49
-"Erath County, Texas","1,083.07"
+"Erath County, Texas",1083.07
 "Falls County, Texas",765.48
 "Fannin County, Texas",890.84
 "Fayette County, Texas",950.01
 "Fisher County, Texas",898.94
 "Floyd County, Texas",992.14
-"Foard County, Texas",704.40
+"Foard County, Texas",704.4
 "Fort Bend County, Texas",861.48
 "Franklin County, Texas",284.39
 "Freestone County, Texas",877.74
-"Frio County, Texas","1,133.50"
-"Gaines County, Texas","1,502.38"
+"Frio County, Texas",1133.5
+"Gaines County, Texas",1502.38
 "Galveston County, Texas",378.36
 "Garza County, Texas",893.41
-"Gillespie County, Texas","1,058.21"
+"Gillespie County, Texas",1058.21
 "Glasscock County, Texas",900.22
 "Goliad County, Texas",852.01
-"Gonzales County, Texas","1,066.69"
+"Gonzales County, Texas",1066.69
 "Gray County, Texas",925.97
-"Grayson County, Texas",932.80
-"Gregg County, Texas",273.30
+"Grayson County, Texas",932.8
+"Gregg County, Texas",273.3
 "Grimes County, Texas",787.46
-"Guadalupe County, Texas",711.30
-"Hale County, Texas","1,004.68"
+"Guadalupe County, Texas",711.3
+"Hale County, Texas",1004.68
 "Hall County, Texas",883.49
 "Hamilton County, Texas",835.91
 "Hansford County, Texas",919.81
 "Hardeman County, Texas",695.11
 "Hardin County, Texas",890.57
-"Harris County, Texas","1,703.48"
+"Harris County, Texas",1703.48
 "Harrison County, Texas",899.95
-"Hartley County, Texas","1,462.03"
+"Hartley County, Texas",1462.03
 "Haskell County, Texas",903.13
 "Hays County, Texas",677.98
 "Hemphill County, Texas",906.29
 "Henderson County, Texas",873.75
-"Hidalgo County, Texas","1,570.87"
+"Hidalgo County, Texas",1570.87
 "Hill County, Texas",958.86
 "Hockley County, Texas",908.39
 "Hood County, Texas",420.64
 "Hopkins County, Texas",767.17
-"Houston County, Texas","1,230.91"
+"Houston County, Texas",1230.91
 "Howard County, Texas",900.79
-"Hudspeth County, Texas","4,570.98"
+"Hudspeth County, Texas",4570.98
 "Hunt County, Texas",840.32
 "Hutchinson County, Texas",887.42
-"Irion County, Texas","1,051.56"
+"Irion County, Texas",1051.56
 "Jack County, Texas",910.66
 "Jackson County, Texas",829.44
 "Jasper County, Texas",938.85
-"Jeff Davis County, Texas","2,264.56"
-"Jefferson County, Texas",876.30
-"Jim Hogg County, Texas","1,136.14"
+"Jeff Davis County, Texas",2264.56
+"Jefferson County, Texas",876.3
+"Jim Hogg County, Texas",1136.14
 "Jim Wells County, Texas",864.97
 "Johnson County, Texas",724.69
 "Jones County, Texas",928.55
 "Karnes County, Texas",747.56
-"Kaufman County, Texas",780.70
+"Kaufman County, Texas",780.7
 "Kendall County, Texas",662.45
-"Kenedy County, Texas","1,458.33"
+"Kenedy County, Texas",1458.33
 "Kent County, Texas",902.51
-"Kerr County, Texas","1,103.32"
-"Kimble County, Texas","1,250.99"
+"Kerr County, Texas",1103.32
+"Kimble County, Texas",1250.99
 "King County, Texas",910.87
-"Kinney County, Texas","1,360.06"
+"Kinney County, Texas",1360.06
 "Kleberg County, Texas",881.31
 "Knox County, Texas",850.62
-"La Salle County, Texas","1,486.69"
+"La Salle County, Texas",1486.69
 "Lamar County, Texas",907.19
-"Lamb County, Texas","1,016.18"
+"Lamb County, Texas",1016.18
 "Lampasas County, Texas",712.84
 "Lavaca County, Texas",969.71
 "Lee County, Texas",629.02
-"Leon County, Texas","1,073.15"
-"Liberty County, Texas","1,158.42"
+"Leon County, Texas",1073.15
+"Liberty County, Texas",1158.42
 "Limestone County, Texas",905.29
 "Lipscomb County, Texas",932.18
-"Live Oak County, Texas","1,039.70"
+"Live Oak County, Texas",1039.7
 "Llano County, Texas",934.03
 "Loving County, Texas",668.93
-"Lubbock County, Texas",895.60
+"Lubbock County, Texas",895.6
 "Lynn County, Texas",891.87
 "Madison County, Texas",466.07
 "Marion County, Texas",380.88
 "Martin County, Texas",914.94
-"Mason County, Texas",928.80
-"Matagorda County, Texas","1,100.28"
-"Maverick County, Texas","1,279.26"
-"McCulloch County, Texas","1,065.60"
-"McLennan County, Texas","1,037.10"
-"McMullen County, Texas","1,139.43"
-"Medina County, Texas","1,325.36"
+"Mason County, Texas",928.8
+"Matagorda County, Texas",1100.28
+"Maverick County, Texas",1279.26
+"McCulloch County, Texas",1065.6
+"McLennan County, Texas",1037.1
+"McMullen County, Texas",1139.43
+"Medina County, Texas",1325.36
 "Menard County, Texas",902.03
-"Midland County, Texas",900.30
-"Milam County, Texas","1,016.93"
+"Midland County, Texas",900.3
+"Milam County, Texas",1016.93
 "Mills County, Texas",748.26
 "Mitchell County, Texas",911.09
 "Montague County, Texas",930.91
-"Montgomery County, Texas","1,041.74"
+"Montgomery County, Texas",1041.74
 "Moore County, Texas",899.69
 "Morris County, Texas",251.99
 "Motley County, Texas",989.56
 "Nacogdoches County, Texas",946.54
-"Navarro County, Texas","1,009.63"
+"Navarro County, Texas",1009.63
 "Newton County, Texas",933.68
-"Nolan County, Texas",912.00
+"Nolan County, Texas",912.0
 "Nueces County, Texas",838.48
 "Ochiltree County, Texas",917.63
-"Oldham County, Texas","1,500.53"
+"Oldham County, Texas",1500.53
 "Orange County, Texas",333.67
 "Palo Pinto County, Texas",951.79
 "Panola County, Texas",801.75
 "Parker County, Texas",903.48
 "Parmer County, Texas",880.78
-"Pecos County, Texas","4,763.85"
-"Polk County, Texas","1,057.09"
+"Pecos County, Texas",4763.85
+"Polk County, Texas",1057.09
 "Potter County, Texas",908.37
-"Presidio County, Texas","3,855.24"
+"Presidio County, Texas",3855.24
 "Rains County, Texas",229.45
 "Randall County, Texas",911.54
-"Reagan County, Texas","1,175.30"
-"Real County, Texas",699.20
-"Red River County, Texas","1,036.58"
-"Reeves County, Texas","2,635.38"
+"Reagan County, Texas",1175.3
+"Real County, Texas",699.2
+"Red River County, Texas",1036.58
+"Reeves County, Texas",2635.38
 "Refugio County, Texas",770.44
 "Roberts County, Texas",924.06
 "Robertson County, Texas",855.68
 "Rockwall County, Texas",127.04
-"Runnels County, Texas","1,050.95"
+"Runnels County, Texas",1050.95
 "Rusk County, Texas",924.03
 "Sabine County, Texas",491.39
 "San Augustine County, Texas",530.66
 "San Jacinto County, Texas",569.24
 "San Patricio County, Texas",693.45
-"San Saba County, Texas","1,135.30"
-"Schleicher County, Texas","1,310.63"
+"San Saba County, Texas",1135.3
+"Schleicher County, Texas",1310.63
 "Scurry County, Texas",905.44
 "Shackelford County, Texas",914.29
 "Shelby County, Texas",795.58
 "Sherman County, Texas",923.04
 "Smith County, Texas",921.45
 "Somervell County, Texas",186.46
-"Starr County, Texas","1,223.18"
+"Starr County, Texas",1223.18
 "Stephens County, Texas",896.72
 "Sterling County, Texas",923.45
 "Stonewall County, Texas",916.31
-"Sutton County, Texas","1,453.93"
+"Sutton County, Texas",1453.93
 "Swisher County, Texas",890.16
 "Tarrant County, Texas",863.61
 "Taylor County, Texas",915.55
-"Terrell County, Texas","2,358.03"
+"Terrell County, Texas",2358.03
 "Terry County, Texas",888.84
 "Throckmorton County, Texas",912.55
 "Titus County, Texas",406.05
-"Tom Green County, Texas","1,521.97"
-"Travis County, Texas",990.20
+"Tom Green County, Texas",1521.97
+"Travis County, Texas",990.2
 "Trinity County, Texas",693.61
-"Tyler County, Texas",924.50
+"Tyler County, Texas",924.5
 "Upshur County, Texas",582.95
-"Upton County, Texas","1,241.32"
-"Uvalde County, Texas","1,551.95"
-"Val Verde County, Texas","3,144.75"
+"Upton County, Texas",1241.32
+"Uvalde County, Texas",1551.95
+"Val Verde County, Texas",3144.75
 "Van Zandt County, Texas",842.56
 "Victoria County, Texas",882.14
 "Walker County, Texas",784.17
 "Waller County, Texas",513.43
-"Ward County, Texas",835.60
+"Ward County, Texas",835.6
 "Washington County, Texas",603.95
-"Webb County, Texas","3,361.48"
-"Wharton County, Texas","1,086.15"
+"Webb County, Texas",3361.48
+"Wharton County, Texas",1086.15
 "Wheeler County, Texas",914.52
 "Wichita County, Texas",627.78
 "Wilbarger County, Texas",970.84
 "Willacy County, Texas",590.55
-"Williamson County, Texas","1,118.30"
+"Williamson County, Texas",1118.3
 "Wilson County, Texas",803.73
 "Winkler County, Texas",841.11
 "Wise County, Texas",904.42
@@ -2775,35 +2775,35 @@ County,Size
 "Yoakum County, Texas",799.71
 "Young County, Texas",914.47
 "Zapata County, Texas",998.41
-"Zavala County, Texas","1,297.41"
-"Beaver County, Utah","2,589.88"
-"Box Elder County, Utah","5,745.55"
-"Cache County, Utah","1,164.81"
-"Carbon County, Utah","1,478.49"
+"Zavala County, Texas",1297.41
+"Beaver County, Utah",2589.88
+"Box Elder County, Utah",5745.55
+"Cache County, Utah",1164.81
+"Carbon County, Utah",1478.49
 "Daggett County, Utah",696.98
 "Davis County, Utah",298.78
-"Duchesne County, Utah","3,240.95"
-"Emery County, Utah","4,462.31"
-"Garfield County, Utah","5,175.12"
-"Grand County, Utah","3,671.54"
-"Iron County, Utah","3,296.68"
-"Juab County, Utah","3,392.28"
-"Kane County, Utah","3,990.23"
-"Millard County, Utah","6,572.43"
-"Morgan County, Utah",609.20
+"Duchesne County, Utah",3240.95
+"Emery County, Utah",4462.31
+"Garfield County, Utah",5175.12
+"Grand County, Utah",3671.54
+"Iron County, Utah",3296.68
+"Juab County, Utah",3392.28
+"Kane County, Utah",3990.23
+"Millard County, Utah",6572.43
+"Morgan County, Utah",609.2
 "Piute County, Utah",757.79
-"Rich County, Utah","1,028.78"
+"Rich County, Utah",1028.78
 "Salt Lake County, Utah",742.28
-"San Juan County, Utah","7,819.99"
-"Sanpete County, Utah","1,590.15"
-"Sevier County, Utah","1,910.58"
-"Summit County, Utah","1,871.71"
-"Tooele County, Utah","6,941.35"
-"Uintah County, Utah","4,479.69"
-"Utah County, Utah","2,003.45"
-"Wasatch County, Utah","1,175.50"
-"Washington County, Utah","2,426.36"
-"Wayne County, Utah","2,460.68"
+"San Juan County, Utah",7819.99
+"Sanpete County, Utah",1590.15
+"Sevier County, Utah",1910.58
+"Summit County, Utah",1871.71
+"Tooele County, Utah",6941.35
+"Uintah County, Utah",4479.69
+"Utah County, Utah",2003.45
+"Wasatch County, Utah",1175.5
+"Washington County, Utah",2426.36
+"Wayne County, Utah",2460.68
 "Weber County, Utah",576.08
 "Addison County, Vermont",766.33
 "Bennington County, Vermont",674.98
@@ -2953,45 +2953,45 @@ County,Size
 "Wise County, Virginia",403.19
 "Wythe County, Virginia",461.82
 "York County, Virginia",104.78
-"Adams County, Washington","1,924.98"
+"Adams County, Washington",1924.98
 "Asotin County, Washington",636.21
-"Benton County, Washington","1,700.38"
-"Chelan County, Washington","2,920.53"
-"Clallam County, Washington","1,738.33"
-"Clark County, Washington",629.00
+"Benton County, Washington",1700.38
+"Chelan County, Washington",2920.53
+"Clallam County, Washington",1738.33
+"Clark County, Washington",629.0
 "Columbia County, Washington",868.63
-"Cowlitz County, Washington","1,140.13"
-"Douglas County, Washington","1,819.26"
-"Ferry County, Washington","2,203.16"
-"Franklin County, Washington","1,242.17"
+"Cowlitz County, Washington",1140.13
+"Douglas County, Washington",1819.26
+"Ferry County, Washington",2203.16
+"Franklin County, Washington",1242.17
 "Garfield County, Washington",710.69
-"Grant County, Washington","2,679.51"
-"Grays Harbor County, Washington","1,902.03"
+"Grant County, Washington",2679.51
+"Grays Harbor County, Washington",1902.03
 "Island County, Washington",208.45
-"Jefferson County, Washington","1,803.70"
-"King County, Washington","2,115.57"
+"Jefferson County, Washington",1803.7
+"King County, Washington",2115.57
 "Kitsap County, Washington",394.94
-"Kittitas County, Washington","2,297.27"
-"Klickitat County, Washington","1,871.31"
-"Lewis County, Washington","2,402.80"
-"Lincoln County, Washington","2,310.49"
+"Kittitas County, Washington",2297.27
+"Klickitat County, Washington",1871.31
+"Lewis County, Washington",2402.8
+"Lincoln County, Washington",2310.49
 "Mason County, Washington",959.42
-"Okanogan County, Washington","5,267.98"
+"Okanogan County, Washington",5267.98
 "Pacific County, Washington",932.66
-"Pend Oreille County, Washington","1,399.99"
-"Pierce County, Washington","1,669.51"
+"Pend Oreille County, Washington",1399.99
+"Pierce County, Washington",1669.51
 "San Juan County, Washington",173.92
-"Skagit County, Washington","1,731.20"
-"Skamania County, Washington","1,655.68"
-"Snohomish County, Washington","2,087.27"
-"Spokane County, Washington","1,763.79"
-"Stevens County, Washington","2,477.77"
+"Skagit County, Washington",1731.2
+"Skamania County, Washington",1655.68
+"Snohomish County, Washington",2087.27
+"Spokane County, Washington",1763.79
+"Stevens County, Washington",2477.77
 "Thurston County, Washington",721.96
 "Wahkiakum County, Washington",263.38
-"Walla Walla County, Washington","1,270.13"
-"Whatcom County, Washington","2,106.86"
-"Whitman County, Washington","2,159.09"
-"Yakima County, Washington","4,295.40"
+"Walla Walla County, Washington",1270.13
+"Whatcom County, Washington",2106.86
+"Whitman County, Washington",2159.09
+"Yakima County, Washington",4295.4
 "Barbour County, West Virginia",341.06
 "Berkeley County, West Virginia",321.14
 "Boone County, West Virginia",501.54
@@ -2999,12 +2999,12 @@ County,Size
 "Brooke County, West Virginia",89.21
 "Cabell County, West Virginia",281.02
 "Calhoun County, West Virginia",279.25
-"Clay County, West Virginia",341.90
+"Clay County, West Virginia",341.9
 "Doddridge County, West Virginia",319.72
 "Fayette County, West Virginia",661.55
-"Gilmer County, West Virginia",338.50
+"Gilmer County, West Virginia",338.5
 "Grant County, West Virginia",477.37
-"Greenbrier County, West Virginia","1,019.57"
+"Greenbrier County, West Virginia",1019.57
 "Hampshire County, West Virginia",640.25
 "Hancock County, West Virginia",82.61
 "Hardy County, West Virginia",582.31
@@ -3012,7 +3012,7 @@ County,Size
 "Jackson County, West Virginia",464.35
 "Jefferson County, West Virginia",209.64
 "Kanawha County, West Virginia",901.59
-"Lewis County, West Virginia",384.90
+"Lewis County, West Virginia",384.9
 "Lincoln County, West Virginia",437.04
 "Logan County, West Virginia",453.74
 "Marion County, West Virginia",308.74
@@ -3028,12 +3028,12 @@ County,Size
 "Nicholas County, West Virginia",646.82
 "Ohio County, West Virginia",105.82
 "Pendleton County, West Virginia",696.05
-"Pleasants County, West Virginia",130.10
+"Pleasants County, West Virginia",130.1
 "Pocahontas County, West Virginia",940.28
 "Preston County, West Virginia",648.81
 "Putnam County, West Virginia",345.67
 "Raleigh County, West Virginia",605.35
-"Randolph County, West Virginia","1,039.68"
+"Randolph County, West Virginia",1039.68
 "Ritchie County, West Virginia",451.99
 "Roane County, West Virginia",483.56
 "Summers County, West Virginia",360.46
@@ -3048,27 +3048,27 @@ County,Size
 "Wood County, West Virginia",366.26
 "Wyoming County, West Virginia",499.45
 "Adams County, Wisconsin",645.65
-"Ashland County, Wisconsin","1,045.04"
+"Ashland County, Wisconsin",1045.04
 "Barron County, Wisconsin",862.71
-"Bayfield County, Wisconsin","1,477.86"
+"Bayfield County, Wisconsin",1477.86
 "Brown County, Wisconsin",529.71
 "Buffalo County, Wisconsin",671.64
 "Burnett County, Wisconsin",821.85
 "Calumet County, Wisconsin",318.24
-"Chippewa County, Wisconsin","1,008.37"
-"Clark County, Wisconsin","1,209.82"
+"Chippewa County, Wisconsin",1008.37
+"Clark County, Wisconsin",1209.82
 "Columbia County, Wisconsin",765.53
 "Crawford County, Wisconsin",570.66
-"Dane County, Wisconsin","1,197.24"
+"Dane County, Wisconsin",1197.24
 "Dodge County, Wisconsin",875.63
 "Door County, Wisconsin",481.98
-"Douglas County, Wisconsin","1,304.14"
+"Douglas County, Wisconsin",1304.14
 "Dunn County, Wisconsin",850.11
 "Eau Claire County, Wisconsin",637.98
-"Florence County, Wisconsin",488.20
+"Florence County, Wisconsin",488.2
 "Fond du Lac County, Wisconsin",719.55
-"Forest County, Wisconsin","1,014.07"
-"Grant County, Wisconsin","1,146.85"
+"Forest County, Wisconsin",1014.07
+"Grant County, Wisconsin",1146.85
 "Green County, Wisconsin",583.96
 "Green Lake County, Wisconsin",349.44
 "Iowa County, Wisconsin",762.58
@@ -3083,62 +3083,62 @@ County,Size
 "Langlade County, Wisconsin",870.64
 "Lincoln County, Wisconsin",878.97
 "Manitowoc County, Wisconsin",589.08
-"Marathon County, Wisconsin","1,544.98"
-"Marinette County, Wisconsin","1,399.35"
-"Marquette County, Wisconsin",455.60
+"Marathon County, Wisconsin",1544.98
+"Marinette County, Wisconsin",1399.35
+"Marquette County, Wisconsin",455.6
 "Menominee County, Wisconsin",357.61
-"Milwaukee County, Wisconsin",241.40
+"Milwaukee County, Wisconsin",241.4
 "Monroe County, Wisconsin",900.78
 "Oconto County, Wisconsin",997.99
-"Oneida County, Wisconsin","1,112.97"
+"Oneida County, Wisconsin",1112.97
 "Outagamie County, Wisconsin",637.52
 "Ozaukee County, Wisconsin",233.08
 "Pepin County, Wisconsin",231.98
 "Pierce County, Wisconsin",573.75
 "Polk County, Wisconsin",913.96
 "Portage County, Wisconsin",800.68
-"Price County, Wisconsin","1,254.38"
-"Racine County, Wisconsin",332.50
+"Price County, Wisconsin",1254.38
+"Racine County, Wisconsin",332.5
 "Richland County, Wisconsin",586.15
 "Rock County, Wisconsin",718.14
 "Rusk County, Wisconsin",913.59
-"Sauk County, Wisconsin",830.90
-"Sawyer County, Wisconsin","1,257.31"
+"Sauk County, Wisconsin",830.9
+"Sawyer County, Wisconsin",1257.31
 "Shawano County, Wisconsin",893.06
 "Sheboygan County, Wisconsin",511.27
 "St. Croix County, Wisconsin",722.33
 "Taylor County, Wisconsin",974.88
 "Trempealeau County, Wisconsin",732.97
 "Vernon County, Wisconsin",791.58
-"Vilas County, Wisconsin",856.60
+"Vilas County, Wisconsin",856.6
 "Walworth County, Wisconsin",555.13
 "Washburn County, Wisconsin",797.11
-"Washington County, Wisconsin",430.70
+"Washington County, Wisconsin",430.7
 "Waukesha County, Wisconsin",549.57
 "Waupaca County, Wisconsin",747.71
 "Waushara County, Wisconsin",626.15
 "Winnebago County, Wisconsin",434.49
 "Wood County, Wisconsin",793.12
-"Albany County, Wyoming","4,273.84"
-"Big Horn County, Wyoming","3,137.10"
-"Campbell County, Wyoming","4,802.71"
-"Carbon County, Wyoming","7,897.58"
-"Converse County, Wyoming","4,254.88"
-"Crook County, Wyoming","2,854.41"
-"Fremont County, Wyoming","9,183.81"
-"Goshen County, Wyoming","2,225.39"
-"Hot Springs County, Wyoming","2,004.09"
-"Johnson County, Wyoming","4,154.15"
-"Laramie County, Wyoming","2,685.91"
-"Lincoln County, Wyoming","4,076.13"
-"Natrona County, Wyoming","5,340.35"
-"Niobrara County, Wyoming","2,626.04"
-"Park County, Wyoming","6,942.08"
-"Platte County, Wyoming","2,084.21"
-"Sheridan County, Wyoming","2,523.99"
-"Sublette County, Wyoming","4,886.54"
-"Sweetwater County, Wyoming","10,426.65"
-"Teton County, Wyoming","3,995.38"
-"Uinta County, Wyoming","2,081.26"
-"Washakie County, Wyoming","2,238.55"
-"Weston County, Wyoming","2,398.09"
+"Albany County, Wyoming",4273.84
+"Big Horn County, Wyoming",3137.1
+"Campbell County, Wyoming",4802.71
+"Carbon County, Wyoming",7897.58
+"Converse County, Wyoming",4254.88
+"Crook County, Wyoming",2854.41
+"Fremont County, Wyoming",9183.81
+"Goshen County, Wyoming",2225.39
+"Hot Springs County, Wyoming",2004.09
+"Johnson County, Wyoming",4154.15
+"Laramie County, Wyoming",2685.91
+"Lincoln County, Wyoming",4076.13
+"Natrona County, Wyoming",5340.35
+"Niobrara County, Wyoming",2626.04
+"Park County, Wyoming",6942.08
+"Platte County, Wyoming",2084.21
+"Sheridan County, Wyoming",2523.99
+"Sublette County, Wyoming",4886.54
+"Sweetwater County, Wyoming",10426.65
+"Teton County, Wyoming",3995.38
+"Uinta County, Wyoming",2081.26
+"Washakie County, Wyoming",2238.55
+"Weston County, Wyoming",2398.09
