@@ -2,7 +2,6 @@
 
 
 """Education"""
-
 # Education count for 2012.
 # These are actually percentages, there are no actual counts in 2012
 edu_2012 = ["Total!!Estimate!!Less than 9th grade",
@@ -32,7 +31,6 @@ edu_2016_per = ["Percent!!Estimate!!Population 25 years and over!!Less than 9th 
                 "Percent!!Estimate!!Population 25 years and over!!Bachelor's degree",
                 "Percent!!Estimate!!Population 25 years and over!!Graduate or professional degree"]
 
-
 # Eduction count for 2018
 edu_2018_count = ["Estimate!!Total!!Population 25 years and over!!Less than 9th grade",
                   "Estimate!!Total!!Population 25 years and over!!9th to 12th grade, no diploma",
@@ -51,12 +49,11 @@ edu_2018_per = ["Estimate!!Percent!!Population 25 years and over!!Less than 9th 
                 "Estimate!!Percent!!Population 25 years and over!!Bachelor's degree",
                 "Estimate!!Percent!!Population 25 years and over!!Graduate or professional degree"]
 
+edu_2016 = edu_2016_count + edu_2016_per
 edu_2018 = edu_2018_count + edu_2018_per
 
 
-
 """Age and Sex"""
-
 # 2012 Age and Sex features
 age_sex_2012 = ['Total!!Estimate!!Total population',
                 'Total!!Estimate!!SUMMARY INDICATORS!!Median age (years)',
@@ -79,36 +76,56 @@ age_sex_2018 = ['Estimate!!Total!!Total population',
                 'Estimate!!Female!!Total population!!SUMMARY INDICATORS!!Median age (years)']
 
 
-
-
 """Race"""
-
-# 2012 Race features
+# 2012 Race features count
 race_2012_count = ['Estimate!!RACE!!White',
                    'Estimate!!RACE!!Black or African American',
                    'Estimate!!RACE!!American Indian and Alaska Native',
                    'Estimate!!RACE!!Asian',
                    'Estimate!!HISPANIC OR LATINO AND RACE!!Total population']
 
-#  2016 Race features
-race_2016_per = ['Percent!!RACE!!One race!!White',
-                   'Percent!!RACE!!One race!!Black or African American',
-                   'Percent!!RACE!!One race!!American Indian and Alaska Native',
-                   'Percent!!RACE!!One race!!Asian',
-                   'Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)']
+# 2012 Race features percent
+race_2012_per = ['Percent!!RACE!!White',
+                 'Percent!!RACE!!Black or African American',
+                 'Percent!!RACE!!American Indian and Alaska Native',
+                 'Percent!!RACE!!Asian',
+                 'Percent!!HISPANIC OR LATINO AND RACE!!Total population']
 
-# 2018 Race features
+#  2016 Race features count
+race_2016_count = ['Estimate!!RACE!!One race!!White',
+                   'Estimate!!RACE!!One race!!Black or African American',
+                   'Estimate!!RACE!!One race!!American Indian and Alaska Native',
+                   'Estimate!!RACE!!One race!!Asian',
+                   'Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)']
+
+#  2016 Race features percent
+race_2016_per = ['Percent!!RACE!!One race!!White',
+                 'Percent!!RACE!!One race!!Black or African American',
+                 'Percent!!RACE!!One race!!American Indian and Alaska Native',
+                 'Percent!!RACE!!One race!!Asian',
+                 'Percent!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)']
+
+
+# 2018 Race features count
+race_2018_count = ['Estimate!!RACE!!Total population!!One race!!White',
+                   'Estimate!!RACE!!Total population!!One race!!Black or African American',
+                   'Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native',
+                   'Estimate!!RACE!!Total population!!One race!!Asian',
+                   'Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)']
+
+# 2018 Race features percent
 race_2018_per = ['Percent Estimate!!RACE!!Total population!!One race!!White',
                  'Percent Estimate!!RACE!!Total population!!One race!!Black or African American',
                  'Percent Estimate!!RACE!!Total population!!One race!!American Indian and Alaska Native',
                  'Percent Estimate!!RACE!!Total population!!One race!!Asian',
                  'Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)']
 
-
+race_2012 = race_2012_count + race_2012_per
+race_2016 = race_2016_count + race_2016_per
+race_2018 = race_2018_count + race_2018_per
 
 
 """Income Features"""
-
 # 2012 Income features
 income_2012 = ['Households!!Estimate!!Median income (dollars)',
                'Households!!Estimate!!Mean income (dollars)']
@@ -122,9 +139,7 @@ income_2018 = ['Estimate!!Households!!Median income (dollars)',
                'Estimate!!Households!!Mean income (dollars)']
 
 
-
 """Miscellaneous"""
-
 # Columns dropped from original dataframe
 drop_cols = ['County', 'State', 'Republican', 'Democrat', 'Other', 'Total population',
              'Percent Republican', 'Percent Democrat', 'Percent Other']
@@ -135,7 +150,7 @@ states_list = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colora
                'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
                'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
                'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
-               'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 
+               'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
                'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
                'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming']
 
@@ -161,7 +176,7 @@ Electoral_dict = {'Alabama': 9,
                   'Maine': 4,
                   'Maryland': 10,
                   'Massachusetts': 11,
-                  'Michigan': 16, 
+                  'Michigan': 16,
                   'Minnesota': 10,
                   'Mississippi': 6,
                   'Missouri': 10,
