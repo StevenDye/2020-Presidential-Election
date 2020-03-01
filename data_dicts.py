@@ -82,14 +82,14 @@ RACE_2012_COUNT = ['Estimate!!RACE!!White',
                    'Estimate!!RACE!!Black or African American',
                    'Estimate!!RACE!!American Indian and Alaska Native',
                    'Estimate!!RACE!!Asian',
-                   'Estimate!!HISPANIC OR LATINO AND RACE!!Total population']
+                   'Estimate!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)']
 
 # 2012 Race percent columns
 RACE_2012_PER = ['Percent!!RACE!!White',
                  'Percent!!RACE!!Black or African American',
                  'Percent!!RACE!!American Indian and Alaska Native',
                  'Percent!!RACE!!Asian',
-                 'Percent!!HISPANIC OR LATINO AND RACE!!Total population']
+                 'Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)']
 
 # 2016 Race count columns
 RACE_2016_COUNT = ['Estimate!!RACE!!One race!!White',
@@ -137,7 +137,6 @@ INCOME_2016 = ['Households!!Estimate!!Median income (dollars)',
 # 2018 Income features
 INCOME_2018 = ['Estimate!!Households!!Median income (dollars)',
                'Estimate!!Households!!Mean income (dollars)']
-
 
 
 """Features"""
