@@ -21,22 +21,21 @@ def county_info_2012():
                             header=1, low_memory=False)
 
     # select specific columns
-    county = df_edu['Geographic Area Name']
-    edu = df_edu[EDU_2012]
-    age_sex = df_age_sex[AGE_SEX_2012]
-    race = df_race[RACE_2012]
-    income = df_income[INCOME_2012]
-
-    county = county_prep(county, state_area, '2012')
+    edu = df_edu[['Geographic Area Name'] + EDU_2012]
+    age_sex = df_age_sex[['Geographic Area Name'] + AGE_SEX_2012]
+    race = df_race[['Geographic Area Name'] + RACE_2012]
+    income = df_income[['Geographic Area Name'] + INCOME_2012] 
 
     # merge dataframes
-    df = pd.merge(county, edu, left_index=True, right_index=True)
-    df = pd.merge(df, age_sex, left_index=True, right_index=True)
-    df = pd.merge(df, race, left_index=True, right_index=True)
-    df = pd.merge(df, income, left_index=True, right_index=True)
-
-    # Drop incorrect DC value
-    df = df.drop([156])
+    df = pd.merge(edu, age_sex, on='Geographic Area Name')
+    df = pd.merge(df, race, on='Geographic Area Name')
+    df = pd.merge(df, income, on='Geographic Area Name')
+    
+    _ = fix_counties(df['Geographic Area Name'])
+    
+    df = _.merge(df, on='Geographic Area Name')
+    df = df.drop(columns = ['Geographic Area Name'])
+    df = df.merge(state_area, on='County')
 
     # rename features
     df = df.rename(columns={"Total!!Estimate!!Total population":
@@ -57,7 +56,7 @@ def county_info_2012():
                             "Total American Indian and Alaska Native",
                             "Estimate!!RACE!!Asian":
                             "Total Asian",
-                            "Estimate!!HISPANIC OR LATINO AND RACE!!Total population":
+                            "Estimate!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)":
                             "Total Hispanic or Latino",
                             "Households!!Estimate!!Mean income (dollars)":
                             "Households Mean income",
@@ -85,7 +84,7 @@ def county_info_2012():
                             "Percent American Indian and Alaska Native",
                             "Percent!!RACE!!Asian":
                             "Percent Asian",
-                            "Percent!!HISPANIC OR LATINO AND RACE!!Total population":
+                            "Percent!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)":
                             "Percent Hispanic or Latino"})
 
     # Calculate counts for education
@@ -99,6 +98,9 @@ def county_info_2012():
 
     # Calculate population density
     df["Population Density"] = (df["Total population"] / df['Size'])
+    
+    # Add year to county info
+    df['County'] = df['County'] + ', 2012' 
 
     return df
 
@@ -118,22 +120,21 @@ def county_info_2016():
                             header=1, low_memory=False)
 
     # select specific columns
-    county = df_edu['Geographic Area Name']
-    edu = df_edu[EDU_2016]
-    age_sex = df_age_sex[AGE_SEX_2016]
-    race = df_race[RACE_2016]
-    income = df_income[INCOME_2016]
-
-    county = county_prep(county, state_area, '2016')
-
+    edu = df_edu[['Geographic Area Name'] + EDU_2016]
+    age_sex = df_age_sex[['Geographic Area Name'] + AGE_SEX_2016]
+    race = df_race[['Geographic Area Name'] + RACE_2016]
+    income = df_income[['Geographic Area Name'] + INCOME_2016] 
+    
     # merge dataframes
-    df = pd.merge(county, edu, left_index=True, right_index=True)
-    df = pd.merge(df, age_sex, left_index=True, right_index=True)
-    df = pd.merge(df, race, left_index=True, right_index=True)
-    df = pd.merge(df, income, left_index=True, right_index=True)
-
-    # Drop incorrect DC value
-    df = df.drop([381])
+    df = pd.merge(edu, age_sex, on='Geographic Area Name')
+    df = pd.merge(df, race, on='Geographic Area Name')
+    df = pd.merge(df, income, on='Geographic Area Name')
+    
+    _ = fix_counties(df['Geographic Area Name'])
+    
+    df = _.merge(df, on='Geographic Area Name')
+    df = df.drop(columns = ['Geographic Area Name'])
+    df = df.merge(state_area, on='County')
 
     # rename features
     df = df.rename(columns={"Total!!Estimate!!Population 25 years and over!!Less than 9th grade":
@@ -201,6 +202,9 @@ def county_info_2016():
 
     # Calculate population density
     df["Population Density"] = (df["Total population"] / df['Size'])
+    
+    # Add year to county info
+    df['County'] = df['County'] + ', 2016' 
 
     return df
 
@@ -220,22 +224,21 @@ def county_info_2018():
                             header=1, low_memory=False)
 
     # select specific columns
-    county = df_edu['Geographic Area Name']
-    edu = df_edu[EDU_2018]
-    age_sex = df_age_sex[AGE_SEX_2018]
-    race = df_race[RACE_2018]
-    income = df_income[INCOME_2018]
-
-    county = county_prep(county, state_area, '2018')
-
+    edu = df_edu[['Geographic Area Name'] + EDU_2018]
+    age_sex = df_age_sex[['Geographic Area Name'] + AGE_SEX_2018]
+    race = df_race[['Geographic Area Name'] + RACE_2018]
+    income = df_income[['Geographic Area Name'] + INCOME_2018] 
+    
     # merge dataframes
-    df = pd.merge(county, edu, left_index=True, right_index=True)
-    df = pd.merge(df, age_sex, left_index=True, right_index=True)
-    df = pd.merge(df, race, left_index=True, right_index=True)
-    df = pd.merge(df, income, left_index=True, right_index=True)
-
-    # Drop incorrect DC value
-    df = df.drop([319])
+    df = pd.merge(edu, age_sex, on='Geographic Area Name')
+    df = pd.merge(df, race, on='Geographic Area Name')
+    df = pd.merge(df, income, on='Geographic Area Name')
+    
+    _ = fix_counties(df['Geographic Area Name'])
+    
+    df = _.merge(df, on='Geographic Area Name')
+    df = df.drop(columns = ['Geographic Area Name'])
+    df = df.merge(state_area, on='County')
 
     # rename features
     df = df.rename(columns={"Geographic Area Name": "County",
@@ -364,26 +367,25 @@ def create_targets(df):
     return df
 
 
-def county_prep(df, states_info, year):
+def fix_counties(column):
     """This function splits the county column into county and state, and then recombines them to county"""
-    _ = df.str.split(',', expand=True)
-    _ = _.rename(columns={0: 'Cnt', 1: 'State'})
-    _['Cnt'] = _['Cnt'].apply(lambda x: x.strip())
+    _ = column.str.split(',', expand=True)
+    _ = _.rename(columns={0: 'County', 1: 'State'})
+    _['County'] = _['County'].apply(lambda x: x.strip())
     _['State'] = _['State'].apply(lambda x: x.strip())
-    df = pd.merge(df, _, left_index=True, right_index=True)
+    df = pd.merge(column, _, left_index=True, right_index=True)
 
-    # Add the word County to the end of Washington city so we can merge with results
-    df['Cnt'][df['State'].str.contains('District of Columbia') == True] = df['Cnt'][df['State'].str.contains('District of Columbia') == True].apply(lambda x: x + ' County')
+    # Add the word County to the end of District of Columbia so we can merge with results
+    df['County'][df['State'].str.contains('District of Columbia') == True] = df['County'][df['State'].str.contains('District of Columbia') == True].apply(lambda x: x + ' County')
 
     # Strip the word Parish at the end of Louisiana parishes so we can merge with results
-    df['Cnt'][df['State'].str.contains('Louisiana') == True] = df['Cnt'][df['State'].str.contains('Louisiana') == True].apply(lambda x: x[:-7])
+    df['County'][df['State'].str.contains('Louisiana') == True] = df['County'][df['State'].str.contains('Louisiana') == True].apply(lambda x: x[:-7])
 
     # Add the word County to the end of Louisiana so we can merge with results
-    df['Cnt'][df['State'].str.contains('Louisiana') == True] = df['Cnt'][df['State'].str.contains('Louisiana') == True].apply(lambda x: x + ' County')
-
-    df['Cnt'] = df['Cnt'] + ', ' + df['State']
-    df = df.merge(states_info, left_on='Cnt', right_on='County')
-    df = df.drop(columns=['Geographic Area Name', 'Cnt'])
-    df['County'] = df['County'] + ', ' + year
-
+    df['County'][df['State'].str.contains('Louisiana') == True] = df['County'][df['State'].str.contains('Louisiana') == True].apply(lambda x: x + ' County')
+    
+    df['County'] = df['County'] + ', ' + df['State']
+    
     return df
+
+
