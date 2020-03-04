@@ -298,7 +298,7 @@ def county_info_2018():
 
 
 def results_info(year):
-    """This function prepares the 2016 election results for analysis"""
+    """This function prepares election results for analysis"""
     df_results = pd.read_csv('data/countypres_2000-2016.csv')
 
     # delete duplicates
@@ -307,9 +307,7 @@ def results_info(year):
                  49179, 49180, 49205, 49206, 49207, 49211, 49212, 49213,
                  49265, 49266, 49267, 49268, 49269, 49270]
 
-    df_results.loc[df_results['county'] == 'District of Columbia', 'county'] = 'Washington city'
     df_results = df_results.drop(del_index)
-
     df_results['County'] = df_results['county'] + ' County, ' + df_results['state'] + ', ' + str(year)
     df = df_results[df_results.year == year]
     df = df.pivot(index='County', columns='candidate',
