@@ -16,5 +16,5 @@ Summary of files:
      - state_area.csv: Geological size of all counties
 - data_dicts.py: Location of all lists and dictionaries used
 - data_prep.py: Code used to clean data
-- nc_functions.py: Module to store functions
+- model_pred.py: Module to prepare models
 - visualizations.py: File for storing vizualization functions
