@@ -341,6 +341,10 @@ def results_info(year):
                                   'Barack Obama': 'Democrat',
                                   'Other': 'Third'})
         
+    res['Republican'] = res['Republican'].astype(float)
+    res['Democrat'] = res['Democrat'].astype(float)
+    res['Third'] = res['Third'].astype(float)
+    
     return res
 
 
