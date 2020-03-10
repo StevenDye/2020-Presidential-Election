@@ -141,6 +141,14 @@ INCOME_2018 = ['Estimate!!Households!!Median income (dollars)',
 
 """Features"""
 
+GENERAL_FEATURES = ['Sex ratio (males per 100 females)',
+                    'Median age',
+                    'Male Median age',
+                    'Female Median age',
+                    'Households Median income',
+                    'Households Mean income',
+                    'Population Density']
+
 PERCENT_FEATURES = ['Percent Less than 9th grade',
                     'Percent 9th to 12th grade, no diploma',
                     'Percent High school graduate',
@@ -148,38 +156,24 @@ PERCENT_FEATURES = ['Percent Less than 9th grade',
                     "Percent Associate's degree",
                     "Percent Bachelor's degree",
                     'Percent Graduate or professional degree',
-                    'Median age',
-                    'Sex ratio (males per 100 females)',
-                    'Male Median age',
-                    'Female Median age',
                     'Percent White',
                     'Percent Black or African American',
                     'Percent American Indian and Alaska Native',
                     'Percent Asian',
-                    'Percent Hispanic or Latino',
-                    'Households Median income',
-                    'Households Mean income',
-                    'Population Density']
+                    'Percent Hispanic or Latino']
 
-COUNT_FEATURES = ['Median age',
-                  'Sex ratio (males per 100 females)',
-                  'Male Median age',
-                  'Female Median age',
-                  'Total White',
+COUNT_FEATURES = ['Total White',
                   'Total Black or African American',
                   'Total American Indian and Alaska Native',
                   'Total Asian',
                   'Total Hispanic or Latino',
-                  'Households Median income',
-                  'Households Mean income',
                   'Total Less than 9th grade',
                   'Total 9th to 12th grade, no diploma',
                   'Total High school graduate',
                   'Total Some college, no degree',
                   "Total Associate's degree",
                   "Total Bachelor's degree",
-                  'Total Graduate or professional degree',
-                  'Population Density']
+                  'Total Graduate or professional degree']
 
 
 """Miscellaneous"""
